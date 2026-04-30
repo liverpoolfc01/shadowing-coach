@@ -18,6 +18,11 @@ const state = {
   recordingChunks: [],
   recordingUrls: {},
   isRecording: false,
+  isAutoPlaying: false,
+  autoMode: "repeat",
+  autoRepeatDone: 0,
+  autoRunId: 0,
+  autoTimer: null,
   progress: loadProgress(),
 };
 
@@ -32,6 +37,7 @@ const els = {
   lineText: document.querySelector("#lineText"),
   inlineTranslation: document.querySelector("#inlineTranslation"),
   showTranslation: document.querySelector("#showTranslation"),
+  clickToPlay: document.querySelector("#clickToPlay"),
   clipPlayer: document.querySelector("#clipPlayer"),
   voicePlayback: document.querySelector("#voicePlayback"),
   voiceHint: document.querySelector("#voiceHint"),
@@ -40,6 +46,12 @@ const els = {
   compareAudioBtn: document.querySelector("#compareAudioBtn"),
   audioBtn: document.querySelector("#audioBtn"),
   replaySlowBtn: document.querySelector("#replaySlowBtn"),
+  autoPlayBtn: document.querySelector("#autoPlayBtn"),
+  autoStatus: document.querySelector("#autoStatus"),
+  autoRepeatModeBtn: document.querySelector("#autoRepeatModeBtn"),
+  autoSequenceModeBtn: document.querySelector("#autoSequenceModeBtn"),
+  autoRepeatInput: document.querySelector("#autoRepeatInput"),
+  autoPauseInput: document.querySelector("#autoPauseInput"),
   rateInput: document.querySelector("#rateInput"),
   prevBtn: document.querySelector("#prevBtn"),
   nextBtn: document.querySelector("#nextBtn"),
@@ -96,6 +108,18 @@ function bindEvents() {
   });
   els.audioBtn.addEventListener("click", () => playCurrentClip());
   els.replaySlowBtn.addEventListener("click", () => playCurrentClip(0.78));
+  els.autoPlayBtn.addEventListener("click", toggleAutoPlayback);
+  els.autoRepeatModeBtn.addEventListener("click", () => setAutoMode("repeat"));
+  els.autoSequenceModeBtn.addEventListener("click", () => setAutoMode("sequence"));
+  els.autoRepeatInput.addEventListener("change", () => {
+    els.autoRepeatInput.value = String(getAutoRepeatTotal());
+    state.autoRepeatDone = 0;
+    updateAutoStatus();
+  });
+  els.autoPauseInput.addEventListener("change", () => {
+    els.autoPauseInput.value = String(getAutoPauseSeconds());
+    updateAutoStatus();
+  });
   els.compareAudioBtn.addEventListener("click", playOriginalThenMine);
   els.reviewOriginalBtn.addEventListener("click", () => playCurrentClip());
   els.reviewMineBtn.addEventListener("click", playUserRecording);
@@ -224,9 +248,16 @@ function renderList() {
     if (line.id === active?.id) node.classList.add("active");
     if (progress.done) node.classList.add("done");
     node.addEventListener("click", () => {
+      if (state.isAutoPlaying) {
+        stopAutoPlayback("已切换句子，自动播放暂停。");
+      }
       state.currentId = line.id;
+      state.autoRepeatDone = 0;
       renderAll();
       switchView("practice");
+      if (els.clickToPlay.checked) {
+        playCurrentClip();
+      }
     });
     fragment.appendChild(node);
   }
@@ -250,8 +281,12 @@ function setSelectorMode(mode) {
 function moveCurrent(step) {
   const index = currentLineIndex();
   if (index < 0) return;
+  if (state.isAutoPlaying) {
+    stopAutoPlayback("已切换句子，自动播放暂停。");
+  }
   const nextIndex = Math.min(Math.max(index + step, 0), state.lines.length - 1);
   state.currentId = state.lines[nextIndex].id;
+  state.autoRepeatDone = 0;
   renderAll();
 }
 
@@ -262,6 +297,119 @@ function toggleCurrentDone() {
   state.progress[line.id] = { ...progress, done: !progress.done };
   saveProgress();
   renderAll();
+}
+
+function toggleAutoPlayback() {
+  if (state.isAutoPlaying) {
+    stopAutoPlayback("已停止自动播放。");
+    return;
+  }
+  startAutoPlayback();
+}
+
+function startAutoPlayback() {
+  if (!currentLine()) return;
+  state.isAutoPlaying = true;
+  state.autoRunId += 1;
+  state.autoRepeatDone = 0;
+  clearAutoTimer();
+  updateAutoUi();
+  runAutoPlayback(state.autoRunId);
+}
+
+function stopAutoPlayback(message = "自动播放已关闭。") {
+  state.isAutoPlaying = false;
+  state.autoRunId += 1;
+  state.autoRepeatDone = 0;
+  clearAutoTimer();
+  els.clipPlayer.pause();
+  updateAutoUi();
+  els.autoStatus.textContent = message;
+}
+
+async function runAutoPlayback(runId) {
+  if (!isAutoRunActive(runId)) return;
+  const line = currentLine();
+  if (!line) {
+    stopAutoPlayback("没有可播放的句子。");
+    return;
+  }
+
+  const repeatTotal = getAutoRepeatTotal();
+  state.autoRepeatDone += 1;
+  updateAutoStatus();
+  await playCurrentClip();
+  await waitForAudioEnd(els.clipPlayer, Math.max((line.duration || 4) * 1000 + 1800, 4500));
+  if (!isAutoRunActive(runId)) return;
+
+  if (state.autoRepeatDone >= repeatTotal) {
+    if (state.autoMode === "sequence") {
+      const index = currentLineIndex();
+      if (index >= state.lines.length - 1) {
+        stopAutoPlayback("已经播到最后一句。");
+        return;
+      }
+      state.currentId = state.lines[index + 1].id;
+      state.autoRepeatDone = 0;
+      renderAll();
+    } else {
+      state.autoRepeatDone = 0;
+    }
+  }
+
+  const pauseSeconds = getAutoPauseSeconds();
+  els.autoStatus.textContent = `停顿 ${pauseSeconds} 秒后继续。`;
+  state.autoTimer = window.setTimeout(() => runAutoPlayback(runId), pauseSeconds * 1000);
+}
+
+function setAutoMode(mode) {
+  state.autoMode = mode;
+  state.autoRepeatDone = 0;
+  els.autoRepeatModeBtn.setAttribute("aria-pressed", String(mode === "repeat"));
+  els.autoSequenceModeBtn.setAttribute("aria-pressed", String(mode === "sequence"));
+  updateAutoStatus();
+}
+
+function updateAutoUi() {
+  els.autoPlayBtn.textContent = state.isAutoPlaying ? "停止自动播放" : "开始自动播放";
+  els.autoPlayBtn.classList.toggle("is-active", state.isAutoPlaying);
+  updateAutoStatus();
+}
+
+function updateAutoStatus() {
+  if (!state.isAutoPlaying) {
+    els.autoStatus.textContent = state.autoMode === "repeat"
+      ? "关闭自动播放。当前模式：单句循环。"
+      : "关闭自动播放。当前模式：顺序播放。";
+    return;
+  }
+  const line = currentLine();
+  const modeText = state.autoMode === "repeat" ? "单句循环" : "顺序播放";
+  els.autoStatus.textContent = `${modeText}：句子 ${String(line?.id || 0).padStart(3, "0")}，第 ${state.autoRepeatDone || 1}/${getAutoRepeatTotal()} 遍。`;
+}
+
+function getAutoRepeatTotal() {
+  return clampInteger(els.autoRepeatInput.value, 1, 8, 3);
+}
+
+function getAutoPauseSeconds() {
+  return clampInteger(els.autoPauseInput.value, 1, 10, 2);
+}
+
+function clampInteger(value, min, max, fallback) {
+  const number = Number.parseInt(value, 10);
+  if (!Number.isFinite(number)) return fallback;
+  return Math.min(Math.max(number, min), max);
+}
+
+function clearAutoTimer() {
+  if (!state.autoTimer) return;
+  clearTimeout(state.autoTimer);
+  state.autoTimer = null;
+}
+
+function isAutoRunActive(runId) {
+  return state.isAutoPlaying && state.autoRunId === runId;
 }
 
 function switchView(view) {
@@ -453,6 +601,10 @@ function toggleRecording() {
 async function startRecordingSession() {
   const line = currentLine();
   if (!line) return;
+
+  if (state.isAutoPlaying) {
+    stopAutoPlayback("开始跟读录音，已暂停自动播放。");
+  }
 
   els.transcriptBox.textContent = "识别中...";
   els.scoreBox.textContent = "--";

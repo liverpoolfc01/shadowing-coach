@@ -74,7 +74,35 @@
             <input id="showTranslation" type="checkbox">
             <span>翻译</span>
           </label>
+          <label class="switch">
+            <input id="clickToPlay" type="checkbox" checked>
+            <span>点句播放</span>
+          </label>
           <button id="replaySlowBtn" class="secondary-btn compact-btn" type="button">慢速播放</button>
+        </div>
+
+        <div class="auto-practice">
+          <div class="auto-practice-header">
+            <div>
+              <p class="label">自动练句</p>
+              <p id="autoStatus" class="muted">关闭自动播放。</p>
+            </div>
+            <button id="autoPlayBtn" class="secondary-btn compact-btn" type="button">开始自动播放</button>
+          </div>
+          <div class="auto-mode" role="group" aria-label="自动播放模式">
+            <button id="autoRepeatModeBtn" type="button" aria-pressed="true">单句循环</button>
+            <button id="autoSequenceModeBtn" type="button" aria-pressed="false">顺序播放</button>
+          </div>
+          <div class="auto-settings">
+            <label>
+              <span>每句重复</span>
+              <input id="autoRepeatInput" type="number" min="1" max="8" step="1" value="3">
+            </label>
+            <label>
+              <span>句间停顿</span>
+              <input id="autoPauseInput" type="number" min="1" max="10" step="1" value="2">
+            </label>
+          </div>
         </div>
       </section>
 
