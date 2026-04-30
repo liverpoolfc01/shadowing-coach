@@ -56,7 +56,7 @@ public class MainActivity extends Activity {
         settings.setUseWideViewPort(true);
 
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
-            WebView.setWebContentsDebuggingEnabled(BuildConfig.DEBUG);
+            WebView.setWebContentsDebuggingEnabled(false);
         }
 
         webView.setWebViewClient(new WebViewClient() {
