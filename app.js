@@ -9,6 +9,12 @@ const state = {
   currentId: null,
   selectorMode: "window",
   recognition: null,
+  recognitionActive: false,
+  mediaStream: null,
+  mediaRecorder: null,
+  recordingLineId: null,
+  recordingChunks: [],
+  recordingUrls: {},
   isRecording: false,
   progress: loadProgress(),
 };
@@ -25,6 +31,11 @@ const els = {
   inlineTranslation: document.querySelector("#inlineTranslation"),
   showTranslation: document.querySelector("#showTranslation"),
   clipPlayer: document.querySelector("#clipPlayer"),
+  voicePlayback: document.querySelector("#voicePlayback"),
+  voiceHint: document.querySelector("#voiceHint"),
+  userPlayer: document.querySelector("#userPlayer"),
+  reviewUserPlayer: document.querySelector("#reviewUserPlayer"),
+  compareAudioBtn: document.querySelector("#compareAudioBtn"),
   audioBtn: document.querySelector("#audioBtn"),
   replaySlowBtn: document.querySelector("#replaySlowBtn"),
   rateInput: document.querySelector("#rateInput"),
@@ -36,6 +47,9 @@ const els = {
   scoreBox: document.querySelector("#scoreBox"),
   summaryBox: document.querySelector("#summaryBox"),
   correctionBox: document.querySelector("#correctionBox"),
+  reviewOriginalBtn: document.querySelector("#reviewOriginalBtn"),
+  reviewMineBtn: document.querySelector("#reviewMineBtn"),
+  reviewCompareBtn: document.querySelector("#reviewCompareBtn"),
   transcriptBox: document.querySelector("#transcriptBox"),
   manualInput: document.querySelector("#manualInput"),
   checkManualBtn: document.querySelector("#checkManualBtn"),
@@ -80,6 +94,10 @@ function bindEvents() {
   });
   els.audioBtn.addEventListener("click", () => playCurrentClip());
   els.replaySlowBtn.addEventListener("click", () => playCurrentClip(0.78));
+  els.compareAudioBtn.addEventListener("click", playOriginalThenMine);
+  els.reviewOriginalBtn.addEventListener("click", () => playCurrentClip());
+  els.reviewMineBtn.addEventListener("click", playUserRecording);
+  els.reviewCompareBtn.addEventListener("click", playOriginalThenMine);
   els.prevBtn.addEventListener("click", () => moveCurrent(-1));
   els.nextBtn.addEventListener("click", () => moveCurrent(1));
   els.recordBtn.addEventListener("click", toggleRecording);
@@ -141,6 +159,7 @@ function renderCurrentLine() {
   els.markBtn.textContent = progress.done ? "取消已练" : "标记已练";
   els.audioBtn.disabled = !line.audio;
   els.clipPlayer.playbackRate = Number(els.rateInput.value) || 1;
+  renderVoicePlayback(line.id);
 
   if (els.showTranslation.checked) {
     els.inlineTranslation.classList.remove("is-hidden");
@@ -252,17 +271,20 @@ function switchView(view) {
 
 function playCurrentClip(forcedRate = null) {
   const line = currentLine();
-  if (!line?.audio) return;
+  if (!line?.audio) return Promise.resolve();
 
   const rate = forcedRate || Number(els.rateInput.value) || 1;
   els.clipPlayer.pause();
+  els.userPlayer.pause();
+  els.reviewUserPlayer.pause();
   els.clipPlayer.muted = false;
   els.clipPlayer.volume = 1;
   els.clipPlayer.src = resolveAudioUrl(line.audio);
   els.clipPlayer.playbackRate = rate;
   els.clipPlayer.currentTime = 0;
   els.clipPlayer.load();
-  els.clipPlayer.play().catch((error) => {
+  const playPromise = els.clipPlayer.play();
+  return playPromise.catch((error) => {
     els.recordingStatus.textContent = "原声播放失败，请点播放器再试一次。";
     console.warn(error);
   });
@@ -280,6 +302,96 @@ function handleAudioError() {
   });
 }
 
+function renderVoicePlayback(lineId) {
+  const url = state.recordingUrls[lineId];
+  const hasRecording = Boolean(url);
+  els.voicePlayback.classList.toggle("is-empty", !hasRecording);
+  els.compareAudioBtn.disabled = !hasRecording;
+  els.reviewMineBtn.disabled = !hasRecording;
+  els.reviewCompareBtn.disabled = !hasRecording;
+  els.reviewUserPlayer.classList.toggle("has-audio", hasRecording);
+
+  if (!hasRecording) {
+    if (!state.isRecording) {
+      els.voiceHint.textContent = "跟读后这里会出现你的声音回放。";
+      els.userPlayer.removeAttribute("src");
+      els.userPlayer.load();
+      els.reviewUserPlayer.removeAttribute("src");
+      els.reviewUserPlayer.load();
+    }
+    return;
+  }
+
+  if (els.userPlayer.src !== url) {
+    els.userPlayer.src = url;
+    els.userPlayer.load();
+  }
+  if (els.reviewUserPlayer.src !== url) {
+    els.reviewUserPlayer.src = url;
+    els.reviewUserPlayer.load();
+  }
+  els.voiceHint.textContent = "可以播放自己的声音，再和原声对比。";
+}
+
+function playUserRecording() {
+  const line = currentLine();
+  const url = line ? state.recordingUrls[line.id] : "";
+  if (!url) {
+    els.recordingStatus.textContent = "这一句还没有录音。";
+    return Promise.resolve();
+  }
+
+  els.clipPlayer.pause();
+  const player = currentUserAudioPlayer();
+  const otherPlayer = player === els.userPlayer ? els.reviewUserPlayer : els.userPlayer;
+  otherPlayer.pause();
+  if (player.src !== url) {
+    player.src = url;
+    player.load();
+  }
+  player.currentTime = 0;
+  const playPromise = player.play();
+  return playPromise.catch((error) => {
+    els.recordingStatus.textContent = "我的录音播放失败，请点播放器再试一次。";
+    console.warn(error);
+  });
+}
+
+function currentUserAudioPlayer() {
+  return els.app.dataset.view === "review" ? els.reviewUserPlayer : els.userPlayer;
+}
+
+async function playOriginalThenMine() {
+  const line = currentLine();
+  if (!line || !state.recordingUrls[line.id]) {
+    els.recordingStatus.textContent = "这一句还没有录音，先点开始跟读。";
+    return;
+  }
+
+  els.recordingStatus.textContent = "先播放原声，随后播放你的录音。";
+  await playCurrentClip();
+  await waitForAudioEnd(els.clipPlayer, Math.max((line.duration || 4) * 1000 + 1800, 4500));
+  els.recordingStatus.textContent = "现在播放你的录音。";
+  await playUserRecording();
+}
+
+function waitForAudioEnd(audio, timeoutMs) {
+  return new Promise((resolve) => {
+    let done = false;
+    const finish = () => {
+      if (done) return;
+      done = true;
+      audio.removeEventListener("ended", finish);
+      audio.removeEventListener("error", finish);
+      clearTimeout(timer);
+      resolve();
+    };
+    const timer = setTimeout(finish, timeoutMs);
+    audio.addEventListener("ended", finish, { once: true });
+    audio.addEventListener("error", finish, { once: true });
+  });
+}
+
 function resolveAudioUrl(audio) {
   if (/^https?:\/\//i.test(audio)) return audio;
   const localPreview = ["", "localhost", "127.0.0.1"].includes(window.location.hostname)
@@ -291,8 +403,7 @@ function resolveAudioUrl(audio) {
 function setupRecognition() {
   const SpeechRecognition = window.SpeechRecognition || window.webkitSpeechRecognition;
   if (!SpeechRecognition) {
-    els.recordBtn.disabled = true;
-    els.recordingStatus.textContent = "当前浏览器不支持语音识别，可使用手动纠错。";
+    els.recordingStatus.textContent = "当前浏览器不支持自动识别，但可以录音回放并手动纠错。";
     return;
   }
 
@@ -303,18 +414,14 @@ function setupRecognition() {
   recognition.maxAlternatives = 1;
 
   recognition.onstart = () => {
-    state.isRecording = true;
-    els.clipPlayer.pause();
-    els.recordBtn.textContent = "停止跟读";
-    els.recordBtn.classList.add("is-recording");
-    els.recordingStatus.textContent = "正在听你跟读。";
-    switchView("practice");
+    state.recognitionActive = true;
   };
 
   recognition.onend = () => {
-    state.isRecording = false;
-    els.recordBtn.textContent = "开始跟读";
-    els.recordBtn.classList.remove("is-recording");
+    state.recognitionActive = false;
+    if (state.isRecording) {
+      stopRecordingSession("recognition-ended");
+    }
   };
 
   recognition.onresult = (event) => {
@@ -333,22 +440,163 @@ function setupRecognition() {
 }
 
 function toggleRecording() {
-  if (!state.recognition || state.isRecording) {
-    if (state.recognition && state.isRecording) state.recognition.stop();
+  if (state.isRecording) {
+    stopRecordingSession("manual-stop");
     return;
   }
 
+  startRecordingSession();
+}
+
+async function startRecordingSession() {
+  const line = currentLine();
+  if (!line) return;
+
   els.transcriptBox.textContent = "识别中...";
   els.scoreBox.textContent = "--";
-  els.summaryBox.textContent = "正在等待识别结果。";
+  els.summaryBox.textContent = "正在录音和识别。";
   els.correctionBox.innerHTML = '<span class="empty-state">正在听...</span>';
+  els.recordingStatus.textContent = "正在准备麦克风。";
+  els.clipPlayer.pause();
+  els.userPlayer.pause();
+  els.reviewUserPlayer.pause();
+  switchView("practice");
+
+  state.recordingLineId = line.id;
+  state.recordingChunks = [];
+
+  const recorderStarted = await startUserAudioRecording(line.id);
+  const recognitionStarted = startSpeechRecognition();
+
+  if (!recorderStarted && !recognitionStarted) {
+    els.recordingStatus.textContent = "无法启动麦克风。请检查浏览器麦克风权限。";
+    updateRecordingUi(false);
+    return;
+  }
+
+  state.isRecording = true;
+  updateRecordingUi(true);
+  els.recordingStatus.textContent = recognitionStarted
+    ? "正在录音并识别，读完会自动生成回放。"
+    : "正在录音。读完点停止，再用手动纠错对比文字。";
+}
+
+async function startUserAudioRecording(lineId) {
+  if (!navigator.mediaDevices?.getUserMedia || !window.MediaRecorder) {
+    els.voiceHint.textContent = "当前浏览器不支持录音回放。";
+    return false;
+  }
 
   try {
-    state.recognition.start();
+    state.mediaStream = await navigator.mediaDevices.getUserMedia({ audio: true });
+    const options = preferredRecorderOptions();
+    const recorder = options ? new MediaRecorder(state.mediaStream, options) : new MediaRecorder(state.mediaStream);
+    state.mediaRecorder = recorder;
+
+    recorder.addEventListener("dataavailable", (event) => {
+      if (event.data?.size) {
+        state.recordingChunks.push(event.data);
+      }
+    });
+
+    recorder.addEventListener("stop", () => {
+      finalizeUserRecording(lineId, recorder.mimeType);
+    });
+
+    recorder.start();
+    els.voicePlayback.classList.remove("is-empty");
+    els.voiceHint.textContent = "正在录音...";
+    return true;
   } catch (error) {
-    els.recordingStatus.textContent = "识别启动失败，请稍后再试。";
+    els.voiceHint.textContent = "录音启动失败，请允许麦克风权限后再试。";
     console.warn(error);
+    stopMicStream();
+    return false;
   }
+}
+
+function preferredRecorderOptions() {
+  const candidates = [
+    "audio/webm;codecs=opus",
+    "audio/webm",
+    "audio/mp4",
+  ];
+  const mimeType = candidates.find((type) => MediaRecorder.isTypeSupported(type));
+  return mimeType ? { mimeType } : null;
+}
+
+function startSpeechRecognition() {
+  if (!state.recognition) return false;
+  try {
+    state.recognition.start();
+    return true;
+  } catch (error) {
+    els.recordingStatus.textContent = "识别启动失败，但录音回放仍可使用。";
+    console.warn(error);
+    return false;
+  }
+}
+
+function stopRecordingSession(reason = "manual-stop") {
+  const wasRecording = state.isRecording;
+  state.isRecording = false;
+  updateRecordingUi(false);
+
+  if (state.recognitionActive && state.recognition) {
+    try {
+      state.recognition.stop();
+    } catch (error) {
+      console.warn(error);
+    }
+    state.recognitionActive = false;
+  }
+
+  if (state.mediaRecorder && state.mediaRecorder.state !== "inactive") {
+    els.recordingStatus.textContent = "正在生成你的录音回放。";
+    state.mediaRecorder.stop();
+  } else {
+    stopMicStream();
+    if (wasRecording && reason === "manual-stop") {
+      els.recordingStatus.textContent = "已停止跟读。";
+    }
+  }
+}
+
+function updateRecordingUi(isActive) {
+  els.recordBtn.textContent = isActive ? "停止跟读" : "开始跟读";
+  els.recordBtn.classList.toggle("is-recording", isActive);
+  els.prevBtn.disabled = isActive;
+  els.nextBtn.disabled = isActive;
+  els.markBtn.disabled = isActive;
+}
+
+function finalizeUserRecording(lineId, mimeType = "audio/webm") {
+  const chunks = state.recordingChunks.splice(0);
+  stopMicStream();
+  state.mediaRecorder = null;
+
+  if (!chunks.length) {
+    renderVoicePlayback(lineId);
+    els.voiceHint.textContent = "这次没有录到声音，可以再试一次。";
+    return;
+  }
+
+  if (state.recordingUrls[lineId]) {
+    URL.revokeObjectURL(state.recordingUrls[lineId]);
+  }
+
+  const blob = new Blob(chunks, { type: mimeType || "audio/webm" });
+  state.recordingUrls[lineId] = URL.createObjectURL(blob);
+  if (currentLine()?.id === lineId) {
+    renderVoicePlayback(lineId);
+  }
+  els.recordingStatus.textContent = "已生成你的录音，可以和原声对比。";
+}
+
+function stopMicStream() {
+  if (!state.mediaStream) return;
+  state.mediaStream.getTracks().forEach((track) => track.stop());
+  state.mediaStream = null;
 }
 
 function handleManualCheck() {

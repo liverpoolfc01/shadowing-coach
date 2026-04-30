@@ -52,6 +52,17 @@
 
         <audio id="clipPlayer" class="clip-player" preload="none" controls></audio>
 
+        <div id="voicePlayback" class="voice-playback is-empty">
+          <div class="voice-header">
+            <div>
+              <p class="label">我的录音</p>
+              <p id="voiceHint" class="muted">跟读后这里会出现你的声音回放。</p>
+            </div>
+            <button id="compareAudioBtn" class="secondary-btn compact-btn" type="button" disabled>原声 → 我的</button>
+          </div>
+          <audio id="userPlayer" class="clip-player user-player" preload="none" controls></audio>
+        </div>
+
         <div class="practice-actions">
           <button id="prevBtn" class="secondary-btn" type="button">上一句</button>
           <button id="recordBtn" class="record-btn" type="button">开始跟读</button>
@@ -88,6 +99,16 @@
           <div id="correctionBox" class="token-row" aria-live="polite">
             <span class="empty-state">跟读完成后显示正确、漏读、多读和读错的词。</span>
           </div>
+        </div>
+
+        <div class="audio-compare-block">
+          <p class="label">听感对比</p>
+          <div class="compare-actions">
+            <button id="reviewOriginalBtn" class="secondary-btn" type="button">播放原声</button>
+            <button id="reviewMineBtn" class="secondary-btn" type="button" disabled>播放我的录音</button>
+            <button id="reviewCompareBtn" class="secondary-btn" type="button" disabled>原声 → 我的</button>
+          </div>
+          <audio id="reviewUserPlayer" class="clip-player review-user-player" preload="none" controls></audio>
         </div>
 
         <div class="transcript-block">

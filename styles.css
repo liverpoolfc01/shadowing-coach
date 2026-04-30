@@ -243,6 +243,31 @@ input[type="range"] {
   margin: 12px 0;
 }
 
+.voice-playback {
+  display: grid;
+  gap: 10px;
+  margin: 0 0 12px;
+  padding: 10px;
+  background: #f8fafc;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+}
+
+.voice-playback.is-empty .user-player {
+  display: none;
+}
+
+.voice-header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.user-player {
+  margin: 0;
+}
+
 .practice-actions {
   display: grid;
   grid-template-columns: 1fr 1.35fr 1fr;
@@ -263,6 +288,13 @@ input[type="range"] {
 .secondary-btn {
   background: #e8eef5;
   color: var(--text);
+}
+
+.secondary-btn:disabled,
+.record-btn:disabled,
+.ghost-btn:disabled {
+  cursor: not-allowed;
+  opacity: 0.48;
 }
 
 .record-btn {
@@ -356,6 +388,7 @@ input[type="range"] {
 }
 
 .compare-block,
+.audio-compare-block,
 .transcript-block,
 .manual-check {
   margin-top: 14px;
@@ -378,6 +411,26 @@ input[type="range"] {
   background: #f8fafc;
   border: 1px solid var(--line);
   border-radius: 8px;
+}
+
+.compare-actions {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 8px;
+}
+
+.compare-actions .secondary-btn {
+  min-height: 42px;
+  padding: 0 8px;
+}
+
+.review-user-player {
+  display: none;
+  margin: 10px 0 0;
+}
+
+.review-user-player.has-audio {
+  display: block;
 }
 
 .word-chip {
@@ -588,6 +641,15 @@ input[type="range"] {
 
   .record-btn {
     order: -1;
+  }
+
+  .voice-header,
+  .compare-actions {
+    grid-template-columns: 1fr;
+  }
+
+  .voice-header {
+    display: grid;
   }
 }
 
