@@ -12,6 +12,8 @@ const state = {
   recognitionActive: false,
   mediaStream: null,
   mediaRecorder: null,
+  recordingTimer: null,
+  recordingStartedAt: 0,
   recordingLineId: null,
   recordingChunks: [],
   recordingUrls: {},
@@ -315,9 +317,7 @@ function renderVoicePlayback(lineId) {
     if (!state.isRecording) {
       els.voiceHint.textContent = "跟读后这里会出现你的声音回放。";
       els.userPlayer.removeAttribute("src");
-      els.userPlayer.load();
       els.reviewUserPlayer.removeAttribute("src");
-      els.reviewUserPlayer.load();
     }
     return;
   }
@@ -349,6 +349,8 @@ function playUserRecording() {
     player.src = url;
     player.load();
   }
+  player.muted = false;
+  player.volume = 1;
   player.currentTime = 0;
   const playPromise = player.play();
   return playPromise.catch((error) => {
@@ -420,7 +422,7 @@ function setupRecognition() {
   recognition.onend = () => {
     state.recognitionActive = false;
     if (state.isRecording) {
-      stopRecordingSession("recognition-ended");
+      els.recordingStatus.textContent = "识别已完成，录音仍在继续；读完可点停止。";
     }
   };
 
@@ -475,9 +477,11 @@ async function startRecordingSession() {
   }
 
   state.isRecording = true;
+  state.recordingStartedAt = Date.now();
+  scheduleRecordingAutoStop(line);
   updateRecordingUi(true);
   els.recordingStatus.textContent = recognitionStarted
-    ? "正在录音并识别，读完会自动生成回放。"
+    ? "正在录音并识别；读完可点停止，也会自动收尾。"
     : "正在录音。读完点停止，再用手动纠错对比文字。";
 }
 
@@ -503,7 +507,7 @@ async function startUserAudioRecording(lineId) {
       finalizeUserRecording(lineId, recorder.mimeType);
     });
 
-    recorder.start();
+    recorder.start(250);
     els.voicePlayback.classList.remove("is-empty");
     els.voiceHint.textContent = "正在录音...";
     return true;
@@ -516,6 +520,9 @@ async function startUserAudioRecording(lineId) {
 }
 
 function preferredRecorderOptions() {
+  if (typeof MediaRecorder.isTypeSupported !== "function") {
+    return null;
+  }
   const candidates = [
     "audio/webm;codecs=opus",
     "audio/webm",
@@ -540,6 +547,7 @@ function startSpeechRecognition() {
 function stopRecordingSession(reason = "manual-stop") {
   const wasRecording = state.isRecording;
   state.isRecording = false;
+  clearRecordingTimer();
   updateRecordingUi(false);
 
   if (state.recognitionActive && state.recognition) {
@@ -572,12 +580,14 @@ function updateRecordingUi(isActive) {
 
 function finalizeUserRecording(lineId, mimeType = "audio/webm") {
   const chunks = state.recordingChunks.splice(0);
+  const durationMs = Date.now() - state.recordingStartedAt;
   stopMicStream();
   state.mediaRecorder = null;
 
-  if (!chunks.length) {
+  if (!chunks.length || durationMs < 450) {
     renderVoicePlayback(lineId);
-    els.voiceHint.textContent = "这次没有录到声音，可以再试一次。";
+    els.voiceHint.textContent = "这次录音太短，可以再试一次，读完后点停止。";
+    els.recordingStatus.textContent = "这次录音太短，没有生成可播放声音。";
     return;
   }
 
@@ -585,18 +595,41 @@ function finalizeUserRecording(lineId, mimeType = "audio/webm") {
     URL.revokeObjectURL(state.recordingUrls[lineId]);
   }
 
-  const blob = new Blob(chunks, { type: mimeType || "audio/webm" });
+  const blobType = mimeType || chunks.find((chunk) => chunk.type)?.type || "audio/webm";
+  const blob = new Blob(chunks, { type: blobType });
+  if (blob.size < 1200) {
+    renderVoicePlayback(lineId);
+    els.voiceHint.textContent = "录音文件太小，可能没有采到声音。请确认麦克风权限后再试。";
+    els.recordingStatus.textContent = "录音文件太小，建议重新录一次。";
+    return;
+  }
   state.recordingUrls[lineId] = URL.createObjectURL(blob);
   if (currentLine()?.id === lineId) {
     renderVoicePlayback(lineId);
   }
-  els.recordingStatus.textContent = "已生成你的录音，可以和原声对比。";
+  els.recordingStatus.textContent = `已生成 ${Math.round(durationMs / 1000)} 秒录音，可以和原声对比。`;
 }
 
 function stopMicStream() {
   if (!state.mediaStream) return;
   state.mediaStream.getTracks().forEach((track) => track.stop());
   state.mediaStream = null;
+}
+
+function scheduleRecordingAutoStop(line) {
+  clearRecordingTimer();
+  const maxMs = Math.max((line.duration || 4) * 1400 + 3500, 6500);
+  state.recordingTimer = window.setTimeout(() => {
+    if (state.isRecording) {
+      stopRecordingSession("auto-stop");
+    }
+  }, maxMs);
+}
+
+function clearRecordingTimer() {
+  if (!state.recordingTimer) return;
+  clearTimeout(state.recordingTimer);
+  state.recordingTimer = null;
 }
 
 function handleManualCheck() {
