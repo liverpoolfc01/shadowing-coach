@@ -1,0 +1,6215 @@
+{
+  "count": 690,
+  "clips": [
+    {
+      "id": 1,
+      "time": "00:07",
+      "text": "I'm a weirdo. That's what everyone says.",
+      "start": 7.507,
+      "end": 10.635,
+      "duration": 3.128,
+      "audio": "./audio/001.mp3"
+    },
+    {
+      "id": 2,
+      "time": "00:10",
+      "text": "Sometimes, I don't know what people mean when they say things,",
+      "start": 10.719,
+      "end": 13.179,
+      "duration": 2.46,
+      "audio": "./audio/002.mp3"
+    },
+    {
+      "id": 3,
+      "time": "00:13",
+      "text": "and that can make me feel alone even when there are other people in the room.",
+      "start": 13.346,
+      "end": 17.267,
+      "duration": 3.921,
+      "audio": "./audio/003.mp3"
+    },
+    {
+      "id": 4,
+      "time": "00:17",
+      "text": "And all I can do is sit and twiddle,",
+      "start": 17.35,
+      "end": 19.936,
+      "duration": 2.586,
+      "audio": "./audio/004.mp3"
+    },
+    {
+      "id": 5,
+      "time": "00:20",
+      "text": "which is what I call my self-stimulatory behavior,",
+      "start": 20.02,
+      "end": 22.689,
+      "duration": 2.669,
+      "audio": "./audio/005.mp3"
+    },
+    {
+      "id": 6,
+      "time": "00:22",
+      "text": "when I flick a pencil against a rubber band at a certain frequency",
+      "start": 22.772,
+      "end": 27.36,
+      "duration": 4.588,
+      "audio": "./audio/006.mp3"
+    },
+    {
+      "id": 7,
+      "time": "00:27",
+      "text": "and think about all the things that I could never do,",
+      "start": 27.444,
+      "end": 29.529,
+      "duration": 2.085,
+      "audio": "./audio/007.mp3"
+    },
+    {
+      "id": 8,
+      "time": "00:29",
+      "text": "like research penguins in Antarctica or have a girlfriend.",
+      "start": 29.612,
+      "end": 34.075,
+      "duration": 4.463,
+      "audio": "./audio/008.mp3"
+    },
+    {
+      "id": 9,
+      "time": "00:34",
+      "text": "I don't know. I'd like to go to Antarctica.",
+      "start": 34.159,
+      "end": 36.995,
+      "duration": 2.836,
+      "audio": "./audio/009.mp3"
+    },
+    {
+      "id": 10,
+      "time": "00:37",
+      "text": "It's quiet there...",
+      "start": 37.746,
+      "end": 38.872,
+      "duration": 1.126,
+      "audio": "./audio/010.mp3"
+    },
+    {
+      "id": 11,
+      "time": "00:39",
+      "text": "except in the rookeries, where the penguins breed.",
+      "start": 39.831,
+      "end": 42.208,
+      "duration": 2.377,
+      "audio": "./audio/011.mp3"
+    },
+    {
+      "id": 12,
+      "time": "00:42",
+      "text": "Those aren't quiet. No, sir.",
+      "start": 42.292,
+      "end": 44.294,
+      "duration": 2.002,
+      "audio": "./audio/012.mp3"
+    },
+    {
+      "id": 13,
+      "time": "00:45",
+      "text": "I'm finished with my answer.",
+      "start": 45.628,
+      "end": 47.088,
+      "duration": 1.46,
+      "audio": "./audio/013.mp3"
+    },
+    {
+      "id": 14,
+      "time": "00:48",
+      "text": "Great.",
+      "start": 48.131,
+      "end": 49.215,
+      "duration": 1.084,
+      "audio": "./audio/014.mp3"
+    },
+    {
+      "id": 15,
+      "time": "00:49",
+      "text": "Almost done for today. Good session, Sam.",
+      "start": 49.299,
+      "end": 51.718,
+      "duration": 2.419,
+      "audio": "./audio/015.mp3"
+    },
+    {
+      "id": 16,
+      "time": "00:51",
+      "text": "I can see your bra. It's purple.",
+      "start": 51.801,
+      "end": 53.97,
+      "duration": 2.169,
+      "audio": "./audio/016.mp3"
+    },
+    {
+      "id": 17,
+      "time": "00:57",
+      "text": "Um, there was one more thing I wanted to discuss.",
+      "start": 57.223,
+      "end": 61.061,
+      "duration": 3.838,
+      "audio": "./audio/017.mp3"
+    },
+    {
+      "id": 18,
+      "time": "01:01",
+      "text": "And I don't need your answer now,",
+      "start": 61.144,
+      "end": 63.813,
+      "duration": 2.669,
+      "audio": "./audio/018.mp3"
+    },
+    {
+      "id": 19,
+      "time": "01:03",
+      "text": "but I'm asking all my clients if they'd be willing",
+      "start": 63.897,
+      "end": 66.232,
+      "duration": 2.335,
+      "audio": "./audio/019.mp3"
+    },
+    {
+      "id": 20,
+      "time": "01:06",
+      "text": "to donate their brains for research.",
+      "start": 66.316,
+      "end": 67.984,
+      "duration": 1.668,
+      "audio": "./audio/020.mp3"
+    },
+    {
+      "id": 21,
+      "time": "01:09",
+      "text": "Donate my brain?",
+      "start": 69.694,
+      "end": 70.945,
+      "duration": 1.251,
+      "audio": "./audio/021.mp3"
+    },
+    {
+      "id": 22,
+      "time": "01:11",
+      "text": "- After you die. -Oh.",
+      "start": 71.696,
+      "end": 73.865,
+      "duration": 2.169,
+      "audio": "./audio/022.mp3"
+    },
+    {
+      "id": 23,
+      "time": "01:13",
+      "text": "Yeah. There's such a shortage of brain matter available,",
+      "start": 73.948,
+      "end": 77.16,
+      "duration": 3.212,
+      "audio": "./audio/023.mp3"
+    },
+    {
+      "id": 24,
+      "time": "01:17",
+      "text": "and, you know, there's no substitute for the real thing.",
+      "start": 77.243,
+      "end": 79.829,
+      "duration": 2.586,
+      "audio": "./audio/024.mp3"
+    },
+    {
+      "id": 25,
+      "time": "01:21",
+      "text": "Just think about it.",
+      "start": 81.081,
+      "end": 83.249,
+      "duration": 2.168,
+      "audio": "./audio/025.mp3"
+    },
+    {
+      "id": 26,
+      "time": "01:24",
+      "text": "-Okay. -And, hey, Sam,",
+      "start": 84.292,
+      "end": 86.586,
+      "duration": 2.294,
+      "audio": "./audio/026.mp3"
+    },
+    {
+      "id": 27,
+      "time": "01:27",
+      "text": "what you said earlier about having a girlfriend?",
+      "start": 87.253,
+      "end": 89.923,
+      "duration": 2.67,
+      "audio": "./audio/027.mp3"
+    },
+    {
+      "id": 28,
+      "time": "01:30",
+      "text": "People in the spectrum date, you know?",
+      "start": 90.507,
+      "end": 92.383,
+      "duration": 1.876,
+      "audio": "./audio/028.mp3"
+    },
+    {
+      "id": 29,
+      "time": "01:32",
+      "text": "You can try to find someone, if you wanted to.",
+      "start": 92.467,
+      "end": 96.137,
+      "duration": 3.67,
+      "audio": "./audio/029.mp3"
+    },
+    {
+      "id": 30,
+      "time": "01:36",
+      "text": "-How? -You just have to put yourself out there.",
+      "start": 96.679,
+      "end": 99.182,
+      "duration": 2.503,
+      "audio": "./audio/030.mp3"
+    },
+    {
+      "id": 31,
+      "time": "01:40",
+      "text": "Out where?",
+      "start": 100.141,
+      "end": 101.184,
+      "duration": 1.043,
+      "audio": "./audio/031.mp3"
+    },
+    {
+      "id": 32,
+      "time": "01:43",
+      "text": "Buses are okay,",
+      "start": 103.52,
+      "end": 105.021,
+      "duration": 1.501,
+      "audio": "./audio/032.mp3"
+    },
+    {
+      "id": 33,
+      "time": "01:45",
+      "text": "but I don't like the feeling of the seat on my back,",
+      "start": 105.104,
+      "end": 108.024,
+      "duration": 2.92,
+      "audio": "./audio/033.mp3"
+    },
+    {
+      "id": 34,
+      "time": "01:48",
+      "text": "so I sit like this.",
+      "start": 108.108,
+      "end": 109.859,
+      "duration": 1.751,
+      "audio": "./audio/034.mp3"
+    },
+    {
+      "id": 35,
+      "time": "01:49",
+      "text": "I don't know how people stand it.",
+      "start": 109.943,
+      "end": 111.653,
+      "duration": 1.71,
+      "audio": "./audio/035.mp3"
+    },
+    {
+      "id": 36,
+      "time": "01:51",
+      "text": "Maybe they've developed thicker back skin from riding the bus so much.",
+      "start": 111.736,
+      "end": 115.281,
+      "duration": 3.545,
+      "audio": "./audio/036.mp3"
+    },
+    {
+      "id": 37,
+      "time": "01:55",
+      "text": "There's a type of Antarctic cod that has a special protein",
+      "start": 115.365,
+      "end": 118.66,
+      "duration": 3.295,
+      "audio": "./audio/037.mp3"
+    },
+    {
+      "id": 38,
+      "time": "01:58",
+      "text": "in its blood that stops it from freezing.",
+      "start": 118.743,
+      "end": 121.037,
+      "duration": 2.294,
+      "audio": "./audio/038.mp3"
+    },
+    {
+      "id": 39,
+      "time": "02:01",
+      "text": "Antifreeze in fish.",
+      "start": 121.121,
+      "end": 123.206,
+      "duration": 2.085,
+      "audio": "./audio/039.mp3"
+    },
+    {
+      "id": 40,
+      "time": "02:08",
+      "text": "I was just thinking about Antarctic cod.",
+      "start": 128.169,
+      "end": 130.547,
+      "duration": 2.378,
+      "audio": "./audio/040.mp3"
+    },
+    {
+      "id": 41,
+      "time": "02:13",
+      "text": "Antarctica is the most remote continent on the planet.",
+      "start": 133.758,
+      "end": 136.97,
+      "duration": 3.212,
+      "audio": "./audio/041.mp3"
+    },
+    {
+      "id": 42,
+      "time": "02:19",
+      "text": "It has 90% of the world's ice,",
+      "start": 139.43,
+      "end": 141.391,
+      "duration": 1.961,
+      "audio": "./audio/042.mp3"
+    },
+    {
+      "id": 43,
+      "time": "02:21",
+      "text": "but it's considered a desert because the annual rainfall",
+      "start": 141.474,
+      "end": 144.185,
+      "duration": 2.711,
+      "audio": "./audio/043.mp3"
+    },
+    {
+      "id": 44,
+      "time": "02:24",
+      "text": "is only about eight inches.",
+      "start": 144.269,
+      "end": 145.687,
+      "duration": 1.418,
+      "audio": "./audio/044.mp3"
+    },
+    {
+      "id": 45,
+      "time": "02:26",
+      "text": "You wouldn't think it was a desert when you looked at it.",
+      "start": 146.396,
+      "end": 149.232,
+      "duration": 2.836,
+      "audio": "./audio/045.mp3"
+    },
+    {
+      "id": 46,
+      "time": "02:30",
+      "text": "That's why I like it.",
+      "start": 150.567,
+      "end": 151.943,
+      "duration": 1.376,
+      "audio": "./audio/046.mp3"
+    },
+    {
+      "id": 47,
+      "time": "02:33",
+      "text": "It's not what it looks like.",
+      "start": 153.319,
+      "end": 154.863,
+      "duration": 1.544,
+      "audio": "./audio/047.mp3"
+    },
+    {
+      "id": 48,
+      "time": "02:35",
+      "text": "Sam! Dinner!",
+      "start": 155.488,
+      "end": 158.158,
+      "duration": 2.67,
+      "audio": "./audio/048.mp3"
+    },
+    {
+      "id": 49,
+      "time": "02:38",
+      "text": "So, I ordered those T-shirts that Sam likes, in bulk...",
+      "start": 158.241,
+      "end": 161.578,
+      "duration": 3.337,
+      "audio": "./audio/049.mp3"
+    },
+    {
+      "id": 50,
+      "time": "02:41",
+      "text": "you know, 100% cotton...",
+      "start": 161.661,
+      "end": 163.454,
+      "duration": 1.793,
+      "audio": "./audio/050.mp3"
+    },
+    {
+      "id": 51,
+      "time": "02:43",
+      "text": "and they switched them to something that they called \"tri-blend.\"",
+      "start": 163.538,
+      "end": 168.001,
+      "duration": 4.463,
+      "audio": "./audio/051.mp3"
+    },
+    {
+      "id": 52,
+      "time": "02:48",
+      "text": "So I called the company, and I spoke to this woman named Rizwana.",
+      "start": 168.084,
+      "end": 172.422,
+      "duration": 4.338,
+      "audio": "./audio/052.mp3"
+    },
+    {
+      "id": 53,
+      "time": "02:52",
+      "text": "I think I was speaking with India.",
+      "start": 172.505,
+      "end": 174.424,
+      "duration": 1.919,
+      "audio": "./audio/053.mp3"
+    },
+    {
+      "id": 54,
+      "time": "02:54",
+      "text": "Mm-hmm.",
+      "start": 174.507,
+      "end": 175.592,
+      "duration": 1.085,
+      "audio": "./audio/054.mp3"
+    },
+    {
+      "id": 55,
+      "time": "02:55",
+      "text": "But, anyway, um...",
+      "start": 175.675,
+      "end": 177.26,
+      "duration": 1.585,
+      "audio": "./audio/055.mp3"
+    },
+    {
+      "id": 56,
+      "time": "02:57",
+      "text": "And she found a box of the old ones,",
+      "start": 177.343,
+      "end": 181.055,
+      "duration": 3.712,
+      "audio": "./audio/056.mp3"
+    },
+    {
+      "id": 57,
+      "time": "03:01",
+      "text": "and they sent them free of charge.",
+      "start": 181.139,
+      "end": 182.724,
+      "duration": 1.585,
+      "audio": "./audio/057.mp3"
+    },
+    {
+      "id": 58,
+      "time": "03:02",
+      "text": "-They're exactly the right kind. -Mm.",
+      "start": 182.807,
+      "end": 185.101,
+      "duration": 2.294,
+      "audio": "./audio/058.mp3"
+    },
+    {
+      "id": 59,
+      "time": "03:05",
+      "text": "Wow. That is a great story, Mom.",
+      "start": 185.184,
+      "end": 187.061,
+      "duration": 1.877,
+      "audio": "./audio/059.mp3"
+    },
+    {
+      "id": 60,
+      "time": "03:07",
+      "text": "Oh, don't be a dick, honey.",
+      "start": 187.145,
+      "end": 188.438,
+      "duration": 1.293,
+      "audio": "./audio/060.mp3"
+    },
+    {
+      "id": 61,
+      "time": "03:08",
+      "text": "So, Sam, how was your session with Julia today?",
+      "start": 188.521,
+      "end": 191.149,
+      "duration": 2.628,
+      "audio": "./audio/061.mp3"
+    },
+    {
+      "id": 62,
+      "time": "03:11",
+      "text": "She wants me to donate my brain,",
+      "start": 191.232,
+      "end": 192.775,
+      "duration": 1.543,
+      "audio": "./audio/062.mp3"
+    },
+    {
+      "id": 63,
+      "time": "03:12",
+      "text": "but don't worry, it's after I die.",
+      "start": 192.859,
+      "end": 194.444,
+      "duration": 1.585,
+      "audio": "./audio/063.mp3"
+    },
+    {
+      "id": 64,
+      "time": "03:14",
+      "text": "What, like, for research? That could be kind of cool.",
+      "start": 194.527,
+      "end": 197.447,
+      "duration": 2.92,
+      "audio": "./audio/064.mp3"
+    },
+    {
+      "id": 65,
+      "time": "03:17",
+      "text": "Absolutely not.",
+      "start": 197.53,
+      "end": 198.531,
+      "duration": 1.001,
+      "audio": "./audio/065.mp3"
+    },
+    {
+      "id": 66,
+      "time": "03:19",
+      "text": "And the queen has spoken.",
+      "start": 199.198,
+      "end": 200.825,
+      "duration": 1.627,
+      "audio": "./audio/066.mp3"
+    },
+    {
+      "id": 67,
+      "time": "03:20",
+      "text": "Well, it's gross, Casey.",
+      "start": 200.909,
+      "end": 203.077,
+      "duration": 2.168,
+      "audio": "./audio/067.mp3"
+    },
+    {
+      "id": 68,
+      "time": "03:23",
+      "text": "You tell Julia, \"Thank you, but no.\"",
+      "start": 203.161,
+      "end": 206.039,
+      "duration": 2.878,
+      "audio": "./audio/068.mp3"
+    },
+    {
+      "id": 69,
+      "time": "03:26",
+      "text": "-Okay. -You're so easy to boss around.",
+      "start": 206.122,
+      "end": 208.333,
+      "duration": 2.211,
+      "audio": "./audio/069.mp3"
+    },
+    {
+      "id": 70,
+      "time": "03:28",
+      "text": "I don't care what happens to my dead brain.",
+      "start": 208.416,
+      "end": 210.585,
+      "duration": 2.169,
+      "audio": "./audio/070.mp3"
+    },
+    {
+      "id": 71,
+      "time": "03:30",
+      "text": "It's either I give it to Julia, or maggots eat it.",
+      "start": 210.668,
+      "end": 213.171,
+      "duration": 2.503,
+      "audio": "./audio/071.mp3"
+    },
+    {
+      "id": 72,
+      "time": "03:33",
+      "text": "If Mom wants maggots to eat it, fine.",
+      "start": 213.254,
+      "end": 215.089,
+      "duration": 1.835,
+      "audio": "./audio/072.mp3"
+    },
+    {
+      "id": 73,
+      "time": "03:35",
+      "text": "No, no, no. That's not what I'm saying.",
+      "start": 215.173,
+      "end": 217.467,
+      "duration": 2.294,
+      "audio": "./audio/073.mp3"
+    },
+    {
+      "id": 74,
+      "time": "03:37",
+      "text": "Kind of is.",
+      "start": 217.55,
+      "end": 218.551,
+      "duration": 1.001,
+      "audio": "./audio/074.mp3"
+    },
+    {
+      "id": 75,
+      "time": "03:38",
+      "text": "I don't care. I'll be dead.",
+      "start": 218.635,
+      "end": 220.22,
+      "duration": 1.585,
+      "audio": "./audio/075.mp3"
+    },
+    {
+      "id": 76,
+      "time": "03:40",
+      "text": "Can we stop talking about you being dead? You're not going anywhere.",
+      "start": 220.303,
+      "end": 223.431,
+      "duration": 3.128,
+      "audio": "./audio/076.mp3"
+    },
+    {
+      "id": 77,
+      "time": "03:43",
+      "text": "Wow, this chicken's really good, honey.",
+      "start": 223.514,
+      "end": 225.141,
+      "duration": 1.627,
+      "audio": "./audio/077.mp3"
+    },
+    {
+      "id": 78,
+      "time": "03:45",
+      "text": "Thanks. It's a dry rub.",
+      "start": 225.266,
+      "end": 226.851,
+      "duration": 1.585,
+      "audio": "./audio/078.mp3"
+    },
+    {
+      "id": 79,
+      "time": "03:46",
+      "text": "It's a good dry rub.",
+      "start": 226.935,
+      "end": 228.144,
+      "duration": 1.209,
+      "audio": "./audio/079.mp3"
+    },
+    {
+      "id": 80,
+      "time": "03:48",
+      "text": "Julia thinks that I should put myself out there",
+      "start": 228.811,
+      "end": 231.272,
+      "duration": 2.461,
+      "audio": "./audio/080.mp3"
+    },
+    {
+      "id": 81,
+      "time": "03:51",
+      "text": "and find someone to have sex with.",
+      "start": 231.356,
+      "end": 233.316,
+      "duration": 1.96,
+      "audio": "./audio/081.mp3"
+    },
+    {
+      "id": 82,
+      "time": "03:54",
+      "text": "She didn't say the sex part. I added that.",
+      "start": 234.859,
+      "end": 236.778,
+      "duration": 1.919,
+      "audio": "./audio/082.mp3"
+    },
+    {
+      "id": 83,
+      "time": "04:26",
+      "text": "--",
+      "start": 266.349,
+      "end": 268.977,
+      "duration": 2.628,
+      "audio": "./audio/083.mp3"
+    },
+    {
+      "id": 84,
+      "time": "04:33",
+      "text": "My school is crowded, noisy,",
+      "start": 273.773,
+      "end": 276.359,
+      "duration": 2.586,
+      "audio": "./audio/084.mp3"
+    },
+    {
+      "id": 85,
+      "time": "04:36",
+      "text": "and it smells weird,",
+      "start": 276.442,
+      "end": 277.986,
+      "duration": 1.544,
+      "audio": "./audio/085.mp3"
+    },
+    {
+      "id": 86,
+      "time": "04:38",
+      "text": "but it has one thing going for it:",
+      "start": 278.069,
+      "end": 280.405,
+      "duration": 2.336,
+      "audio": "./audio/086.mp3"
+    },
+    {
+      "id": 87,
+      "time": "04:40",
+      "text": "it has lots of girls.",
+      "start": 280.488,
+      "end": 282.49,
+      "duration": 2.002,
+      "audio": "./audio/087.mp3"
+    },
+    {
+      "id": 88,
+      "time": "04:42",
+      "text": "Well, I think every girl is pretty in her own way,",
+      "start": 282.573,
+      "end": 287.287,
+      "duration": 4.714,
+      "audio": "./audio/088.mp3"
+    },
+    {
+      "id": 89,
+      "time": "04:47",
+      "text": "like a snowflake in a seasonal Antarctic storm.",
+      "start": 287.37,
+      "end": 290.164,
+      "duration": 2.794,
+      "audio": "./audio/089.mp3"
+    },
+    {
+      "id": 90,
+      "time": "05:06",
+      "text": "But girls don't notice me at all.",
+      "start": 306.014,
+      "end": 307.807,
+      "duration": 1.793,
+      "audio": "./audio/090.mp3"
+    },
+    {
+      "id": 91,
+      "time": "05:13",
+      "text": "Thank you.",
+      "start": 313.73,
+      "end": 314.689,
+      "duration": 0.959,
+      "audio": "./audio/091.mp3"
+    },
+    {
+      "id": 92,
+      "time": "05:17",
+      "text": "Banged a veterinarian I met online last night.",
+      "start": 317.775,
+      "end": 319.944,
+      "duration": 2.169,
+      "audio": "./audio/092.mp3"
+    },
+    {
+      "id": 93,
+      "time": "05:20",
+      "text": "She had a pet parrot that repeated everything she said.",
+      "start": 320.028,
+      "end": 322.613,
+      "duration": 2.585,
+      "audio": "./audio/093.mp3"
+    },
+    {
+      "id": 94,
+      "time": "05:22",
+      "text": "\"Do me, Brown Sugar! Do me, Brown Sugar!\"",
+      "start": 322.697,
+      "end": 325.908,
+      "duration": 3.211,
+      "audio": "./audio/094.mp3"
+    },
+    {
+      "id": 95,
+      "time": "05:26",
+      "text": "Oh, shit. I think she's racist.",
+      "start": 326.409,
+      "end": 328.244,
+      "duration": 1.835,
+      "audio": "./audio/095.mp3"
+    },
+    {
+      "id": 96,
+      "time": "05:29",
+      "text": "What kind of parrot?",
+      "start": 329.454,
+      "end": 330.455,
+      "duration": 1.001,
+      "audio": "./audio/096.mp3"
+    },
+    {
+      "id": 97,
+      "time": "05:30",
+      "text": "Oh, I don't know. The red rainbow one?",
+      "start": 330.538,
+      "end": 333.124,
+      "duration": 2.586,
+      "audio": "./audio/097.mp3"
+    },
+    {
+      "id": 98,
+      "time": "05:33",
+      "text": "-That's a scarlet macaw. -Oh.",
+      "start": 333.207,
+      "end": 335.543,
+      "duration": 2.336,
+      "audio": "./audio/098.mp3"
+    },
+    {
+      "id": 99,
+      "time": "05:41",
+      "text": "Zahid...",
+      "start": 341.507,
+      "end": 342.55,
+      "duration": 1.043,
+      "audio": "./audio/099.mp3"
+    },
+    {
+      "id": 100,
+      "time": "05:43",
+      "text": "do you like dating girls?",
+      "start": 343.676,
+      "end": 344.886,
+      "duration": 1.21,
+      "audio": "./audio/100.mp3"
+    },
+    {
+      "id": 101,
+      "time": "05:46",
+      "text": "Yeah, dude. I like dating girls.",
+      "start": 346.304,
+      "end": 348.264,
+      "duration": 1.96,
+      "audio": "./audio/101.mp3"
+    },
+    {
+      "id": 102,
+      "time": "05:54",
+      "text": "What are you doing?",
+      "start": 354.52,
+      "end": 355.605,
+      "duration": 1.085,
+      "audio": "./audio/102.mp3"
+    },
+    {
+      "id": 103,
+      "time": "05:55",
+      "text": "Going online to try and find a girl to date.",
+      "start": 355.688,
+      "end": 358.191,
+      "duration": 2.503,
+      "audio": "./audio/103.mp3"
+    },
+    {
+      "id": 104,
+      "time": "05:58",
+      "text": "That's hilarious. I'll help.",
+      "start": 358.274,
+      "end": 359.734,
+      "duration": 1.46,
+      "audio": "./audio/104.mp3"
+    },
+    {
+      "id": 105,
+      "time": "06:01",
+      "text": "Okay, finish this sentence:",
+      "start": 361.694,
+      "end": 362.987,
+      "duration": 1.293,
+      "audio": "./audio/105.mp3"
+    },
+    {
+      "id": 106,
+      "time": "06:03",
+      "text": "\"I spend a lot of time thinking about...\"",
+      "start": 363.071,
+      "end": 365.323,
+      "duration": 2.252,
+      "audio": "./audio/106.mp3"
+    },
+    {
+      "id": 107,
+      "time": "06:05",
+      "text": "Easy. Penguins.",
+      "start": 365.406,
+      "end": 366.657,
+      "duration": 1.251,
+      "audio": "./audio/107.mp3"
+    },
+    {
+      "id": 108,
+      "time": "06:06",
+      "text": "And, especially, I'll say chinstrap penguins.",
+      "start": 366.741,
+      "end": 369.535,
+      "duration": 2.794,
+      "audio": "./audio/108.mp3"
+    },
+    {
+      "id": 109,
+      "time": "06:09",
+      "text": "They're my favorite bird,",
+      "start": 369.619,
+      "end": 371.579,
+      "duration": 1.96,
+      "audio": "./audio/109.mp3"
+    },
+    {
+      "id": 110,
+      "time": "06:11",
+      "text": "but all four types of Antarctic penguins are good.",
+      "start": 371.662,
+      "end": 374.123,
+      "duration": 2.461,
+      "audio": "./audio/110.mp3"
+    },
+    {
+      "id": 111,
+      "time": "06:14",
+      "text": "Did you know early explorers thought they were fish and classified them that way?",
+      "start": 374.207,
+      "end": 378.252,
+      "duration": 4.045,
+      "audio": "./audio/111.mp3"
+    },
+    {
+      "id": 112,
+      "time": "06:18",
+      "text": "Not birds, fish.",
+      "start": 378.336,
+      "end": 380.088,
+      "duration": 1.752,
+      "audio": "./audio/112.mp3"
+    },
+    {
+      "id": 113,
+      "time": "06:22",
+      "text": "I'm gonna put \"sports.\"",
+      "start": 382.59,
+      "end": 383.841,
+      "duration": 1.251,
+      "audio": "./audio/113.mp3"
+    },
+    {
+      "id": 114,
+      "time": "06:23",
+      "text": "Hey, kids.",
+      "start": 383.925,
+      "end": 385.134,
+      "duration": 1.209,
+      "audio": "./audio/114.mp3"
+    },
+    {
+      "id": 115,
+      "time": "06:25",
+      "text": "What you doing?",
+      "start": 385.218,
+      "end": 386.469,
+      "duration": 1.251,
+      "audio": "./audio/115.mp3"
+    },
+    {
+      "id": 116,
+      "time": "06:26",
+      "text": "Casey's helping me sign up for online dating,",
+      "start": 386.552,
+      "end": 388.679,
+      "duration": 2.127,
+      "audio": "./audio/116.mp3"
+    },
+    {
+      "id": 117,
+      "time": "06:28",
+      "text": "but hates all my answers, so she's lying.",
+      "start": 388.763,
+      "end": 390.681,
+      "duration": 1.918,
+      "audio": "./audio/117.mp3"
+    },
+    {
+      "id": 118,
+      "time": "06:32",
+      "text": "-Wow. -Mm-hmm.",
+      "start": 392.642,
+      "end": 394.477,
+      "duration": 1.835,
+      "audio": "./audio/118.mp3"
+    },
+    {
+      "id": 119,
+      "time": "06:34",
+      "text": "You're a little young for that.",
+      "start": 394.56,
+      "end": 396.145,
+      "duration": 1.585,
+      "audio": "./audio/119.mp3"
+    },
+    {
+      "id": 120,
+      "time": "06:36",
+      "text": "You know, I saw an episode on 20/20.",
+      "start": 396.229,
+      "end": 398.94,
+      "duration": 2.711,
+      "audio": "./audio/120.mp3"
+    },
+    {
+      "id": 121,
+      "time": "06:39",
+      "text": "There's actually something called \"catfishing,\"",
+      "start": 399.023,
+      "end": 402.276,
+      "duration": 3.253,
+      "audio": "./audio/121.mp3"
+    },
+    {
+      "id": 122,
+      "time": "06:42",
+      "text": "-and it has nothing to do with fishing. -Bye, Mom.",
+      "start": 402.527,
+      "end": 405.571,
+      "duration": 3.044,
+      "audio": "./audio/122.mp3"
+    },
+    {
+      "id": 123,
+      "time": "06:48",
+      "text": "Should we take another picture with Edison?",
+      "start": 408.491,
+      "end": 410.66,
+      "duration": 2.169,
+      "audio": "./audio/123.mp3"
+    },
+    {
+      "id": 124,
+      "time": "06:50",
+      "text": "I read online that girls love animals.",
+      "start": 410.743,
+      "end": 413.621,
+      "duration": 2.878,
+      "audio": "./audio/124.mp3"
+    },
+    {
+      "id": 125,
+      "time": "06:53",
+      "text": "Maybe like this?",
+      "start": 413.704,
+      "end": 414.831,
+      "duration": 1.127,
+      "audio": "./audio/125.mp3"
+    },
+    {
+      "id": 126,
+      "time": "06:55",
+      "text": "I think this might go quicker if you just leave.",
+      "start": 415.79,
+      "end": 418.459,
+      "duration": 2.669,
+      "audio": "./audio/126.mp3"
+    },
+    {
+      "id": 127,
+      "time": "07:00",
+      "text": "Damn it.",
+      "start": 420.294,
+      "end": 421.838,
+      "duration": 1.544,
+      "audio": "./audio/127.mp3"
+    },
+    {
+      "id": 128,
+      "time": "07:03",
+      "text": "Careful. What are you doing?",
+      "start": 423.381,
+      "end": 425.174,
+      "duration": 1.793,
+      "audio": "./audio/128.mp3"
+    },
+    {
+      "id": 129,
+      "time": "07:05",
+      "text": "Honey, can you get that for me?",
+      "start": 425.258,
+      "end": 426.717,
+      "duration": 1.459,
+      "audio": "./audio/129.mp3"
+    },
+    {
+      "id": 130,
+      "time": "07:08",
+      "text": "-Which one? -Three to five.",
+      "start": 428.678,
+      "end": 430.763,
+      "duration": 2.085,
+      "audio": "./audio/130.mp3"
+    },
+    {
+      "id": 131,
+      "time": "07:11",
+      "text": "This room, it's, like, so disorganized.",
+      "start": 431.764,
+      "end": 433.975,
+      "duration": 2.211,
+      "audio": "./audio/131.mp3"
+    },
+    {
+      "id": 132,
+      "time": "07:14",
+      "text": "-Such a mess. -You okay?",
+      "start": 434.934,
+      "end": 436.477,
+      "duration": 1.543,
+      "audio": "./audio/132.mp3"
+    },
+    {
+      "id": 133,
+      "time": "07:16",
+      "text": "Yes, fine. Totally fine.",
+      "start": 436.561,
+      "end": 438.312,
+      "duration": 1.751,
+      "audio": "./audio/133.mp3"
+    },
+    {
+      "id": 134,
+      "time": "07:19",
+      "text": "Yeah.",
+      "start": 439.313,
+      "end": 440.231,
+      "duration": 0.918,
+      "audio": "./audio/134.mp3"
+    },
+    {
+      "id": 135,
+      "time": "07:21",
+      "text": "Sam's gonna start dating, so that's something.",
+      "start": 441.149,
+      "end": 443.818,
+      "duration": 2.669,
+      "audio": "./audio/135.mp3"
+    },
+    {
+      "id": 136,
+      "time": "07:23",
+      "text": "Do you remember these?",
+      "start": 443.901,
+      "end": 445.194,
+      "duration": 1.293,
+      "audio": "./audio/136.mp3"
+    },
+    {
+      "id": 137,
+      "time": "07:25",
+      "text": "-Sam's emotion cards? -Yeah.",
+      "start": 445.278,
+      "end": 446.988,
+      "duration": 1.71,
+      "audio": "./audio/137.mp3"
+    },
+    {
+      "id": 138,
+      "time": "07:27",
+      "text": "\"Someone's making this face, they might be sad,",
+      "start": 447.071,
+      "end": 449.323,
+      "duration": 2.252,
+      "audio": "./audio/138.mp3"
+    },
+    {
+      "id": 139,
+      "time": "07:29",
+      "text": "so you should try to be kind to them.\"",
+      "start": 449.407,
+      "end": 451.033,
+      "duration": 1.626,
+      "audio": "./audio/139.mp3"
+    },
+    {
+      "id": 140,
+      "time": "07:31",
+      "text": "A woman in the support group, her son was just diagnosed,",
+      "start": 451.117,
+      "end": 453.911,
+      "duration": 2.794,
+      "audio": "./audio/140.mp3"
+    },
+    {
+      "id": 141,
+      "time": "07:33",
+      "text": "so I said I'd throw",
+      "start": 453.995,
+      "end": 454.912,
+      "duration": 0.917,
+      "audio": "./audio/141.mp3"
+    },
+    {
+      "id": 142,
+      "time": "07:34",
+      "text": "some things together.",
+      "start": 454.996,
+      "end": 456.706,
+      "duration": 1.71,
+      "audio": "./audio/142.mp3"
+    },
+    {
+      "id": 143,
+      "time": "07:36",
+      "text": "This was the exact face he made when I surprised him with Mets tickets.",
+      "start": 456.789,
+      "end": 459.959,
+      "duration": 3.17,
+      "audio": "./audio/143.mp3"
+    },
+    {
+      "id": 144,
+      "time": "07:40",
+      "text": "-Remember that? -Yeah, I do.",
+      "start": 460.042,
+      "end": 461.919,
+      "duration": 1.877,
+      "audio": "./audio/144.mp3"
+    },
+    {
+      "id": 145,
+      "time": "07:42",
+      "text": "I wanted us to just have one thing in common.",
+      "start": 462.003,
+      "end": 465.173,
+      "duration": 3.17,
+      "audio": "./audio/145.mp3"
+    },
+    {
+      "id": 146,
+      "time": "07:45",
+      "text": "Just one thing.",
+      "start": 465.256,
+      "end": 466.466,
+      "duration": 1.21,
+      "audio": "./audio/146.mp3"
+    },
+    {
+      "id": 147,
+      "time": "07:47",
+      "text": "Me and my dad used to go to the ball games all the time.",
+      "start": 467.55,
+      "end": 470.47,
+      "duration": 2.92,
+      "audio": "./audio/147.mp3"
+    },
+    {
+      "id": 148,
+      "time": "07:52",
+      "text": "I think it's all right that Sam's gonna try to date.",
+      "start": 472.18,
+      "end": 474.474,
+      "duration": 2.294,
+      "audio": "./audio/148.mp3"
+    },
+    {
+      "id": 149,
+      "time": "07:54",
+      "text": "I mean, you and I weren't much older when we met,",
+      "start": 474.557,
+      "end": 477.018,
+      "duration": 2.461,
+      "audio": "./audio/149.mp3"
+    },
+    {
+      "id": 150,
+      "time": "07:57",
+      "text": "and that was fun, right? We had a good time.",
+      "start": 477.101,
+      "end": 478.978,
+      "duration": 1.877,
+      "audio": "./audio/150.mp3"
+    },
+    {
+      "id": 151,
+      "time": "07:59",
+      "text": "-Sam's not like us. -I know, but he has to start...",
+      "start": 479.061,
+      "end": 482.023,
+      "duration": 2.962,
+      "audio": "./audio/151.mp3"
+    },
+    {
+      "id": 152,
+      "time": "08:02",
+      "text": "Do you know that every time the phone rings, I jump?",
+      "start": 482.106,
+      "end": 484.108,
+      "duration": 2.002,
+      "audio": "./audio/152.mp3"
+    },
+    {
+      "id": 153,
+      "time": "08:04",
+      "text": "Every time.",
+      "start": 484.692,
+      "end": 486.152,
+      "duration": 1.46,
+      "audio": "./audio/153.mp3"
+    },
+    {
+      "id": 154,
+      "time": "08:06",
+      "text": "I think he's crossed the street again with his eyes closed...",
+      "start": 486.944,
+      "end": 489.655,
+      "duration": 2.711,
+      "audio": "./audio/154.mp3"
+    },
+    {
+      "id": 155,
+      "time": "08:10",
+      "text": "or he had a freak-out in a store",
+      "start": 490.531,
+      "end": 492.533,
+      "duration": 2.002,
+      "audio": "./audio/155.mp3"
+    },
+    {
+      "id": 156,
+      "time": "08:12",
+      "text": "or he's hit a police officer.",
+      "start": 492.617,
+      "end": 495.87,
+      "duration": 3.253,
+      "audio": "./audio/156.mp3"
+    },
+    {
+      "id": 157,
+      "time": "08:15",
+      "text": "-Every time the phone rings. -I know. I know.",
+      "start": 495.953,
+      "end": 498.247,
+      "duration": 2.294,
+      "audio": "./audio/157.mp3"
+    },
+    {
+      "id": 158,
+      "time": "08:18",
+      "text": "But maybe now it's time for us to take a step back.",
+      "start": 498.331,
+      "end": 501.083,
+      "duration": 2.752,
+      "audio": "./audio/158.mp3"
+    },
+    {
+      "id": 159,
+      "time": "08:21",
+      "text": "Spend time together, just the two of us,",
+      "start": 501.709,
+      "end": 503.628,
+      "duration": 1.919,
+      "audio": "./audio/159.mp3"
+    },
+    {
+      "id": 160,
+      "time": "08:23",
+      "text": "you know, get back to where we were before all of this.",
+      "start": 503.711,
+      "end": 506.547,
+      "duration": 2.836,
+      "audio": "./audio/160.mp3"
+    },
+    {
+      "id": 161,
+      "time": "08:27",
+      "text": "Maybe we go on a date.",
+      "start": 507.173,
+      "end": 508.049,
+      "duration": 0.876,
+      "audio": "./audio/161.mp3"
+    },
+    {
+      "id": 162,
+      "time": "08:29",
+      "text": "Hmm?",
+      "start": 509.008,
+      "end": 509.842,
+      "duration": 0.834,
+      "audio": "./audio/162.mp3"
+    },
+    {
+      "id": 163,
+      "time": "08:29",
+      "text": "Or we... we fool around.",
+      "start": 509.926,
+      "end": 511.719,
+      "duration": 1.793,
+      "audio": "./audio/163.mp3"
+    },
+    {
+      "id": 164,
+      "time": "08:33",
+      "text": "-Huh? -Yeah, right.",
+      "start": 513.429,
+      "end": 514.764,
+      "duration": 1.335,
+      "audio": "./audio/164.mp3"
+    },
+    {
+      "id": 165,
+      "time": "08:34",
+      "text": "No?",
+      "start": 514.847,
+      "end": 515.89,
+      "duration": 1.043,
+      "audio": "./audio/165.mp3"
+    },
+    {
+      "id": 166,
+      "time": "08:38",
+      "text": "Oh.",
+      "start": 518.476,
+      "end": 519.602,
+      "duration": 1.126,
+      "audio": "./audio/166.mp3"
+    },
+    {
+      "id": 167,
+      "time": "08:40",
+      "text": "You're serious.",
+      "start": 520.478,
+      "end": 521.479,
+      "duration": 1.001,
+      "audio": "./audio/167.mp3"
+    },
+    {
+      "id": 168,
+      "time": "08:42",
+      "text": "I'm not serious.",
+      "start": 522.355,
+      "end": 523.689,
+      "duration": 1.334,
+      "audio": "./audio/168.mp3"
+    },
+    {
+      "id": 169,
+      "time": "08:43",
+      "text": "-I'm sorry. -I'm just playing.",
+      "start": 523.773,
+      "end": 525.441,
+      "duration": 1.668,
+      "audio": "./audio/169.mp3"
+    },
+    {
+      "id": 170,
+      "time": "08:54",
+      "text": "Common traits of autism spectrum disorder include",
+      "start": 534.7,
+      "end": 537.745,
+      "duration": 3.045,
+      "audio": "./audio/170.mp3"
+    },
+    {
+      "id": 171,
+      "time": "08:57",
+      "text": "repetitive behaviors, difficulty socializing",
+      "start": 537.828,
+      "end": 540.248,
+      "duration": 2.42,
+      "audio": "./audio/171.mp3"
+    },
+    {
+      "id": 172,
+      "time": "09:00",
+      "text": "and persistent, intense preoccupations.",
+      "start": 540.331,
+      "end": 543.209,
+      "duration": 2.878,
+      "audio": "./audio/172.mp3"
+    },
+    {
+      "id": 173,
+      "time": "09:03",
+      "text": "I have a patient who came up with 95 ways to cook an egg.",
+      "start": 543.292,
+      "end": 546.963,
+      "duration": 3.671,
+      "audio": "./audio/173.mp3"
+    },
+    {
+      "id": 174,
+      "time": "09:10",
+      "text": "Come on in.",
+      "start": 550.424,
+      "end": 551.676,
+      "duration": 1.252,
+      "audio": "./audio/174.mp3"
+    },
+    {
+      "id": 175,
+      "time": "09:13",
+      "text": "Please, sit.",
+      "start": 553.636,
+      "end": 555.346,
+      "duration": 1.71,
+      "audio": "./audio/175.mp3"
+    },
+    {
+      "id": 176,
+      "time": "09:16",
+      "text": "-Yeah, thanks. -Oh.",
+      "start": 556.889,
+      "end": 557.974,
+      "duration": 1.085,
+      "audio": "./audio/176.mp3"
+    },
+    {
+      "id": 177,
+      "time": "09:19",
+      "text": "Is everything okay with Sam?",
+      "start": 559.809,
+      "end": 561.894,
+      "duration": 2.085,
+      "audio": "./audio/177.mp3"
+    },
+    {
+      "id": 178,
+      "time": "09:21",
+      "text": "Oh, yes. It's fine.",
+      "start": 561.978,
+      "end": 564.397,
+      "duration": 2.419,
+      "audio": "./audio/178.mp3"
+    },
+    {
+      "id": 179,
+      "time": "09:24",
+      "text": "I just, um...",
+      "start": 564.48,
+      "end": 565.773,
+      "duration": 1.293,
+      "audio": "./audio/179.mp3"
+    },
+    {
+      "id": 180,
+      "time": "09:29",
+      "text": "Sam said you spoke to him about dating.",
+      "start": 569.193,
+      "end": 571.529,
+      "duration": 2.336,
+      "audio": "./audio/180.mp3"
+    },
+    {
+      "id": 181,
+      "time": "09:32",
+      "text": "He mentioned wanting a girlfriend, so I thought...",
+      "start": 572.53,
+      "end": 574.824,
+      "duration": 2.294,
+      "audio": "./audio/181.mp3"
+    },
+    {
+      "id": 182,
+      "time": "09:34",
+      "text": "I appreciate you're trying to help,",
+      "start": 574.907,
+      "end": 576.701,
+      "duration": 1.794,
+      "audio": "./audio/182.mp3"
+    },
+    {
+      "id": 183,
+      "time": "09:36",
+      "text": "but all the things that make my son's everyday life difficult...",
+      "start": 576.784,
+      "end": 580.621,
+      "duration": 3.837,
+      "audio": "./audio/183.mp3"
+    },
+    {
+      "id": 184,
+      "time": "09:40",
+      "text": "like reading social cues, exchanging small talk...",
+      "start": 580.705,
+      "end": 584.208,
+      "duration": 3.503,
+      "audio": "./audio/184.mp3"
+    },
+    {
+      "id": 185,
+      "time": "09:44",
+      "text": "all the things I've helped him navigate his entire life,",
+      "start": 584.292,
+      "end": 586.961,
+      "duration": 2.669,
+      "audio": "./audio/185.mp3"
+    },
+    {
+      "id": 186,
+      "time": "09:47",
+      "text": "are magnified in dating.",
+      "start": 587.044,
+      "end": 588.421,
+      "duration": 1.377,
+      "audio": "./audio/186.mp3"
+    },
+    {
+      "id": 187,
+      "time": "09:49",
+      "text": "Um...",
+      "start": 589.422,
+      "end": 590.256,
+      "duration": 0.834,
+      "audio": "./audio/187.mp3"
+    },
+    {
+      "id": 188,
+      "time": "09:50",
+      "text": "Dating is almost entirely nonverbal communication,",
+      "start": 590.965,
+      "end": 595.011,
+      "duration": 4.046,
+      "audio": "./audio/188.mp3"
+    },
+    {
+      "id": 189,
+      "time": "09:55",
+      "text": "and Sam's the most literal person I know.",
+      "start": 595.094,
+      "end": 597.179,
+      "duration": 2.085,
+      "audio": "./audio/189.mp3"
+    },
+    {
+      "id": 190,
+      "time": "09:57",
+      "text": "Yeah, and there are strategies that I could teach him.",
+      "start": 597.847,
+      "end": 600.516,
+      "duration": 2.669,
+      "audio": "./audio/190.mp3"
+    },
+    {
+      "id": 191,
+      "time": "10:00",
+      "text": "Are there?",
+      "start": 600.6,
+      "end": 601.601,
+      "duration": 1.001,
+      "audio": "./audio/191.mp3"
+    },
+    {
+      "id": 192,
+      "time": "10:03",
+      "text": "Are there strategies for when you get your heart broken?",
+      "start": 603.102,
+      "end": 605.771,
+      "duration": 2.669,
+      "audio": "./audio/192.mp3"
+    },
+    {
+      "id": 193,
+      "time": "10:07",
+      "text": "Sam is doing really well.",
+      "start": 607.773,
+      "end": 609.567,
+      "duration": 1.794,
+      "audio": "./audio/193.mp3"
+    },
+    {
+      "id": 194,
+      "time": "10:10",
+      "text": "I mean, we're 32 days into his senior year,",
+      "start": 610.151,
+      "end": 612.153,
+      "duration": 2.002,
+      "audio": "./audio/194.mp3"
+    },
+    {
+      "id": 195,
+      "time": "10:12",
+      "text": "and he hasn't had a meltdown yet, so...",
+      "start": 612.236,
+      "end": 614.488,
+      "duration": 2.252,
+      "audio": "./audio/195.mp3"
+    },
+    {
+      "id": 196,
+      "time": "10:15",
+      "text": "I don't want to push him.",
+      "start": 615.489,
+      "end": 616.741,
+      "duration": 1.252,
+      "audio": "./audio/196.mp3"
+    },
+    {
+      "id": 197,
+      "time": "10:16",
+      "text": "I mean, relationships are hard enough for neurotypicals.",
+      "start": 616.824,
+      "end": 620.119,
+      "duration": 3.295,
+      "audio": "./audio/197.mp3"
+    },
+    {
+      "id": 198,
+      "time": "10:20",
+      "text": "I don't want to put that kind of pressure on my son.",
+      "start": 620.202,
+      "end": 622.622,
+      "duration": 2.42,
+      "audio": "./audio/198.mp3"
+    },
+    {
+      "id": 199,
+      "time": "10:23",
+      "text": "There was a study done in Toronto a few years ago.",
+      "start": 623.289,
+      "end": 626.667,
+      "duration": 3.378,
+      "audio": "./audio/199.mp3"
+    },
+    {
+      "id": 200,
+      "time": "10:27",
+      "text": "Researchers found that only nine percent",
+      "start": 627.376,
+      "end": 630.63,
+      "duration": 3.254,
+      "audio": "./audio/200.mp3"
+    },
+    {
+      "id": 201,
+      "time": "10:30",
+      "text": "of adults with autism are married,",
+      "start": 630.713,
+      "end": 632.548,
+      "duration": 1.835,
+      "audio": "./audio/201.mp3"
+    },
+    {
+      "id": 202,
+      "time": "10:32",
+      "text": "not because they lack the desire,",
+      "start": 632.632,
+      "end": 634.508,
+      "duration": 1.876,
+      "audio": "./audio/202.mp3"
+    },
+    {
+      "id": 203,
+      "time": "10:34",
+      "text": "but because they don't know how to do it.",
+      "start": 634.592,
+      "end": 636.677,
+      "duration": 2.085,
+      "audio": "./audio/203.mp3"
+    },
+    {
+      "id": 204,
+      "time": "10:36",
+      "text": "Your son has the same desire to be loved that we all do.",
+      "start": 636.761,
+      "end": 640.014,
+      "duration": 3.253,
+      "audio": "./audio/204.mp3"
+    },
+    {
+      "id": 205,
+      "time": "10:40",
+      "text": "Why shouldn't he pursue it?",
+      "start": 640.64,
+      "end": 641.891,
+      "duration": 1.251,
+      "audio": "./audio/205.mp3"
+    },
+    {
+      "id": 206,
+      "time": "10:43",
+      "text": "He's not ready yet.",
+      "start": 643.392,
+      "end": 645.019,
+      "duration": 1.627,
+      "audio": "./audio/206.mp3"
+    },
+    {
+      "id": 207,
+      "time": "10:45",
+      "text": "You know, a lot of parents have a hard time",
+      "start": 645.686,
+      "end": 648.022,
+      "duration": 2.336,
+      "audio": "./audio/207.mp3"
+    },
+    {
+      "id": 208,
+      "time": "10:48",
+      "text": "as their kids become more independent.",
+      "start": 648.105,
+      "end": 649.899,
+      "duration": 1.794,
+      "audio": "./audio/208.mp3"
+    },
+    {
+      "id": 209,
+      "time": "10:49",
+      "text": "It's completely natural.",
+      "start": 649.982,
+      "end": 652.693,
+      "duration": 2.711,
+      "audio": "./audio/209.mp3"
+    },
+    {
+      "id": 210,
+      "time": "10:52",
+      "text": "So if you ever need someone to talk to,",
+      "start": 652.777,
+      "end": 654.945,
+      "duration": 2.168,
+      "audio": "./audio/210.mp3"
+    },
+    {
+      "id": 211,
+      "time": "10:55",
+      "text": "I can refer you to one of my colleagues.",
+      "start": 655.029,
+      "end": 657.156,
+      "duration": 2.127,
+      "audio": "./audio/211.mp3"
+    },
+    {
+      "id": 212,
+      "time": "10:57",
+      "text": "Oh, wow. No, um...",
+      "start": 657.239,
+      "end": 658.783,
+      "duration": 1.544,
+      "audio": "./audio/212.mp3"
+    },
+    {
+      "id": 213,
+      "time": "11:01",
+      "text": "That won't be necessary.",
+      "start": 661.452,
+      "end": 662.87,
+      "duration": 1.418,
+      "audio": "./audio/213.mp3"
+    },
+    {
+      "id": 214,
+      "time": "11:04",
+      "text": "Thank you for your time.",
+      "start": 664.58,
+      "end": 665.706,
+      "duration": 1.126,
+      "audio": "./audio/214.mp3"
+    },
+    {
+      "id": 215,
+      "time": "11:08",
+      "text": "That's okay. I got it. Thanks so much.",
+      "start": 668.25,
+      "end": 670.461,
+      "duration": 2.211,
+      "audio": "./audio/215.mp3"
+    },
+    {
+      "id": 216,
+      "time": "11:10",
+      "text": "-Have a great day. -Okay.",
+      "start": 670.544,
+      "end": 671.796,
+      "duration": 1.252,
+      "audio": "./audio/216.mp3"
+    },
+    {
+      "id": 217,
+      "time": "11:18",
+      "text": "When I'm learning something new,",
+      "start": 678.094,
+      "end": 680.096,
+      "duration": 2.002,
+      "audio": "./audio/217.mp3"
+    },
+    {
+      "id": 218,
+      "time": "11:20",
+      "text": "like how to get infinity lives in a video game or date girls,",
+      "start": 680.179,
+      "end": 684.058,
+      "duration": 3.879,
+      "audio": "./audio/218.mp3"
+    },
+    {
+      "id": 219,
+      "time": "11:24",
+      "text": "I do a lot of research.",
+      "start": 684.141,
+      "end": 685.559,
+      "duration": 1.418,
+      "audio": "./audio/219.mp3"
+    },
+    {
+      "id": 220,
+      "time": "11:25",
+      "text": "I like research.",
+      "start": 685.643,
+      "end": 686.56,
+      "duration": 0.917,
+      "audio": "./audio/220.mp3"
+    },
+    {
+      "id": 221,
+      "time": "11:26",
+      "text": "Insult them.",
+      "start": 686.644,
+      "end": 688.02,
+      "duration": 1.376,
+      "audio": "./audio/221.mp3"
+    },
+    {
+      "id": 222,
+      "time": "11:28",
+      "text": "Something like, \"Baby, those some serious bug eyes you got.\"",
+      "start": 688.104,
+      "end": 691.565,
+      "duration": 3.461,
+      "audio": "./audio/222.mp3"
+    },
+    {
+      "id": 223,
+      "time": "11:32",
+      "text": "-Trust me, brother... -Bug eyes?",
+      "start": 692.566,
+      "end": 694.36,
+      "duration": 1.794,
+      "audio": "./audio/223.mp3"
+    },
+    {
+      "id": 224,
+      "time": "11:34",
+      "text": "...quickest way to get a chick on your dick.",
+      "start": 694.443,
+      "end": 696.404,
+      "duration": 1.961,
+      "audio": "./audio/224.mp3"
+    },
+    {
+      "id": 225,
+      "time": "11:37",
+      "text": "I examine as many sources as possible.",
+      "start": 697.863,
+      "end": 700.241,
+      "duration": 2.378,
+      "audio": "./audio/225.mp3"
+    },
+    {
+      "id": 226,
+      "time": "11:40",
+      "text": "Yo, yo, mamacita.",
+      "start": 700.324,
+      "end": 702.243,
+      "duration": 1.919,
+      "audio": "./audio/226.mp3"
+    },
+    {
+      "id": 227,
+      "time": "11:42",
+      "text": "Is that a phone in your back pocket?",
+      "start": 702.952,
+      "end": 704.537,
+      "duration": 1.585,
+      "audio": "./audio/227.mp3"
+    },
+    {
+      "id": 228,
+      "time": "11:45",
+      "text": "'Cause that ass is calling to me.",
+      "start": 705.329,
+      "end": 706.872,
+      "duration": 1.543,
+      "audio": "./audio/228.mp3"
+    },
+    {
+      "id": 229,
+      "time": "11:48",
+      "text": "And I ask questions.",
+      "start": 708.833,
+      "end": 710.376,
+      "duration": 1.543,
+      "audio": "./audio/229.mp3"
+    },
+    {
+      "id": 230,
+      "time": "11:50",
+      "text": "Just listen to what they say.",
+      "start": 710.459,
+      "end": 712.42,
+      "duration": 1.961,
+      "audio": "./audio/230.mp3"
+    },
+    {
+      "id": 231,
+      "time": "11:52",
+      "text": "Don't bring up seals or penguins or whatever.",
+      "start": 712.503,
+      "end": 714.839,
+      "duration": 2.336,
+      "audio": "./audio/231.mp3"
+    },
+    {
+      "id": 232,
+      "time": "11:54",
+      "text": "And don't stare at their boobs.",
+      "start": 714.922,
+      "end": 716.674,
+      "duration": 1.752,
+      "audio": "./audio/232.mp3"
+    },
+    {
+      "id": 233,
+      "time": "11:56",
+      "text": "Wait, slow down.",
+      "start": 716.757,
+      "end": 717.883,
+      "duration": 1.126,
+      "audio": "./audio/233.mp3"
+    },
+    {
+      "id": 234,
+      "time": "11:57",
+      "text": "I'm still on the no penguins part. What if she likes penguins?",
+      "start": 717.967,
+      "end": 721.178,
+      "duration": 3.211,
+      "audio": "./audio/234.mp3"
+    },
+    {
+      "id": 235,
+      "time": "12:01",
+      "text": "Just assume she doesn't.",
+      "start": 721.846,
+      "end": 723.055,
+      "duration": 1.209,
+      "audio": "./audio/235.mp3"
+    },
+    {
+      "id": 236,
+      "time": "12:04",
+      "text": "The trick is knowing when to put my research to use.",
+      "start": 724.89,
+      "end": 727.518,
+      "duration": 2.628,
+      "audio": "./audio/236.mp3"
+    },
+    {
+      "id": 237,
+      "time": "12:07",
+      "text": "I'm not great at picking up signals.",
+      "start": 727.601,
+      "end": 729.186,
+      "duration": 1.585,
+      "audio": "./audio/237.mp3"
+    },
+    {
+      "id": 238,
+      "time": "12:11",
+      "text": "Yo, Sammy. Red over there is making eyes.",
+      "start": 731.063,
+      "end": 733.482,
+      "duration": 2.419,
+      "audio": "./audio/238.mp3"
+    },
+    {
+      "id": 239,
+      "time": "12:14",
+      "text": "-What? -That chick.",
+      "start": 734.066,
+      "end": 735.818,
+      "duration": 1.752,
+      "audio": "./audio/239.mp3"
+    },
+    {
+      "id": 240,
+      "time": "12:15",
+      "text": "Bubble Butt by the monitors.",
+      "start": 735.901,
+      "end": 737.737,
+      "duration": 1.836,
+      "audio": "./audio/240.mp3"
+    },
+    {
+      "id": 241,
+      "time": "12:19",
+      "text": "What about her?",
+      "start": 739.53,
+      "end": 740.698,
+      "duration": 1.168,
+      "audio": "./audio/241.mp3"
+    },
+    {
+      "id": 242,
+      "time": "12:20",
+      "text": "Dude, she's smiling right at you.",
+      "start": 740.781,
+      "end": 742.575,
+      "duration": 1.794,
+      "audio": "./audio/242.mp3"
+    },
+    {
+      "id": 243,
+      "time": "12:24",
+      "text": "Oh.",
+      "start": 744.285,
+      "end": 745.119,
+      "duration": 0.834,
+      "audio": "./audio/243.mp3"
+    },
+    {
+      "id": 244,
+      "time": "12:25",
+      "text": "So?",
+      "start": 745.745,
+      "end": 746.579,
+      "duration": 0.834,
+      "audio": "./audio/244.mp3"
+    },
+    {
+      "id": 245,
+      "time": "12:27",
+      "text": "-Smile back. -Really?",
+      "start": 747.163,
+      "end": 749.248,
+      "duration": 2.085,
+      "audio": "./audio/245.mp3"
+    },
+    {
+      "id": 246,
+      "time": "12:38",
+      "text": "Wow.",
+      "start": 758.382,
+      "end": 759.717,
+      "duration": 1.335,
+      "audio": "./audio/246.mp3"
+    },
+    {
+      "id": 247,
+      "time": "12:39",
+      "text": "You scared her away from across the store.",
+      "start": 759.8,
+      "end": 761.677,
+      "duration": 1.877,
+      "audio": "./audio/247.mp3"
+    },
+    {
+      "id": 248,
+      "time": "12:42",
+      "text": "Impressive range, dude.",
+      "start": 762.47,
+      "end": 763.804,
+      "duration": 1.334,
+      "audio": "./audio/248.mp3"
+    },
+    {
+      "id": 249,
+      "time": "13:02",
+      "text": "Oh, no.",
+      "start": 782.114,
+      "end": 783.073,
+      "duration": 0.959,
+      "audio": "./audio/249.mp3"
+    },
+    {
+      "id": 250,
+      "time": "13:03",
+      "text": "I'm sure whoever did this just feels terrible.",
+      "start": 783.157,
+      "end": 786.285,
+      "duration": 3.128,
+      "audio": "./audio/250.mp3"
+    },
+    {
+      "id": 251,
+      "time": "13:08",
+      "text": "Bailey.",
+      "start": 788.996,
+      "end": 789.83,
+      "duration": 0.834,
+      "audio": "./audio/251.mp3"
+    },
+    {
+      "id": 252,
+      "time": "13:19",
+      "text": "I don't get it. You're not even friends with Beth.",
+      "start": 799.798,
+      "end": 802.218,
+      "duration": 2.42,
+      "audio": "./audio/252.mp3"
+    },
+    {
+      "id": 253,
+      "time": "13:22",
+      "text": "So? You don't have to be friends to do what's right.",
+      "start": 802.301,
+      "end": 804.303,
+      "duration": 2.002,
+      "audio": "./audio/253.mp3"
+    },
+    {
+      "id": 254,
+      "time": "13:24",
+      "text": "Sweetie, hitting someone's face is never right.",
+      "start": 804.595,
+      "end": 807.765,
+      "duration": 3.17,
+      "audio": "./audio/254.mp3"
+    },
+    {
+      "id": 255,
+      "time": "13:27",
+      "text": "Of course you don't get it. You were the one picking on the fat kids.",
+      "start": 807.848,
+      "end": 810.935,
+      "duration": 3.087,
+      "audio": "./audio/255.mp3"
+    },
+    {
+      "id": 256,
+      "time": "13:31",
+      "text": "I had a pudgy friend.",
+      "start": 811.018,
+      "end": 812.353,
+      "duration": 1.335,
+      "audio": "./audio/256.mp3"
+    },
+    {
+      "id": 257,
+      "time": "13:32",
+      "text": "Besides, Bailey Bennet is a lovely girl, and she did not deserve to get punched.",
+      "start": 812.436,
+      "end": 816.398,
+      "duration": 3.962,
+      "audio": "./audio/257.mp3"
+    },
+    {
+      "id": 258,
+      "time": "13:36",
+      "text": "Bailey Bennet is a twat.",
+      "start": 816.482,
+      "end": 817.733,
+      "duration": 1.251,
+      "audio": "./audio/258.mp3"
+    },
+    {
+      "id": 259,
+      "time": "13:37",
+      "text": "Casey Gardener, language.",
+      "start": 817.816,
+      "end": 819.235,
+      "duration": 1.419,
+      "audio": "./audio/259.mp3"
+    },
+    {
+      "id": 260,
+      "time": "13:39",
+      "text": "Sometimes a word or phrase gets stuck in my head,",
+      "start": 819.318,
+      "end": 821.612,
+      "duration": 2.294,
+      "audio": "./audio/260.mp3"
+    },
+    {
+      "id": 261,
+      "time": "13:41",
+      "text": "like on on a loop, and it just plays over and over",
+      "start": 821.695,
+      "end": 825.282,
+      "duration": 3.587,
+      "audio": "./audio/261.mp3"
+    },
+    {
+      "id": 262,
+      "time": "13:45",
+      "text": "and over and over.",
+      "start": 825.366,
+      "end": 826.575,
+      "duration": 1.209,
+      "audio": "./audio/262.mp3"
+    },
+    {
+      "id": 263,
+      "time": "13:46",
+      "text": "Twat. Twat.",
+      "start": 826.659,
+      "end": 828.619,
+      "duration": 1.96,
+      "audio": "./audio/263.mp3"
+    },
+    {
+      "id": 264,
+      "time": "13:48",
+      "text": "Twat, twat, twat, twat, twat, twat, twat...",
+      "start": 828.911,
+      "end": 831.622,
+      "duration": 2.711,
+      "audio": "./audio/264.mp3"
+    },
+    {
+      "id": 265,
+      "time": "13:51",
+      "text": "-You got suspended? -You didn't waste any time.",
+      "start": 831.705,
+      "end": 834.542,
+      "duration": 2.837,
+      "audio": "./audio/265.mp3"
+    },
+    {
+      "id": 266,
+      "time": "13:54",
+      "text": "-You're gonna miss practice. -They said I could practice.",
+      "start": 834.625,
+      "end": 837.253,
+      "duration": 2.628,
+      "audio": "./audio/266.mp3"
+    },
+    {
+      "id": 267,
+      "time": "13:57",
+      "text": "-Twat, twat. -That's good.",
+      "start": 837.336,
+      "end": 838.629,
+      "duration": 1.293,
+      "audio": "./audio/267.mp3"
+    },
+    {
+      "id": 268,
+      "time": "13:58",
+      "text": "-At least she's not gonna miss practice. -She punched a pretty girl in the face!",
+      "start": 838.712,
+      "end": 842.466,
+      "duration": 3.754,
+      "audio": "./audio/268.mp3"
+    },
+    {
+      "id": 269,
+      "time": "14:02",
+      "text": "Why does it matter she's pretty?",
+      "start": 842.55,
+      "end": 844.26,
+      "duration": 1.71,
+      "audio": "./audio/269.mp3"
+    },
+    {
+      "id": 270,
+      "time": "14:04",
+      "text": "Twat. Twat.",
+      "start": 844.343,
+      "end": 846.428,
+      "duration": 2.085,
+      "audio": "./audio/270.mp3"
+    },
+    {
+      "id": 271,
+      "time": "14:06",
+      "text": "Twat.",
+      "start": 846.512,
+      "end": 847.805,
+      "duration": 1.293,
+      "audio": "./audio/271.mp3"
+    },
+    {
+      "id": 272,
+      "time": "14:07",
+      "text": "Twat, twat, twat, twat, twat, twat, twat.",
+      "start": 847.888,
+      "end": 850.975,
+      "duration": 3.087,
+      "audio": "./audio/272.mp3"
+    },
+    {
+      "id": 273,
+      "time": "14:11",
+      "text": "You're grounded.",
+      "start": 851.058,
+      "end": 852.393,
+      "duration": 1.335,
+      "audio": "./audio/273.mp3"
+    },
+    {
+      "id": 274,
+      "time": "14:12",
+      "text": "All right. That seems fair. I'm gonna go for a run.",
+      "start": 852.476,
+      "end": 854.812,
+      "duration": 2.336,
+      "audio": "./audio/274.mp3"
+    },
+    {
+      "id": 275,
+      "time": "14:14",
+      "text": "Can I run when I'm grounded, warden?",
+      "start": 854.895,
+      "end": 856.605,
+      "duration": 1.71,
+      "audio": "./audio/275.mp3"
+    },
+    {
+      "id": 276,
+      "time": "14:17",
+      "text": "I'm done. You deal with her.",
+      "start": 857.273,
+      "end": 858.899,
+      "duration": 1.626,
+      "audio": "./audio/276.mp3"
+    },
+    {
+      "id": 277,
+      "time": "14:19",
+      "text": "Go ahead.",
+      "start": 859.859,
+      "end": 860.776,
+      "duration": 0.917,
+      "audio": "./audio/277.mp3"
+    },
+    {
+      "id": 278,
+      "time": "14:22",
+      "text": "-Awesome. -Great. Now I'm the bad guy again.",
+      "start": 862.027,
+      "end": 864.446,
+      "duration": 2.419,
+      "audio": "./audio/278.mp3"
+    },
+    {
+      "id": 279,
+      "time": "14:24",
+      "text": "Casey and I are cool. You're always gonna be the bad guy with her.",
+      "start": 864.53,
+      "end": 867.408,
+      "duration": 2.878,
+      "audio": "./audio/279.mp3"
+    },
+    {
+      "id": 280,
+      "time": "14:32",
+      "text": "â™ª Leopards laze each â™ª",
+      "start": 872.454,
+      "end": 874.54,
+      "duration": 2.086,
+      "audio": "./audio/280.mp3"
+    },
+    {
+      "id": 281,
+      "time": "14:35",
+      "text": "â™ª On plush pillows â™ª",
+      "start": 875.291,
+      "end": 877.293,
+      "duration": 2.002,
+      "audio": "./audio/281.mp3"
+    },
+    {
+      "id": 282,
+      "time": "14:37",
+      "text": "â™ª Paperback dreams In their deep doze â™ª",
+      "start": 877.376,
+      "end": 881.297,
+      "duration": 3.921,
+      "audio": "./audio/282.mp3"
+    },
+    {
+      "id": 283,
+      "time": "14:56",
+      "text": "Hey, Casey! I brought you a chocolate cake.",
+      "start": 896.103,
+      "end": 898.689,
+      "duration": 2.586,
+      "audio": "./audio/283.mp3"
+    },
+    {
+      "id": 284,
+      "time": "14:58",
+      "text": "I make amazing cakes.",
+      "start": 898.772,
+      "end": 900.441,
+      "duration": 1.669,
+      "audio": "./audio/284.mp3"
+    },
+    {
+      "id": 285,
+      "time": "15:00",
+      "text": "I won three bake-offs at my church.",
+      "start": 900.524,
+      "end": 902.318,
+      "duration": 1.794,
+      "audio": "./audio/285.mp3"
+    },
+    {
+      "id": 286,
+      "time": "15:03",
+      "text": "This is my brother Evan. He drove me here.",
+      "start": 903.193,
+      "end": 905.696,
+      "duration": 2.503,
+      "audio": "./audio/286.mp3"
+    },
+    {
+      "id": 287,
+      "time": "15:05",
+      "text": "-Hey. -Hey.",
+      "start": 905.779,
+      "end": 907.406,
+      "duration": 1.627,
+      "audio": "./audio/287.mp3"
+    },
+    {
+      "id": 288,
+      "time": "15:07",
+      "text": "Okay. Thanks for the cake.",
+      "start": 907.489,
+      "end": 910.242,
+      "duration": 2.753,
+      "audio": "./audio/288.mp3"
+    },
+    {
+      "id": 289,
+      "time": "15:10",
+      "text": "Thank you for today.",
+      "start": 910.326,
+      "end": 912.161,
+      "duration": 1.835,
+      "audio": "./audio/289.mp3"
+    },
+    {
+      "id": 290,
+      "time": "15:13",
+      "text": "-Twat! -Sam!",
+      "start": 913.329,
+      "end": 914.163,
+      "duration": 0.834,
+      "audio": "./audio/290.mp3"
+    },
+    {
+      "id": 291,
+      "time": "15:14",
+      "text": "-Jesus! -Um, hello.",
+      "start": 914.246,
+      "end": 915.831,
+      "duration": 1.585,
+      "audio": "./audio/291.mp3"
+    },
+    {
+      "id": 292,
+      "time": "15:15",
+      "text": "What is wrong with him?",
+      "start": 915.915,
+      "end": 917.207,
+      "duration": 1.292,
+      "audio": "./audio/292.mp3"
+    },
+    {
+      "id": 293,
+      "time": "15:17",
+      "text": "Nothing's wrong with him. Get away from him.",
+      "start": 917.291,
+      "end": 919.376,
+      "duration": 2.085,
+      "audio": "./audio/293.mp3"
+    },
+    {
+      "id": 294,
+      "time": "15:21",
+      "text": "It's cool. I got it.",
+      "start": 921.253,
+      "end": 923.547,
+      "duration": 2.294,
+      "audio": "./audio/294.mp3"
+    },
+    {
+      "id": 295,
+      "time": "15:24",
+      "text": "All right, bye.",
+      "start": 924.465,
+      "end": 925.549,
+      "duration": 1.084,
+      "audio": "./audio/295.mp3"
+    },
+    {
+      "id": 296,
+      "time": "15:27",
+      "text": "You forgot your chocolate cake!",
+      "start": 927.509,
+      "end": 929.72,
+      "duration": 2.211,
+      "audio": "./audio/296.mp3"
+    },
+    {
+      "id": 297,
+      "time": "15:29",
+      "text": "I'll just leave it on the porch.",
+      "start": 929.803,
+      "end": 931.388,
+      "duration": 1.585,
+      "audio": "./audio/297.mp3"
+    },
+    {
+      "id": 298,
+      "time": "15:32",
+      "text": "You're such an asshole.",
+      "start": 932.348,
+      "end": 933.641,
+      "duration": 1.293,
+      "audio": "./audio/298.mp3"
+    },
+    {
+      "id": 299,
+      "time": "15:35",
+      "text": "My sister doesn't let anyone beat me up...",
+      "start": 935.184,
+      "end": 937.061,
+      "duration": 1.877,
+      "audio": "./audio/299.mp3"
+    },
+    {
+      "id": 300,
+      "time": "15:41",
+      "text": "Got to do it four times, right?",
+      "start": 941.982,
+      "end": 943.609,
+      "duration": 1.627,
+      "audio": "./audio/300.mp3"
+    },
+    {
+      "id": 301,
+      "time": "15:43",
+      "text": "Ow!",
+      "start": 943.692,
+      "end": 944.693,
+      "duration": 1.001,
+      "audio": "./audio/301.mp3"
+    },
+    {
+      "id": 302,
+      "time": "15:44",
+      "text": "...except herself.",
+      "start": 944.818,
+      "end": 946.487,
+      "duration": 1.669,
+      "audio": "./audio/302.mp3"
+    },
+    {
+      "id": 303,
+      "time": "15:49",
+      "text": "So, how's your week?",
+      "start": 949.573,
+      "end": 951.116,
+      "duration": 1.543,
+      "audio": "./audio/303.mp3"
+    },
+    {
+      "id": 304,
+      "time": "15:51",
+      "text": "Well, I still don't have a date.",
+      "start": 951.2,
+      "end": 952.701,
+      "duration": 1.501,
+      "audio": "./audio/304.mp3"
+    },
+    {
+      "id": 305,
+      "time": "15:52",
+      "text": "I scared a girl off from across the room,",
+      "start": 952.785,
+      "end": 954.662,
+      "duration": 1.877,
+      "audio": "./audio/305.mp3"
+    },
+    {
+      "id": 306,
+      "time": "15:54",
+      "text": "and we had meat loaf twice, and I hate meat loaf.",
+      "start": 954.745,
+      "end": 956.83,
+      "duration": 2.085,
+      "audio": "./audio/306.mp3"
+    },
+    {
+      "id": 307,
+      "time": "15:56",
+      "text": "How?",
+      "start": 956.914,
+      "end": 957.79,
+      "duration": 0.876,
+      "audio": "./audio/307.mp3"
+    },
+    {
+      "id": 308,
+      "time": "15:57",
+      "text": "My mom just made it in the oven.",
+      "start": 957.873,
+      "end": 959.541,
+      "duration": 1.668,
+      "audio": "./audio/308.mp3"
+    },
+    {
+      "id": 309,
+      "time": "15:59",
+      "text": "I mean, how did you scare her away?",
+      "start": 959.625,
+      "end": 962.086,
+      "duration": 2.461,
+      "audio": "./audio/309.mp3"
+    },
+    {
+      "id": 310,
+      "time": "16:02",
+      "text": "I don't know. I've been wondering and wondering and wondering.",
+      "start": 962.169,
+      "end": 965.422,
+      "duration": 3.253,
+      "audio": "./audio/310.mp3"
+    },
+    {
+      "id": 311,
+      "time": "16:05",
+      "text": "Okay. Pretend I'm her. What'd you do?",
+      "start": 965.506,
+      "end": 968.05,
+      "duration": 2.544,
+      "audio": "./audio/311.mp3"
+    },
+    {
+      "id": 312,
+      "time": "16:08",
+      "text": "I just smiled at her like this.",
+      "start": 968.926,
+      "end": 971.387,
+      "duration": 2.461,
+      "audio": "./audio/312.mp3"
+    },
+    {
+      "id": 313,
+      "time": "16:12",
+      "text": "Ah.",
+      "start": 972.638,
+      "end": 973.555,
+      "duration": 0.917,
+      "audio": "./audio/313.mp3"
+    },
+    {
+      "id": 314,
+      "time": "16:14",
+      "text": "I read about it online.",
+      "start": 974.223,
+      "end": 975.599,
+      "duration": 1.376,
+      "audio": "./audio/314.mp3"
+    },
+    {
+      "id": 315,
+      "time": "16:17",
+      "text": "\"Making eye contact and smiling are step one for flirting.\"",
+      "start": 977.518,
+      "end": 980.688,
+      "duration": 3.17,
+      "audio": "./audio/315.mp3"
+    },
+    {
+      "id": 316,
+      "time": "16:20",
+      "text": "That's what I did. Look.",
+      "start": 980.771,
+      "end": 981.939,
+      "duration": 1.168,
+      "audio": "./audio/316.mp3"
+    },
+    {
+      "id": 317,
+      "time": "16:24",
+      "text": "\"Insults equal chick on dick.\"",
+      "start": 984.817,
+      "end": 986.735,
+      "duration": 1.918,
+      "audio": "./audio/317.mp3"
+    },
+    {
+      "id": 318,
+      "time": "16:26",
+      "text": "Not that part. The eye contact part.",
+      "start": 986.819,
+      "end": 988.696,
+      "duration": 1.877,
+      "audio": "./audio/318.mp3"
+    },
+    {
+      "id": 319,
+      "time": "16:28",
+      "text": "Right, but we should get to that at some point.",
+      "start": 988.779,
+      "end": 991.782,
+      "duration": 3.003,
+      "audio": "./audio/319.mp3"
+    },
+    {
+      "id": 320,
+      "time": "16:32",
+      "text": "Anyways, the problem is",
+      "start": 992.95,
+      "end": 994.535,
+      "duration": 1.585,
+      "audio": "./audio/320.mp3"
+    },
+    {
+      "id": 321,
+      "time": "16:34",
+      "text": "you're crossing the line from flirty to creepy.",
+      "start": 994.618,
+      "end": 998.497,
+      "duration": 3.879,
+      "audio": "./audio/321.mp3"
+    },
+    {
+      "id": 322,
+      "time": "16:38",
+      "text": "When you make eye contact, you have to look away a bit.",
+      "start": 998.58,
+      "end": 1001.125,
+      "duration": 2.545,
+      "audio": "./audio/322.mp3"
+    },
+    {
+      "id": 323,
+      "time": "16:41",
+      "text": "But how can I make eye contact and look away?",
+      "start": 1001.208,
+      "end": 1005.004,
+      "duration": 3.796,
+      "audio": "./audio/323.mp3"
+    },
+    {
+      "id": 324,
+      "time": "16:45",
+      "text": "I mean, I'm not a mantis shrimp.",
+      "start": 1005.087,
+      "end": 1007.297,
+      "duration": 2.21,
+      "audio": "./audio/324.mp3"
+    },
+    {
+      "id": 325,
+      "time": "16:47",
+      "text": "--All right.",
+      "start": 1007.381,
+      "end": 1008.59,
+      "duration": 1.209,
+      "audio": "./audio/325.mp3"
+    },
+    {
+      "id": 326,
+      "time": "16:48",
+      "text": "Okay, you make eye contact...",
+      "start": 1008.674,
+      "end": 1011.969,
+      "duration": 3.295,
+      "audio": "./audio/326.mp3"
+    },
+    {
+      "id": 327,
+      "time": "16:52",
+      "text": "glance away...",
+      "start": 1012.803,
+      "end": 1013.929,
+      "duration": 1.126,
+      "audio": "./audio/327.mp3"
+    },
+    {
+      "id": 328,
+      "time": "16:54",
+      "text": "make eye contact again.",
+      "start": 1014.596,
+      "end": 1016.223,
+      "duration": 1.627,
+      "audio": "./audio/328.mp3"
+    },
+    {
+      "id": 329,
+      "time": "16:57",
+      "text": "Otherwise, it can seem scary.",
+      "start": 1017.391,
+      "end": 1018.809,
+      "duration": 1.418,
+      "audio": "./audio/329.mp3"
+    },
+    {
+      "id": 330,
+      "time": "16:58",
+      "text": "-Hold on. Let me write this down. -Okay.",
+      "start": 1018.892,
+      "end": 1021.687,
+      "duration": 2.795,
+      "audio": "./audio/330.mp3"
+    },
+    {
+      "id": 331,
+      "time": "17:03",
+      "text": "Now, the smile.",
+      "start": 1023.105,
+      "end": 1024.773,
+      "duration": 1.668,
+      "audio": "./audio/331.mp3"
+    },
+    {
+      "id": 332,
+      "time": "17:06",
+      "text": "You need to turn that down, like, 70%.",
+      "start": 1026.4,
+      "end": 1029.194,
+      "duration": 2.794,
+      "audio": "./audio/332.mp3"
+    },
+    {
+      "id": 333,
+      "time": "17:09",
+      "text": "-70% smaller? -At least.",
+      "start": 1029.278,
+      "end": 1031.947,
+      "duration": 2.669,
+      "audio": "./audio/333.mp3"
+    },
+    {
+      "id": 334,
+      "time": "17:15",
+      "text": "Try no teeth?",
+      "start": 1035.075,
+      "end": 1036.326,
+      "duration": 1.251,
+      "audio": "./audio/334.mp3"
+    },
+    {
+      "id": 335,
+      "time": "17:18",
+      "text": "Yeah! That's the one. That's perfect.",
+      "start": 1038.495,
+      "end": 1040.998,
+      "duration": 2.503,
+      "audio": "./audio/335.mp3"
+    },
+    {
+      "id": 336,
+      "time": "17:24",
+      "text": "They didn't taste purple, but they were purple carrots.",
+      "start": 1044.46,
+      "end": 1046.795,
+      "duration": 2.335,
+      "audio": "./audio/336.mp3"
+    },
+    {
+      "id": 337,
+      "time": "17:26",
+      "text": "--It's a new kind of carrot, right?",
+      "start": 1046.879,
+      "end": 1049.548,
+      "duration": 2.669,
+      "audio": "./audio/337.mp3"
+    },
+    {
+      "id": 338,
+      "time": "17:29",
+      "text": "It tasted weird, but it was good.",
+      "start": 1049.631,
+      "end": 1051.759,
+      "duration": 2.128,
+      "audio": "./audio/338.mp3"
+    },
+    {
+      "id": 339,
+      "time": "17:31",
+      "text": "Okay, don't look, but there's a couple on my right",
+      "start": 1051.842,
+      "end": 1055.721,
+      "duration": 3.879,
+      "audio": "./audio/339.mp3"
+    },
+    {
+      "id": 340,
+      "time": "17:35",
+      "text": "that's on possibly the worst first date ever.",
+      "start": 1055.804,
+      "end": 1059.266,
+      "duration": 3.462,
+      "audio": "./audio/340.mp3"
+    },
+    {
+      "id": 341,
+      "time": "17:39",
+      "text": "-I said don't look! -These two?",
+      "start": 1059.349,
+      "end": 1061.143,
+      "duration": 1.794,
+      "audio": "./audio/341.mp3"
+    },
+    {
+      "id": 342,
+      "time": "17:41",
+      "text": "She just asked him if he wanted children.",
+      "start": 1061.81,
+      "end": 1064.646,
+      "duration": 2.836,
+      "audio": "./audio/342.mp3"
+    },
+    {
+      "id": 343,
+      "time": "17:44",
+      "text": "-They haven't even ordered appetizers. -God. There's no coming back from that.",
+      "start": 1064.73,
+      "end": 1068.442,
+      "duration": 3.712,
+      "audio": "./audio/343.mp3"
+    },
+    {
+      "id": 344,
+      "time": "17:48",
+      "text": "-We should tell them what they're in for. -No.",
+      "start": 1068.525,
+      "end": 1070.778,
+      "duration": 2.253,
+      "audio": "./audio/344.mp3"
+    },
+    {
+      "id": 345,
+      "time": "17:53",
+      "text": "You know, there is a small chance that you're right.",
+      "start": 1073.072,
+      "end": 1077.159,
+      "duration": 4.087,
+      "audio": "./audio/345.mp3"
+    },
+    {
+      "id": 346,
+      "time": "17:57",
+      "text": "Yeah?",
+      "start": 1077.242,
+      "end": 1078.202,
+      "duration": 0.96,
+      "audio": "./audio/346.mp3"
+    },
+    {
+      "id": 347,
+      "time": "17:58",
+      "text": "-A night out was a good idea. -Just a small chance?",
+      "start": 1078.285,
+      "end": 1080.579,
+      "duration": 2.294,
+      "audio": "./audio/347.mp3"
+    },
+    {
+      "id": 348,
+      "time": "18:00",
+      "text": "Yeah.",
+      "start": 1080.662,
+      "end": 1081.747,
+      "duration": 1.085,
+      "audio": "./audio/348.mp3"
+    },
+    {
+      "id": 349,
+      "time": "18:02",
+      "text": "I'm even wearing...",
+      "start": 1082.498,
+      "end": 1083.749,
+      "duration": 1.251,
+      "audio": "./audio/349.mp3"
+    },
+    {
+      "id": 350,
+      "time": "18:04",
+      "text": "-a thong. -You are?",
+      "start": 1084.416,
+      "end": 1086.585,
+      "duration": 2.169,
+      "audio": "./audio/350.mp3"
+    },
+    {
+      "id": 351,
+      "time": "18:06",
+      "text": "Me, too.",
+      "start": 1086.668,
+      "end": 1087.503,
+      "duration": 0.835,
+      "audio": "./audio/351.mp3"
+    },
+    {
+      "id": 352,
+      "time": "18:09",
+      "text": "-How's yours? Mine's really uncomfortable. -I feel good. Holds everything in place.",
+      "start": 1089.046,
+      "end": 1093.467,
+      "duration": 4.421,
+      "audio": "./audio/352.mp3"
+    },
+    {
+      "id": 353,
+      "time": "18:16",
+      "text": "See, this is nice.",
+      "start": 1096.053,
+      "end": 1096.929,
+      "duration": 0.876,
+      "audio": "./audio/353.mp3"
+    },
+    {
+      "id": 354,
+      "time": "18:17",
+      "text": "Mm.",
+      "start": 1097.012,
+      "end": 1098.097,
+      "duration": 1.085,
+      "audio": "./audio/354.mp3"
+    },
+    {
+      "id": 355,
+      "time": "18:18",
+      "text": "-We needed this. -Mm-hmm.",
+      "start": 1098.597,
+      "end": 1100.182,
+      "duration": 1.585,
+      "audio": "./audio/355.mp3"
+    },
+    {
+      "id": 356,
+      "time": "18:22",
+      "text": "We did.",
+      "start": 1102.559,
+      "end": 1103.602,
+      "duration": 1.043,
+      "audio": "./audio/356.mp3"
+    },
+    {
+      "id": 357,
+      "time": "18:25",
+      "text": "It's just hard for me to relax sometimes.",
+      "start": 1105.479,
+      "end": 1108.273,
+      "duration": 2.794,
+      "audio": "./audio/357.mp3"
+    },
+    {
+      "id": 358,
+      "time": "18:29",
+      "text": "-I get so worried about the kids and... -I know. But everything's good.",
+      "start": 1109.274,
+      "end": 1112.736,
+      "duration": 3.462,
+      "audio": "./audio/358.mp3"
+    },
+    {
+      "id": 359,
+      "time": "18:32",
+      "text": "The kids are great. Everything's fine.",
+      "start": 1112.82,
+      "end": 1114.655,
+      "duration": 1.835,
+      "audio": "./audio/359.mp3"
+    },
+    {
+      "id": 360,
+      "time": "18:35",
+      "text": "-The kids are great? -Oh, come on. Here we go.",
+      "start": 1115.989,
+      "end": 1118.7,
+      "duration": 2.711,
+      "audio": "./audio/360.mp3"
+    },
+    {
+      "id": 361,
+      "time": "18:39",
+      "text": "No, I just want to hear why you think the kids are so great.",
+      "start": 1119.66,
+      "end": 1122.83,
+      "duration": 3.17,
+      "audio": "./audio/361.mp3"
+    },
+    {
+      "id": 362,
+      "time": "18:42",
+      "text": "-Why are you getting upset? -I'm not.",
+      "start": 1122.913,
+      "end": 1124.79,
+      "duration": 1.877,
+      "audio": "./audio/362.mp3"
+    },
+    {
+      "id": 363,
+      "time": "18:44",
+      "text": "You're implying that I worry over nothing.",
+      "start": 1124.873,
+      "end": 1126.834,
+      "duration": 1.961,
+      "audio": "./audio/363.mp3"
+    },
+    {
+      "id": 364,
+      "time": "18:46",
+      "text": "Well... I mean, sometimes, you do.",
+      "start": 1126.917,
+      "end": 1129.378,
+      "duration": 2.461,
+      "audio": "./audio/364.mp3"
+    },
+    {
+      "id": 365,
+      "time": "18:50",
+      "text": "I mean, who cares? Sam wants to date. That's good. That's a good thing.",
+      "start": 1130.671,
+      "end": 1133.841,
+      "duration": 3.17,
+      "audio": "./audio/365.mp3"
+    },
+    {
+      "id": 366,
+      "time": "18:53",
+      "text": "He's 18. It'd be weird if he didn't want to date.",
+      "start": 1133.966,
+      "end": 1135.884,
+      "duration": 1.918,
+      "audio": "./audio/366.mp3"
+    },
+    {
+      "id": 367,
+      "time": "18:55",
+      "text": "Because, Doug, it's not just dating.",
+      "start": 1135.968,
+      "end": 1139.012,
+      "duration": 3.044,
+      "audio": "./audio/367.mp3"
+    },
+    {
+      "id": 368,
+      "time": "18:59",
+      "text": "First it's dating, and then he's graduating,",
+      "start": 1139.096,
+      "end": 1141.306,
+      "duration": 2.21,
+      "audio": "./audio/368.mp3"
+    },
+    {
+      "id": 369,
+      "time": "19:01",
+      "text": "and then he's moving out into the world.",
+      "start": 1141.39,
+      "end": 1143.433,
+      "duration": 2.043,
+      "audio": "./audio/369.mp3"
+    },
+    {
+      "id": 370,
+      "time": "19:03",
+      "text": "We can't protect him, and that's terrifying.",
+      "start": 1143.517,
+      "end": 1145.561,
+      "duration": 2.044,
+      "audio": "./audio/370.mp3"
+    },
+    {
+      "id": 371,
+      "time": "19:05",
+      "text": "That's what we want for him.",
+      "start": 1145.644,
+      "end": 1147.02,
+      "duration": 1.376,
+      "audio": "./audio/371.mp3"
+    },
+    {
+      "id": 372,
+      "time": "19:07",
+      "text": "There's a lot we want",
+      "start": 1147.104,
+      "end": 1148.313,
+      "duration": 1.209,
+      "audio": "./audio/372.mp3"
+    },
+    {
+      "id": 373,
+      "time": "19:08",
+      "text": "-that aren't possible for him. -How do you know?",
+      "start": 1148.397,
+      "end": 1150.524,
+      "duration": 2.127,
+      "audio": "./audio/373.mp3"
+    },
+    {
+      "id": 374,
+      "time": "19:10",
+      "text": "I'm the one that's been with him for these last 18 years.",
+      "start": 1150.607,
+      "end": 1153.152,
+      "duration": 2.545,
+      "audio": "./audio/374.mp3"
+    },
+    {
+      "id": 375,
+      "time": "19:13",
+      "text": "You've never been close to him. You don't even try.",
+      "start": 1153.235,
+      "end": 1155.946,
+      "duration": 2.711,
+      "audio": "./audio/375.mp3"
+    },
+    {
+      "id": 376,
+      "time": "19:16",
+      "text": "I mean, honestly, there is times I think you don't even like him.",
+      "start": 1156.029,
+      "end": 1159.283,
+      "duration": 3.254,
+      "audio": "./audio/376.mp3"
+    },
+    {
+      "id": 377,
+      "time": "19:21",
+      "text": "That's what you think?",
+      "start": 1161.785,
+      "end": 1162.911,
+      "duration": 1.126,
+      "audio": "./audio/377.mp3"
+    },
+    {
+      "id": 378,
+      "time": "19:24",
+      "text": "I love our son.",
+      "start": 1164.496,
+      "end": 1165.956,
+      "duration": 1.46,
+      "audio": "./audio/378.mp3"
+    },
+    {
+      "id": 379,
+      "time": "19:27",
+      "text": "I always have. Has it been hard to connect with him? Yeah, it has been.",
+      "start": 1167.207,
+      "end": 1171.461,
+      "duration": 4.254,
+      "audio": "./audio/379.mp3"
+    },
+    {
+      "id": 380,
+      "time": "19:32",
+      "text": "I thought he'd be more like me or like you.",
+      "start": 1172.004,
+      "end": 1174.548,
+      "duration": 2.544,
+      "audio": "./audio/380.mp3"
+    },
+    {
+      "id": 381,
+      "time": "19:34",
+      "text": "He's not like either one of us or anyone else I've ever met.",
+      "start": 1174.631,
+      "end": 1177.885,
+      "duration": 3.254,
+      "audio": "./audio/381.mp3"
+    },
+    {
+      "id": 382,
+      "time": "19:38",
+      "text": "-I know. -Yeah.",
+      "start": 1178.802,
+      "end": 1179.678,
+      "duration": 0.876,
+      "audio": "./audio/382.mp3"
+    },
+    {
+      "id": 383,
+      "time": "19:39",
+      "text": "You remember his ninth birthday?",
+      "start": 1179.761,
+      "end": 1182.097,
+      "duration": 2.336,
+      "audio": "./audio/383.mp3"
+    },
+    {
+      "id": 384,
+      "time": "19:42",
+      "text": "He wanted an igloo.",
+      "start": 1182.181,
+      "end": 1183.14,
+      "duration": 0.959,
+      "audio": "./audio/384.mp3"
+    },
+    {
+      "id": 385,
+      "time": "19:43",
+      "text": "-And what did I do? -You built it.",
+      "start": 1183.223,
+      "end": 1185.267,
+      "duration": 2.044,
+      "audio": "./audio/385.mp3"
+    },
+    {
+      "id": 386,
+      "time": "19:45",
+      "text": "Yeah, I spent 19 hours hauling and stacking",
+      "start": 1185.35,
+      "end": 1188.103,
+      "duration": 2.753,
+      "audio": "./audio/386.mp3"
+    },
+    {
+      "id": 387,
+      "time": "19:48",
+      "text": "fricking ice blocks into the backyard",
+      "start": 1188.187,
+      "end": 1190.23,
+      "duration": 2.043,
+      "audio": "./audio/387.mp3"
+    },
+    {
+      "id": 388,
+      "time": "19:50",
+      "text": "just so my son would notice I was there.",
+      "start": 1190.314,
+      "end": 1192.482,
+      "duration": 2.168,
+      "audio": "./audio/388.mp3"
+    },
+    {
+      "id": 389,
+      "time": "19:53",
+      "text": "So he would like me.",
+      "start": 1193.192,
+      "end": 1194.109,
+      "duration": 0.917,
+      "audio": "./audio/389.mp3"
+    },
+    {
+      "id": 390,
+      "time": "19:54",
+      "text": "And he wouldn't even go inside because...",
+      "start": 1194.193,
+      "end": 1196.195,
+      "duration": 2.002,
+      "audio": "./audio/390.mp3"
+    },
+    {
+      "id": 391,
+      "time": "19:56",
+      "text": "the ice blocks weren't lined up precisely.",
+      "start": 1196.278,
+      "end": 1198.488,
+      "duration": 2.21,
+      "audio": "./audio/391.mp3"
+    },
+    {
+      "id": 392,
+      "time": "19:58",
+      "text": "-Okay. -You're not the only one in the family",
+      "start": 1198.572,
+      "end": 1200.908,
+      "duration": 2.336,
+      "audio": "./audio/392.mp3"
+    },
+    {
+      "id": 393,
+      "time": "20:00",
+      "text": "who has an autistic kid, Elsa.",
+      "start": 1200.991,
+      "end": 1202.492,
+      "duration": 1.501,
+      "audio": "./audio/393.mp3"
+    },
+    {
+      "id": 394,
+      "time": "20:04",
+      "text": "Can I get you anything else?",
+      "start": 1204.494,
+      "end": 1205.996,
+      "duration": 1.502,
+      "audio": "./audio/394.mp3"
+    },
+    {
+      "id": 395,
+      "time": "20:06",
+      "text": "-No. Thank you. -No, thank you.",
+      "start": 1206.079,
+      "end": 1208.54,
+      "duration": 2.461,
+      "audio": "./audio/395.mp3"
+    },
+    {
+      "id": 396,
+      "time": "20:13",
+      "text": "Not it.",
+      "start": 1213.086,
+      "end": 1214.296,
+      "duration": 1.21,
+      "audio": "./audio/396.mp3"
+    },
+    {
+      "id": 397,
+      "time": "20:20",
+      "text": "Hey!",
+      "start": 1220.177,
+      "end": 1221.22,
+      "duration": 1.043,
+      "audio": "./audio/397.mp3"
+    },
+    {
+      "id": 398,
+      "time": "20:25",
+      "text": "Hi.",
+      "start": 1225.057,
+      "end": 1225.891,
+      "duration": 0.834,
+      "audio": "./audio/398.mp3"
+    },
+    {
+      "id": 399,
+      "time": "20:27",
+      "text": "I just came to get Beth's cake pan back.",
+      "start": 1227.184,
+      "end": 1230.27,
+      "duration": 3.086,
+      "audio": "./audio/399.mp3"
+    },
+    {
+      "id": 400,
+      "time": "20:30",
+      "text": "Okay.",
+      "start": 1230.354,
+      "end": 1231.772,
+      "duration": 1.418,
+      "audio": "./audio/400.mp3"
+    },
+    {
+      "id": 401,
+      "time": "20:32",
+      "text": "I could've brought it to school.",
+      "start": 1232.356,
+      "end": 1233.941,
+      "duration": 1.585,
+      "audio": "./audio/401.mp3"
+    },
+    {
+      "id": 402,
+      "time": "20:34",
+      "text": "Weird.",
+      "start": 1234.608,
+      "end": 1235.442,
+      "duration": 0.834,
+      "audio": "./audio/402.mp3"
+    },
+    {
+      "id": 403,
+      "time": "20:35",
+      "text": "Should I come in or, um...",
+      "start": 1235.525,
+      "end": 1237.152,
+      "duration": 1.627,
+      "audio": "./audio/403.mp3"
+    },
+    {
+      "id": 404,
+      "time": "20:37",
+      "text": "I'll just hang here.",
+      "start": 1237.236,
+      "end": 1238.654,
+      "duration": 1.418,
+      "audio": "./audio/404.mp3"
+    },
+    {
+      "id": 405,
+      "time": "20:40",
+      "text": "Here you go.",
+      "start": 1240.822,
+      "end": 1241.99,
+      "duration": 1.168,
+      "audio": "./audio/405.mp3"
+    },
+    {
+      "id": 406,
+      "time": "20:42",
+      "text": "It's been washed twice... once by me and once by my mom.",
+      "start": 1242.532,
+      "end": 1245.41,
+      "duration": 2.878,
+      "audio": "./audio/406.mp3"
+    },
+    {
+      "id": 407,
+      "time": "20:45",
+      "text": "-'Cause that's my mom. -Thanks.",
+      "start": 1245.494,
+      "end": 1247.371,
+      "duration": 1.877,
+      "audio": "./audio/407.mp3"
+    },
+    {
+      "id": 408,
+      "time": "20:48",
+      "text": "That was nice of you to punch that girl in the face for my sister.",
+      "start": 1248.163,
+      "end": 1251.166,
+      "duration": 3.003,
+      "audio": "./audio/408.mp3"
+    },
+    {
+      "id": 409,
+      "time": "20:51",
+      "text": "Oh, yeah, you're welcome.",
+      "start": 1251.25,
+      "end": 1253.126,
+      "duration": 1.876,
+      "audio": "./audio/409.mp3"
+    },
+    {
+      "id": 410,
+      "time": "20:53",
+      "text": "Hey, do you want to go out sometime?",
+      "start": 1253.835,
+      "end": 1256.421,
+      "duration": 2.586,
+      "audio": "./audio/410.mp3"
+    },
+    {
+      "id": 411,
+      "time": "20:58",
+      "text": "Go out?",
+      "start": 1258.84,
+      "end": 1260.133,
+      "duration": 1.293,
+      "audio": "./audio/411.mp3"
+    },
+    {
+      "id": 412,
+      "time": "21:00",
+      "text": "-With you? -Yeah. That's what I was thinking.",
+      "start": 1260.884,
+      "end": 1263.72,
+      "duration": 2.836,
+      "audio": "./audio/412.mp3"
+    },
+    {
+      "id": 413,
+      "time": "21:03",
+      "text": "I'm sorry. I don't really date.",
+      "start": 1263.804,
+      "end": 1266.139,
+      "duration": 2.335,
+      "audio": "./audio/413.mp3"
+    },
+    {
+      "id": 414,
+      "time": "21:06",
+      "text": "It's just not a distraction I need.",
+      "start": 1266.223,
+      "end": 1268.141,
+      "duration": 1.918,
+      "audio": "./audio/414.mp3"
+    },
+    {
+      "id": 415,
+      "time": "21:08",
+      "text": "I'm gonna get a track scholarship and get out of this town.",
+      "start": 1268.225,
+      "end": 1270.894,
+      "duration": 2.669,
+      "audio": "./audio/415.mp3"
+    },
+    {
+      "id": 416,
+      "time": "21:10",
+      "text": "Oh. Well, fair enough.",
+      "start": 1270.978,
+      "end": 1272.771,
+      "duration": 1.793,
+      "audio": "./audio/416.mp3"
+    },
+    {
+      "id": 417,
+      "time": "21:13",
+      "text": "I'm probably gonna change your mind about that dating thing, though.",
+      "start": 1273.48,
+      "end": 1276.984,
+      "duration": 3.504,
+      "audio": "./audio/417.mp3"
+    },
+    {
+      "id": 418,
+      "time": "21:17",
+      "text": "You know, I kind of grow on people.",
+      "start": 1277.067,
+      "end": 1278.735,
+      "duration": 1.668,
+      "audio": "./audio/418.mp3"
+    },
+    {
+      "id": 419,
+      "time": "21:18",
+      "text": "Stop the presses! A girl wants to go out with me.",
+      "start": 1278.819,
+      "end": 1281.238,
+      "duration": 2.419,
+      "audio": "./audio/419.mp3"
+    },
+    {
+      "id": 420,
+      "time": "21:21",
+      "text": "Oh. Hello.",
+      "start": 1281.863,
+      "end": 1283.198,
+      "duration": 1.335,
+      "audio": "./audio/420.mp3"
+    },
+    {
+      "id": 421,
+      "time": "21:24",
+      "text": "I got to go.",
+      "start": 1284.95,
+      "end": 1286.159,
+      "duration": 1.209,
+      "audio": "./audio/421.mp3"
+    },
+    {
+      "id": 422,
+      "time": "21:32",
+      "text": "Her name's Bree, B-r-e-e.",
+      "start": 1292.749,
+      "end": 1295.502,
+      "duration": 2.753,
+      "audio": "./audio/422.mp3"
+    },
+    {
+      "id": 423,
+      "time": "21:35",
+      "text": "And she likes something called vegan taquitos,",
+      "start": 1295.585,
+      "end": 1297.838,
+      "duration": 2.253,
+      "audio": "./audio/423.mp3"
+    },
+    {
+      "id": 424,
+      "time": "21:37",
+      "text": "and she has a cat named Simba. I don't love cats.",
+      "start": 1297.921,
+      "end": 1300.299,
+      "duration": 2.378,
+      "audio": "./audio/424.mp3"
+    },
+    {
+      "id": 425,
+      "time": "21:40",
+      "text": "-Do you think she'd get rid of it? -Do not ask her that.",
+      "start": 1300.382,
+      "end": 1303.218,
+      "duration": 2.836,
+      "audio": "./audio/425.mp3"
+    },
+    {
+      "id": 426,
+      "time": "21:44",
+      "text": "-Where are you gonna go? -I thought about it.",
+      "start": 1304.344,
+      "end": 1306.388,
+      "duration": 2.044,
+      "audio": "./audio/426.mp3"
+    },
+    {
+      "id": 427,
+      "time": "21:46",
+      "text": "-I'll take her to Techtropolis. -Take a date to an appliance store?",
+      "start": 1306.471,
+      "end": 1309.933,
+      "duration": 3.462,
+      "audio": "./audio/427.mp3"
+    },
+    {
+      "id": 428,
+      "time": "21:50",
+      "text": "-I have to go where I'm comfortable. -Oh, my God.",
+      "start": 1310.017,
+      "end": 1312.394,
+      "duration": 2.377,
+      "audio": "./audio/428.mp3"
+    },
+    {
+      "id": 429,
+      "time": "21:52",
+      "text": "It'll be fun. We can sample different TVs and see which one has the best clarity.",
+      "start": 1312.477,
+      "end": 1316.189,
+      "duration": 3.712,
+      "audio": "./audio/429.mp3"
+    },
+    {
+      "id": 430,
+      "time": "21:56",
+      "text": "I know, but we'll see if she gets it right.",
+      "start": 1316.273,
+      "end": 1318.15,
+      "duration": 1.877,
+      "audio": "./audio/430.mp3"
+    },
+    {
+      "id": 431,
+      "time": "21:58",
+      "text": "--She wants to go for coffee.",
+      "start": 1318.233,
+      "end": 1319.943,
+      "duration": 1.71,
+      "audio": "./audio/431.mp3"
+    },
+    {
+      "id": 432,
+      "time": "22:01",
+      "text": "-Coffee? -Mm-hmm.",
+      "start": 1321.028,
+      "end": 1322.863,
+      "duration": 1.835,
+      "audio": "./audio/432.mp3"
+    },
+    {
+      "id": 433,
+      "time": "22:03",
+      "text": "Who goes out for coffee?",
+      "start": 1323.697,
+      "end": 1325.615,
+      "duration": 1.918,
+      "audio": "./audio/433.mp3"
+    },
+    {
+      "id": 434,
+      "time": "22:05",
+      "text": "Hey. Relax. This is gonna be okay.",
+      "start": 1325.699,
+      "end": 1328.994,
+      "duration": 3.295,
+      "audio": "./audio/434.mp3"
+    },
+    {
+      "id": 435,
+      "time": "22:09",
+      "text": "No, it's not.",
+      "start": 1329.828,
+      "end": 1331.33,
+      "duration": 1.502,
+      "audio": "./audio/435.mp3"
+    },
+    {
+      "id": 436,
+      "time": "22:12",
+      "text": "Yeah, no, it's not.",
+      "start": 1332.748,
+      "end": 1334.207,
+      "duration": 1.459,
+      "audio": "./audio/436.mp3"
+    },
+    {
+      "id": 437,
+      "time": "22:15",
+      "text": "Being in a loud, unfamiliar place can be hard for me.",
+      "start": 1335.417,
+      "end": 1338.712,
+      "duration": 3.295,
+      "audio": "./audio/437.mp3"
+    },
+    {
+      "id": 438,
+      "time": "22:18",
+      "text": "I can't think. I can't listen. I just freeze.",
+      "start": 1338.795,
+      "end": 1341.798,
+      "duration": 3.003,
+      "audio": "./audio/438.mp3"
+    },
+    {
+      "id": 439,
+      "time": "22:22",
+      "text": "But... don't worry.",
+      "start": 1342.382,
+      "end": 1344.301,
+      "duration": 1.919,
+      "audio": "./audio/439.mp3"
+    },
+    {
+      "id": 440,
+      "time": "22:24",
+      "text": "I have a strategy.",
+      "start": 1344.384,
+      "end": 1345.343,
+      "duration": 0.959,
+      "audio": "./audio/440.mp3"
+    },
+    {
+      "id": 441,
+      "time": "22:26",
+      "text": "Floor here's kind of sticky.",
+      "start": 1346.595,
+      "end": 1347.971,
+      "duration": 1.376,
+      "audio": "./audio/441.mp3"
+    },
+    {
+      "id": 442,
+      "time": "22:30",
+      "text": "Did you know that some frogs have pads on their feet",
+      "start": 1350.057,
+      "end": 1352.809,
+      "duration": 2.752,
+      "audio": "./audio/442.mp3"
+    },
+    {
+      "id": 443,
+      "time": "22:32",
+      "text": "that secrete a thin layer of mucus so to help them climb things?",
+      "start": 1352.893,
+      "end": 1356.188,
+      "duration": 3.295,
+      "audio": "./audio/443.mp3"
+    },
+    {
+      "id": 444,
+      "time": "22:37",
+      "text": "What's with the headphones?",
+      "start": 1357.439,
+      "end": 1358.982,
+      "duration": 1.543,
+      "audio": "./audio/444.mp3"
+    },
+    {
+      "id": 445,
+      "time": "22:39",
+      "text": "Oh. I just turned on the noise-cancellation feature.",
+      "start": 1359.775,
+      "end": 1362.986,
+      "duration": 3.211,
+      "audio": "./audio/445.mp3"
+    },
+    {
+      "id": 446,
+      "time": "22:43",
+      "text": "Need a little protection from the racket.",
+      "start": 1363.07,
+      "end": 1365.405,
+      "duration": 2.335,
+      "audio": "./audio/446.mp3"
+    },
+    {
+      "id": 447,
+      "time": "22:46",
+      "text": "--",
+      "start": 1366.406,
+      "end": 1368.658,
+      "duration": 2.252,
+      "audio": "./audio/447.mp3"
+    },
+    {
+      "id": 448,
+      "time": "22:52",
+      "text": "Baby, those are some serious bug eyes you got.",
+      "start": 1372.329,
+      "end": 1375.082,
+      "duration": 2.753,
+      "audio": "./audio/448.mp3"
+    },
+    {
+      "id": 449,
+      "time": "22:55",
+      "text": "What?",
+      "start": 1375.665,
+      "end": 1376.5,
+      "duration": 0.835,
+      "audio": "./audio/449.mp3"
+    },
+    {
+      "id": 450,
+      "time": "23:00",
+      "text": "Mamacita...",
+      "start": 1380.462,
+      "end": 1382.047,
+      "duration": 1.585,
+      "audio": "./audio/450.mp3"
+    },
+    {
+      "id": 451,
+      "time": "23:02",
+      "text": "your ass is on the phone?",
+      "start": 1382.589,
+      "end": 1383.59,
+      "duration": 1.001,
+      "audio": "./audio/451.mp3"
+    },
+    {
+      "id": 452,
+      "time": "23:06",
+      "text": "I don't like cats. Would you be willing to get rid of Simba?",
+      "start": 1386.635,
+      "end": 1389.221,
+      "duration": 2.586,
+      "audio": "./audio/452.mp3"
+    },
+    {
+      "id": 453,
+      "time": "23:13",
+      "text": "Yo, I'm clocking out.",
+      "start": 1393.975,
+      "end": 1395.602,
+      "duration": 1.627,
+      "audio": "./audio/453.mp3"
+    },
+    {
+      "id": 454,
+      "time": "23:15",
+      "text": "-Can you see my nipples through here? -Yes.",
+      "start": 1395.685,
+      "end": 1398.063,
+      "duration": 2.378,
+      "audio": "./audio/454.mp3"
+    },
+    {
+      "id": 455,
+      "time": "23:18",
+      "text": "Good. I was standing in front of the air conditioner.",
+      "start": 1398.146,
+      "end": 1400.774,
+      "duration": 2.628,
+      "audio": "./audio/455.mp3"
+    },
+    {
+      "id": 456,
+      "time": "23:20",
+      "text": "So, how's it going with the ladies?",
+      "start": 1400.857,
+      "end": 1402.526,
+      "duration": 1.669,
+      "audio": "./audio/456.mp3"
+    },
+    {
+      "id": 457,
+      "time": "23:23",
+      "text": "I'm not dating anymore. It's too difficult.",
+      "start": 1403.401,
+      "end": 1405.862,
+      "duration": 2.461,
+      "audio": "./audio/457.mp3"
+    },
+    {
+      "id": 458,
+      "time": "23:25",
+      "text": "You have to guess what people are thinking, and not just people, girls.",
+      "start": 1405.946,
+      "end": 1409.95,
+      "duration": 4.004,
+      "audio": "./audio/458.mp3"
+    },
+    {
+      "id": 459,
+      "time": "23:30",
+      "text": "-They think I'm weird. -You are weird. So what?",
+      "start": 1410.033,
+      "end": 1412.16,
+      "duration": 2.127,
+      "audio": "./audio/459.mp3"
+    },
+    {
+      "id": 460,
+      "time": "23:32",
+      "text": "The French eat snails. That's weird, but you know they're getting laid.",
+      "start": 1412.244,
+      "end": 1415.455,
+      "duration": 3.211,
+      "audio": "./audio/460.mp3"
+    },
+    {
+      "id": 461,
+      "time": "23:35",
+      "text": "Hey, look. Red's back.",
+      "start": 1415.539,
+      "end": 1417.04,
+      "duration": 1.501,
+      "audio": "./audio/461.mp3"
+    },
+    {
+      "id": 462,
+      "time": "23:38",
+      "text": "Ask her out.",
+      "start": 1418.166,
+      "end": 1419.417,
+      "duration": 1.251,
+      "audio": "./audio/462.mp3"
+    },
+    {
+      "id": 463,
+      "time": "23:39",
+      "text": "Go, go, go!",
+      "start": 1419.501,
+      "end": 1420.877,
+      "duration": 1.376,
+      "audio": "./audio/463.mp3"
+    },
+    {
+      "id": 464,
+      "time": "23:40",
+      "text": "Go!",
+      "start": 1420.961,
+      "end": 1421.962,
+      "duration": 1.001,
+      "audio": "./audio/464.mp3"
+    },
+    {
+      "id": 465,
+      "time": "23:42",
+      "text": "Go.",
+      "start": 1422.421,
+      "end": 1423.547,
+      "duration": 1.126,
+      "audio": "./audio/465.mp3"
+    },
+    {
+      "id": 466,
+      "time": "23:54",
+      "text": "Laser or inkjet?",
+      "start": 1434.933,
+      "end": 1436.643,
+      "duration": 1.71,
+      "audio": "./audio/466.mp3"
+    },
+    {
+      "id": 467,
+      "time": "23:56",
+      "text": "Oh, uh...",
+      "start": 1436.726,
+      "end": 1438.228,
+      "duration": 1.502,
+      "audio": "./audio/467.mp3"
+    },
+    {
+      "id": 468,
+      "time": "23:58",
+      "text": "I don't know. I didn't really do any research.",
+      "start": 1438.311,
+      "end": 1441.189,
+      "duration": 2.878,
+      "audio": "./audio/468.mp3"
+    },
+    {
+      "id": 469,
+      "time": "24:01",
+      "text": "Well, lucky for you, I love research,",
+      "start": 1441.273,
+      "end": 1444.234,
+      "duration": 2.961,
+      "audio": "./audio/469.mp3"
+    },
+    {
+      "id": 470,
+      "time": "24:04",
+      "text": "and I know all about these printers.",
+      "start": 1444.317,
+      "end": 1445.944,
+      "duration": 1.627,
+      "audio": "./audio/470.mp3"
+    },
+    {
+      "id": 471,
+      "time": "24:06",
+      "text": "You should get this one.",
+      "start": 1446.027,
+      "end": 1447.237,
+      "duration": 1.21,
+      "audio": "./audio/471.mp3"
+    },
+    {
+      "id": 472,
+      "time": "24:07",
+      "text": "The other ones are garbage and should be set on fire.",
+      "start": 1447.32,
+      "end": 1449.781,
+      "duration": 2.461,
+      "audio": "./audio/472.mp3"
+    },
+    {
+      "id": 473,
+      "time": "24:09",
+      "text": "Wow. Thanks.",
+      "start": 1449.865,
+      "end": 1451.867,
+      "duration": 2.002,
+      "audio": "./audio/473.mp3"
+    },
+    {
+      "id": 474,
+      "time": "24:11",
+      "text": "That's actually really helpful.",
+      "start": 1451.95,
+      "end": 1453.702,
+      "duration": 1.752,
+      "audio": "./audio/474.mp3"
+    },
+    {
+      "id": 475,
+      "time": "24:32",
+      "text": "Would you like to go on a date with me?",
+      "start": 1472.429,
+      "end": 1474.472,
+      "duration": 2.043,
+      "audio": "./audio/475.mp3"
+    },
+    {
+      "id": 476,
+      "time": "24:34",
+      "text": "That's the reason I came over here, not to help you with printers.",
+      "start": 1474.556,
+      "end": 1477.726,
+      "duration": 3.17,
+      "audio": "./audio/476.mp3"
+    },
+    {
+      "id": 477,
+      "time": "24:42",
+      "text": "Okay.",
+      "start": 1482.564,
+      "end": 1483.398,
+      "duration": 0.834,
+      "audio": "./audio/477.mp3"
+    },
+    {
+      "id": 478,
+      "time": "24:44",
+      "text": "â™ª Ow! â™ª",
+      "start": 1484.941,
+      "end": 1486.151,
+      "duration": 1.21,
+      "audio": "./audio/478.mp3"
+    },
+    {
+      "id": 479,
+      "time": "24:46",
+      "text": "â™ª Gold rush â™ª",
+      "start": 1486.234,
+      "end": 1487.652,
+      "duration": 1.418,
+      "audio": "./audio/479.mp3"
+    },
+    {
+      "id": 480,
+      "time": "24:49",
+      "text": "â™ª Hey, I got... uh! â™ª",
+      "start": 1489.237,
+      "end": 1492.032,
+      "duration": 2.795,
+      "audio": "./audio/480.mp3"
+    },
+    {
+      "id": 481,
+      "time": "24:53",
+      "text": "â™ª I got to dig for it â™ª",
+      "start": 1493.992,
+      "end": 1495.243,
+      "duration": 1.251,
+      "audio": "./audio/481.mp3"
+    },
+    {
+      "id": 482,
+      "time": "24:55",
+      "text": "He got a date!",
+      "start": 1495.327,
+      "end": 1496.369,
+      "duration": 1.042,
+      "audio": "./audio/482.mp3"
+    },
+    {
+      "id": 483,
+      "time": "24:56",
+      "text": "â™ª Hey, hey, hey â™ª",
+      "start": 1496.453,
+      "end": 1497.787,
+      "duration": 1.334,
+      "audio": "./audio/483.mp3"
+    },
+    {
+      "id": 484,
+      "time": "24:58",
+      "text": "Hey, hon.",
+      "start": 1498.872,
+      "end": 1499.706,
+      "duration": 0.834,
+      "audio": "./audio/484.mp3"
+    },
+    {
+      "id": 485,
+      "time": "24:59",
+      "text": "-You going to hockey? -Yeah.",
+      "start": 1499.789,
+      "end": 1501.541,
+      "duration": 1.752,
+      "audio": "./audio/485.mp3"
+    },
+    {
+      "id": 486,
+      "time": "25:01",
+      "text": "I shouldn't be home late.",
+      "start": 1501.625,
+      "end": 1503.126,
+      "duration": 1.501,
+      "audio": "./audio/486.mp3"
+    },
+    {
+      "id": 487,
+      "time": "25:04",
+      "text": "Honey.",
+      "start": 1504.252,
+      "end": 1505.462,
+      "duration": 1.21,
+      "audio": "./audio/487.mp3"
+    },
+    {
+      "id": 488,
+      "time": "25:06",
+      "text": "I'm sorry about dinner the other night.",
+      "start": 1506.254,
+      "end": 1508.965,
+      "duration": 2.711,
+      "audio": "./audio/488.mp3"
+    },
+    {
+      "id": 489,
+      "time": "25:09",
+      "text": "I'm just stressed, and... it was a really nice idea.",
+      "start": 1509.049,
+      "end": 1512.093,
+      "duration": 3.044,
+      "audio": "./audio/489.mp3"
+    },
+    {
+      "id": 490,
+      "time": "25:12",
+      "text": "It's all right. Oh, listen, I...",
+      "start": 1512.177,
+      "end": 1514.471,
+      "duration": 2.294,
+      "audio": "./audio/490.mp3"
+    },
+    {
+      "id": 491,
+      "time": "25:14",
+      "text": "I got you something.",
+      "start": 1514.554,
+      "end": 1515.889,
+      "duration": 1.335,
+      "audio": "./audio/491.mp3"
+    },
+    {
+      "id": 492,
+      "time": "25:16",
+      "text": "You love to dance, right?",
+      "start": 1516.556,
+      "end": 1517.807,
+      "duration": 1.251,
+      "audio": "./audio/492.mp3"
+    },
+    {
+      "id": 493,
+      "time": "25:18",
+      "text": "You should check this out, have some fun, maybe make a friend.",
+      "start": 1518.725,
+      "end": 1522.103,
+      "duration": 3.378,
+      "audio": "./audio/493.mp3"
+    },
+    {
+      "id": 494,
+      "time": "25:22",
+      "text": "You look good.",
+      "start": 1522.187,
+      "end": 1523.396,
+      "duration": 1.209,
+      "audio": "./audio/494.mp3"
+    },
+    {
+      "id": 495,
+      "time": "25:23",
+      "text": "Sheesh!",
+      "start": 1523.48,
+      "end": 1524.689,
+      "duration": 1.209,
+      "audio": "./audio/495.mp3"
+    },
+    {
+      "id": 496,
+      "time": "25:24",
+      "text": "I don't even know if I'll be able to dance anymore.",
+      "start": 1524.773,
+      "end": 1527.317,
+      "duration": 2.544,
+      "audio": "./audio/496.mp3"
+    },
+    {
+      "id": 497,
+      "time": "25:27",
+      "text": "â™ª Mamacita say, \"Oh, oh\" â™ª",
+      "start": 1527.4,
+      "end": 1529.861,
+      "duration": 2.461,
+      "audio": "./audio/497.mp3"
+    },
+    {
+      "id": 498,
+      "time": "25:29",
+      "text": "â™ª Mi amigo say, \"Oh, Oh\" â™ª",
+      "start": 1529.945,
+      "end": 1532.489,
+      "duration": 2.544,
+      "audio": "./audio/498.mp3"
+    },
+    {
+      "id": 499,
+      "time": "25:32",
+      "text": "â™ª Everybody say, \"Oh, oh\" â™ª",
+      "start": 1532.572,
+      "end": 1535.033,
+      "duration": 2.461,
+      "audio": "./audio/499.mp3"
+    },
+    {
+      "id": 500,
+      "time": "25:35",
+      "text": "â™ª We got your drummer there, \"Oh, oh\" â™ª",
+      "start": 1535.116,
+      "end": 1537.244,
+      "duration": 2.128,
+      "audio": "./audio/500.mp3"
+    },
+    {
+      "id": 501,
+      "time": "25:37",
+      "text": "â™ª Mamacita say, \"Oh, oh\" â™ª",
+      "start": 1537.327,
+      "end": 1539.704,
+      "duration": 2.377,
+      "audio": "./audio/501.mp3"
+    },
+    {
+      "id": 502,
+      "time": "25:39",
+      "text": "â™ª Mi amigo say, \"Oh, Oh\" â™ª",
+      "start": 1539.788,
+      "end": 1541.539,
+      "duration": 1.751,
+      "audio": "./audio/502.mp3"
+    },
+    {
+      "id": 503,
+      "time": "25:41",
+      "text": "Thank you so much. That was so much fun!",
+      "start": 1541.623,
+      "end": 1544.834,
+      "duration": 3.211,
+      "audio": "./audio/503.mp3"
+    },
+    {
+      "id": 504,
+      "time": "25:44",
+      "text": "Oh, you're welcome! You're great. You're a dancer, huh?",
+      "start": 1544.918,
+      "end": 1547.671,
+      "duration": 2.753,
+      "audio": "./audio/504.mp3"
+    },
+    {
+      "id": 505,
+      "time": "25:47",
+      "text": "What? Oh, no. I mean, forever ago.",
+      "start": 1547.754,
+      "end": 1549.881,
+      "duration": 2.127,
+      "audio": "./audio/505.mp3"
+    },
+    {
+      "id": 506,
+      "time": "25:49",
+      "text": "I was the captain of the dance squad in college.",
+      "start": 1549.965,
+      "end": 1553.093,
+      "duration": 3.128,
+      "audio": "./audio/506.mp3"
+    },
+    {
+      "id": 507,
+      "time": "25:53",
+      "text": "-Oh. -Yeah.",
+      "start": 1553.176,
+      "end": 1554.469,
+      "duration": 1.293,
+      "audio": "./audio/507.mp3"
+    },
+    {
+      "id": 508,
+      "time": "25:54",
+      "text": "We ranked nationally three times, almost four.",
+      "start": 1554.552,
+      "end": 1556.805,
+      "duration": 2.253,
+      "audio": "./audio/508.mp3"
+    },
+    {
+      "id": 509,
+      "time": "25:56",
+      "text": "We were robbed, but whatever. I'm over it.",
+      "start": 1556.888,
+      "end": 1559.015,
+      "duration": 2.127,
+      "audio": "./audio/509.mp3"
+    },
+    {
+      "id": 510,
+      "time": "25:59",
+      "text": "Hey, a few of us are gonna go grab a drink. You want to come?",
+      "start": 1559.766,
+      "end": 1562.811,
+      "duration": 3.045,
+      "audio": "./audio/510.mp3"
+    },
+    {
+      "id": 511,
+      "time": "26:02",
+      "text": "Um, uh...",
+      "start": 1562.894,
+      "end": 1565.48,
+      "duration": 2.586,
+      "audio": "./audio/511.mp3"
+    },
+    {
+      "id": 512,
+      "time": "26:06",
+      "text": "Sure.",
+      "start": 1566.648,
+      "end": 1567.857,
+      "duration": 1.209,
+      "audio": "./audio/512.mp3"
+    },
+    {
+      "id": 513,
+      "time": "26:09",
+      "text": "This is so much fun.",
+      "start": 1569.693,
+      "end": 1571.278,
+      "duration": 1.585,
+      "audio": "./audio/513.mp3"
+    },
+    {
+      "id": 514,
+      "time": "26:12",
+      "text": "I feel like I'm back in college again.",
+      "start": 1572.904,
+      "end": 1575.198,
+      "duration": 2.294,
+      "audio": "./audio/514.mp3"
+    },
+    {
+      "id": 515,
+      "time": "26:19",
+      "text": "Want another drink?",
+      "start": 1579.16,
+      "end": 1580.203,
+      "duration": 1.043,
+      "audio": "./audio/515.mp3"
+    },
+    {
+      "id": 516,
+      "time": "26:20",
+      "text": "Um... no, thanks.",
+      "start": 1580.912,
+      "end": 1583.29,
+      "duration": 2.378,
+      "audio": "./audio/516.mp3"
+    },
+    {
+      "id": 517,
+      "time": "26:23",
+      "text": "I think I've escaped my real life long enough.",
+      "start": 1583.373,
+      "end": 1586.543,
+      "duration": 3.17,
+      "audio": "./audio/517.mp3"
+    },
+    {
+      "id": 518,
+      "time": "26:27",
+      "text": "I don't know why I said that. I love my life. I love it. Love it.",
+      "start": 1587.877,
+      "end": 1592.215,
+      "duration": 4.338,
+      "audio": "./audio/518.mp3"
+    },
+    {
+      "id": 519,
+      "time": "26:32",
+      "text": "This one's on me.",
+      "start": 1592.299,
+      "end": 1593.633,
+      "duration": 1.334,
+      "audio": "./audio/519.mp3"
+    },
+    {
+      "id": 520,
+      "time": "26:40",
+      "text": "When you told me we were having dinner in the Techtropolis parking lot,",
+      "start": 1600.307,
+      "end": 1604.06,
+      "duration": 3.753,
+      "audio": "./audio/520.mp3"
+    },
+    {
+      "id": 521,
+      "time": "26:44",
+      "text": "I thought you were kidding.",
+      "start": 1604.144,
+      "end": 1605.645,
+      "duration": 1.501,
+      "audio": "./audio/521.mp3"
+    },
+    {
+      "id": 522,
+      "time": "26:46",
+      "text": "No, I don't do that.",
+      "start": 1606.479,
+      "end": 1607.522,
+      "duration": 1.043,
+      "audio": "./audio/522.mp3"
+    },
+    {
+      "id": 523,
+      "time": "26:48",
+      "text": "Oh.",
+      "start": 1608.356,
+      "end": 1609.649,
+      "duration": 1.293,
+      "audio": "./audio/523.mp3"
+    },
+    {
+      "id": 524,
+      "time": "26:49",
+      "text": "-You're very pretty. -Thanks.",
+      "start": 1609.733,
+      "end": 1611.151,
+      "duration": 1.418,
+      "audio": "./audio/524.mp3"
+    },
+    {
+      "id": 525,
+      "time": "26:51",
+      "text": "I always thought my nose was too big.",
+      "start": 1611.234,
+      "end": 1613.737,
+      "duration": 2.503,
+      "audio": "./audio/525.mp3"
+    },
+    {
+      "id": 526,
+      "time": "26:53",
+      "text": "A little, but the rest of your face makes up for it.",
+      "start": 1613.82,
+      "end": 1616.99,
+      "duration": 3.17,
+      "audio": "./audio/526.mp3"
+    },
+    {
+      "id": 527,
+      "time": "26:59",
+      "text": "Wow.",
+      "start": 1619.743,
+      "end": 1620.827,
+      "duration": 1.084,
+      "audio": "./audio/527.mp3"
+    },
+    {
+      "id": 528,
+      "time": "27:00",
+      "text": "You're really honest, huh?",
+      "start": 1620.91,
+      "end": 1622.203,
+      "duration": 1.293,
+      "audio": "./audio/528.mp3"
+    },
+    {
+      "id": 529,
+      "time": "27:02",
+      "text": "Yes. Is that bad?",
+      "start": 1622.287,
+      "end": 1623.955,
+      "duration": 1.668,
+      "audio": "./audio/529.mp3"
+    },
+    {
+      "id": 530,
+      "time": "27:05",
+      "text": "No. It's refreshing.",
+      "start": 1625.123,
+      "end": 1626.958,
+      "duration": 1.835,
+      "audio": "./audio/530.mp3"
+    },
+    {
+      "id": 531,
+      "time": "27:07",
+      "text": "-Tell me more. -Okay.",
+      "start": 1627.042,
+      "end": 1628.96,
+      "duration": 1.918,
+      "audio": "./audio/531.mp3"
+    },
+    {
+      "id": 532,
+      "time": "27:09",
+      "text": "I'm really good at fixing computers,",
+      "start": 1629.044,
+      "end": 1631.713,
+      "duration": 2.669,
+      "audio": "./audio/532.mp3"
+    },
+    {
+      "id": 533,
+      "time": "27:11",
+      "text": "and biology is my favorite subject in school.",
+      "start": 1631.796,
+      "end": 1634.174,
+      "duration": 2.378,
+      "audio": "./audio/533.mp3"
+    },
+    {
+      "id": 534,
+      "time": "27:14",
+      "text": "Girls don't like me.",
+      "start": 1634.257,
+      "end": 1635.383,
+      "duration": 1.126,
+      "audio": "./audio/534.mp3"
+    },
+    {
+      "id": 535,
+      "time": "27:15",
+      "text": "I love penguins, but I'm not supposed to talk about it.",
+      "start": 1635.467,
+      "end": 1638.803,
+      "duration": 3.336,
+      "audio": "./audio/535.mp3"
+    },
+    {
+      "id": 536,
+      "time": "27:18",
+      "text": "I've never had sex before,",
+      "start": 1638.887,
+      "end": 1640.388,
+      "duration": 1.501,
+      "audio": "./audio/536.mp3"
+    },
+    {
+      "id": 537,
+      "time": "27:20",
+      "text": "and I have a pet turtle named Edison,",
+      "start": 1640.472,
+      "end": 1642.807,
+      "duration": 2.335,
+      "audio": "./audio/537.mp3"
+    },
+    {
+      "id": 538,
+      "time": "27:22",
+      "text": "who's named after Thomas Edison, but he's not as smart.",
+      "start": 1642.891,
+      "end": 1645.602,
+      "duration": 2.711,
+      "audio": "./audio/538.mp3"
+    },
+    {
+      "id": 539,
+      "time": "27:28",
+      "text": "You're hilarious.",
+      "start": 1648.438,
+      "end": 1649.647,
+      "duration": 1.209,
+      "audio": "./audio/539.mp3"
+    },
+    {
+      "id": 540,
+      "time": "27:29",
+      "text": "Thank you.",
+      "start": 1649.731,
+      "end": 1650.774,
+      "duration": 1.043,
+      "audio": "./audio/540.mp3"
+    },
+    {
+      "id": 541,
+      "time": "27:33",
+      "text": "You never had sex?",
+      "start": 1653.735,
+      "end": 1654.903,
+      "duration": 1.168,
+      "audio": "./audio/541.mp3"
+    },
+    {
+      "id": 542,
+      "time": "27:35",
+      "text": "No.",
+      "start": 1655.487,
+      "end": 1656.404,
+      "duration": 0.917,
+      "audio": "./audio/542.mp3"
+    },
+    {
+      "id": 543,
+      "time": "27:38",
+      "text": "Want to?",
+      "start": 1658.823,
+      "end": 1659.657,
+      "duration": 0.834,
+      "audio": "./audio/543.mp3"
+    },
+    {
+      "id": 544,
+      "time": "27:43",
+      "text": "--Hey.",
+      "start": 1663.745,
+      "end": 1665.413,
+      "duration": 1.668,
+      "audio": "./audio/544.mp3"
+    },
+    {
+      "id": 545,
+      "time": "27:50",
+      "text": "What are you doing?",
+      "start": 1670.71,
+      "end": 1671.628,
+      "duration": 0.918,
+      "audio": "./audio/545.mp3"
+    },
+    {
+      "id": 546,
+      "time": "27:51",
+      "text": "I just came to see if you changed your mind about going out with me.",
+      "start": 1671.711,
+      "end": 1675.298,
+      "duration": 3.587,
+      "audio": "./audio/546.mp3"
+    },
+    {
+      "id": 547,
+      "time": "27:56",
+      "text": "I brought you this.",
+      "start": 1676.758,
+      "end": 1677.801,
+      "duration": 1.043,
+      "audio": "./audio/547.mp3"
+    },
+    {
+      "id": 548,
+      "time": "27:57",
+      "text": "What is up with your family bringing me sweets?",
+      "start": 1677.884,
+      "end": 1680.095,
+      "duration": 2.211,
+      "audio": "./audio/548.mp3"
+    },
+    {
+      "id": 549,
+      "time": "28:00",
+      "text": "I don't know. I like you.",
+      "start": 1680.97,
+      "end": 1682.43,
+      "duration": 1.46,
+      "audio": "./audio/549.mp3"
+    },
+    {
+      "id": 550,
+      "time": "28:03",
+      "text": "Why?",
+      "start": 1683.306,
+      "end": 1684.14,
+      "duration": 0.834,
+      "audio": "./audio/550.mp3"
+    },
+    {
+      "id": 551,
+      "time": "28:04",
+      "text": "Uh...",
+      "start": 1684.224,
+      "end": 1685.517,
+      "duration": 1.293,
+      "audio": "./audio/551.mp3"
+    },
+    {
+      "id": 552,
+      "time": "28:07",
+      "text": "'Cause most people don't stand up to assholes, but you do.",
+      "start": 1687.143,
+      "end": 1691.147,
+      "duration": 4.004,
+      "audio": "./audio/552.mp3"
+    },
+    {
+      "id": 553,
+      "time": "28:25",
+      "text": "-Then there was Mel. -Mm-hmm.",
+      "start": 1705.495,
+      "end": 1706.955,
+      "duration": 1.46,
+      "audio": "./audio/553.mp3"
+    },
+    {
+      "id": 554,
+      "time": "28:27",
+      "text": "That was my longest relationship, like a month.",
+      "start": 1707.038,
+      "end": 1709.29,
+      "duration": 2.252,
+      "audio": "./audio/554.mp3"
+    },
+    {
+      "id": 555,
+      "time": "28:29",
+      "text": "Wow. A month.",
+      "start": 1709.374,
+      "end": 1710.417,
+      "duration": 1.043,
+      "audio": "./audio/555.mp3"
+    },
+    {
+      "id": 556,
+      "time": "28:30",
+      "text": "Stop it.",
+      "start": 1710.5,
+      "end": 1712.043,
+      "duration": 1.543,
+      "audio": "./audio/556.mp3"
+    },
+    {
+      "id": 557,
+      "time": "28:32",
+      "text": "Why am I telling you this? Let's talk about something else.",
+      "start": 1712.711,
+      "end": 1715.13,
+      "duration": 2.419,
+      "audio": "./audio/557.mp3"
+    },
+    {
+      "id": 558,
+      "time": "28:35",
+      "text": "What? No. I want to hear about your month with Mel.",
+      "start": 1715.213,
+      "end": 1717.424,
+      "duration": 2.211,
+      "audio": "./audio/558.mp3"
+    },
+    {
+      "id": 559,
+      "time": "28:40",
+      "text": "I don't know. I like what I do, I guess.",
+      "start": 1720.885,
+      "end": 1723.68,
+      "duration": 2.795,
+      "audio": "./audio/559.mp3"
+    },
+    {
+      "id": 560,
+      "time": "28:43",
+      "text": "-Mm-hmm. -I don't mean my job necessarily.",
+      "start": 1723.763,
+      "end": 1726.057,
+      "duration": 2.294,
+      "audio": "./audio/560.mp3"
+    },
+    {
+      "id": 561,
+      "time": "28:46",
+      "text": "Just my life.",
+      "start": 1726.141,
+      "end": 1727.559,
+      "duration": 1.418,
+      "audio": "./audio/561.mp3"
+    },
+    {
+      "id": 562,
+      "time": "28:48",
+      "text": "I wake up when I want. I do what I want. I go where I want.",
+      "start": 1728.351,
+      "end": 1731.062,
+      "duration": 2.711,
+      "audio": "./audio/562.mp3"
+    },
+    {
+      "id": 563,
+      "time": "28:51",
+      "text": "Last week, I wanted to go to the mountains, so I did.",
+      "start": 1731.146,
+      "end": 1733.606,
+      "duration": 2.46,
+      "audio": "./audio/563.mp3"
+    },
+    {
+      "id": 564,
+      "time": "28:53",
+      "text": "I didn't have to plan anything or run it by anyone.",
+      "start": 1733.69,
+      "end": 1736.109,
+      "duration": 2.419,
+      "audio": "./audio/564.mp3"
+    },
+    {
+      "id": 565,
+      "time": "28:56",
+      "text": "I mean, that may be weird, but I just...",
+      "start": 1736.192,
+      "end": 1738.862,
+      "duration": 2.67,
+      "audio": "./audio/565.mp3"
+    },
+    {
+      "id": 566,
+      "time": "28:58",
+      "text": "I need that.",
+      "start": 1738.945,
+      "end": 1740.029,
+      "duration": 1.084,
+      "audio": "./audio/566.mp3"
+    },
+    {
+      "id": 567,
+      "time": "29:04",
+      "text": "Is that totally lame or what?",
+      "start": 1744.284,
+      "end": 1746.202,
+      "duration": 1.918,
+      "audio": "./audio/567.mp3"
+    },
+    {
+      "id": 568,
+      "time": "29:08",
+      "text": "No, that sounds great.",
+      "start": 1748.496,
+      "end": 1750.165,
+      "duration": 1.669,
+      "audio": "./audio/568.mp3"
+    },
+    {
+      "id": 569,
+      "time": "29:10",
+      "text": "I mean, you're a little old for that, but, you know?",
+      "start": 1750.248,
+      "end": 1752.834,
+      "duration": 2.586,
+      "audio": "./audio/569.mp3"
+    },
+    {
+      "id": 570,
+      "time": "29:13",
+      "text": "-Thanks. -",
+      "start": 1753.334,
+      "end": 1755.42,
+      "duration": 2.086,
+      "audio": "./audio/570.mp3"
+    },
+    {
+      "id": 571,
+      "time": "29:16",
+      "text": "I think, if it were really, really cold,",
+      "start": 1756.045,
+      "end": 1758.923,
+      "duration": 2.878,
+      "audio": "./audio/571.mp3"
+    },
+    {
+      "id": 572,
+      "time": "29:19",
+      "text": "like Antarctica cold,",
+      "start": 1759.007,
+      "end": 1760.592,
+      "duration": 1.585,
+      "audio": "./audio/572.mp3"
+    },
+    {
+      "id": 573,
+      "time": "29:20",
+      "text": "the coldness would feel like a sound.",
+      "start": 1760.675,
+      "end": 1763.178,
+      "duration": 2.503,
+      "audio": "./audio/573.mp3"
+    },
+    {
+      "id": 574,
+      "time": "29:23",
+      "text": "The cold would be so intense that you could hear it.",
+      "start": 1763.261,
+      "end": 1766.014,
+      "duration": 2.753,
+      "audio": "./audio/574.mp3"
+    },
+    {
+      "id": 575,
+      "time": "29:26",
+      "text": "I would like to hear that sound.",
+      "start": 1766.097,
+      "end": 1767.515,
+      "duration": 1.418,
+      "audio": "./audio/575.mp3"
+    },
+    {
+      "id": 576,
+      "time": "29:37",
+      "text": "â™ª I slip softly through â™ª",
+      "start": 1777.275,
+      "end": 1780.445,
+      "duration": 3.17,
+      "audio": "./audio/576.mp3"
+    },
+    {
+      "id": 577,
+      "time": "29:41",
+      "text": "Never been in a dorm. This isn't what I thought it would smell like.",
+      "start": 1781.029,
+      "end": 1784.365,
+      "duration": 3.336,
+      "audio": "./audio/577.mp3"
+    },
+    {
+      "id": 578,
+      "time": "29:45",
+      "text": "Yeah. My roommate makes a lot of ramen.",
+      "start": 1785.2,
+      "end": 1787.827,
+      "duration": 2.627,
+      "audio": "./audio/578.mp3"
+    },
+    {
+      "id": 579,
+      "time": "29:47",
+      "text": "Sometimes, being touched makes me... jumpy.",
+      "start": 1787.911,
+      "end": 1791.331,
+      "duration": 3.42,
+      "audio": "./audio/579.mp3"
+    },
+    {
+      "id": 580,
+      "time": "29:51",
+      "text": "It has to be hard touch, uh, pressure.",
+      "start": 1791.414,
+      "end": 1794.209,
+      "duration": 2.795,
+      "audio": "./audio/580.mp3"
+    },
+    {
+      "id": 581,
+      "time": "29:54",
+      "text": "I like pressure. I don't like soft.",
+      "start": 1794.292,
+      "end": 1796.377,
+      "duration": 2.085,
+      "audio": "./audio/581.mp3"
+    },
+    {
+      "id": 582,
+      "time": "29:56",
+      "text": "Is that okay to say on the first date?",
+      "start": 1796.461,
+      "end": 1798.88,
+      "duration": 2.419,
+      "audio": "./audio/582.mp3"
+    },
+    {
+      "id": 583,
+      "time": "29:58",
+      "text": "â™ª Ooh, ooh, ooh â™ª",
+      "start": 1798.963,
+      "end": 1800.84,
+      "duration": 1.877,
+      "audio": "./audio/583.mp3"
+    },
+    {
+      "id": 584,
+      "time": "30:03",
+      "text": "â™ª Ooh, ooh, ooh â™ª",
+      "start": 1803.51,
+      "end": 1805.053,
+      "duration": 1.543,
+      "audio": "./audio/584.mp3"
+    },
+    {
+      "id": 585,
+      "time": "30:05",
+      "text": "â™ª It'll burn, burn, burn, burn, burn â™ª",
+      "start": 1805.136,
+      "end": 1810.35,
+      "duration": 5.214,
+      "audio": "./audio/585.mp3"
+    },
+    {
+      "id": 586,
+      "time": "30:10",
+      "text": "â™ª Burn us both alive â™ª",
+      "start": 1810.433,
+      "end": 1812.644,
+      "duration": 2.211,
+      "audio": "./audio/586.mp3"
+    },
+    {
+      "id": 587,
+      "time": "30:17",
+      "text": "Aah!",
+      "start": 1817.106,
+      "end": 1817.941,
+      "duration": 0.835,
+      "audio": "./audio/587.mp3"
+    },
+    {
+      "id": 588,
+      "time": "30:18",
+      "text": "What the hell?",
+      "start": 1818.024,
+      "end": 1819.484,
+      "duration": 1.46,
+      "audio": "./audio/588.mp3"
+    },
+    {
+      "id": 589,
+      "time": "30:21",
+      "text": "I'm sorry. I'm sorry.",
+      "start": 1821.319,
+      "end": 1823.321,
+      "duration": 2.002,
+      "audio": "./audio/589.mp3"
+    },
+    {
+      "id": 590,
+      "time": "30:23",
+      "text": "What is wrong with you?",
+      "start": 1823.404,
+      "end": 1824.864,
+      "duration": 1.46,
+      "audio": "./audio/590.mp3"
+    },
+    {
+      "id": 591,
+      "time": "30:24",
+      "text": "Seriously, are you retarded? Is there something wrong with your brain?",
+      "start": 1824.948,
+      "end": 1828.618,
+      "duration": 3.67,
+      "audio": "./audio/591.mp3"
+    },
+    {
+      "id": 592,
+      "time": "30:31",
+      "text": "Get the hell out of my room.",
+      "start": 1831.913,
+      "end": 1833.957,
+      "duration": 2.044,
+      "audio": "./audio/592.mp3"
+    },
+    {
+      "id": 593,
+      "time": "30:38",
+      "text": "Sometimes, when I feel most alone,",
+      "start": 1838.503,
+      "end": 1840.38,
+      "duration": 1.877,
+      "audio": "./audio/593.mp3"
+    },
+    {
+      "id": 594,
+      "time": "30:40",
+      "text": "I imagine myself in that ice...",
+      "start": 1840.463,
+      "end": 1842.507,
+      "duration": 2.044,
+      "audio": "./audio/594.mp3"
+    },
+    {
+      "id": 595,
+      "time": "30:42",
+      "text": "frozen, unable to move, but safe.",
+      "start": 1842.59,
+      "end": 1845.76,
+      "duration": 3.17,
+      "audio": "./audio/595.mp3"
+    },
+    {
+      "id": 596,
+      "time": "30:55",
+      "text": "I thought technical school would be dumb, but I actually really like it.",
+      "start": 1855.27,
+      "end": 1859.19,
+      "duration": 3.92,
+      "audio": "./audio/596.mp3"
+    },
+    {
+      "id": 597,
+      "time": "31:00",
+      "text": "Oh, hey. There he is, the \"twat\" guy.",
+      "start": 1860.483,
+      "end": 1863.82,
+      "duration": 3.337,
+      "audio": "./audio/597.mp3"
+    },
+    {
+      "id": 598,
+      "time": "31:04",
+      "text": "What's wrong?",
+      "start": 1864.696,
+      "end": 1865.864,
+      "duration": 1.168,
+      "audio": "./audio/598.mp3"
+    },
+    {
+      "id": 599,
+      "time": "31:07",
+      "text": "--Sam?",
+      "start": 1867.448,
+      "end": 1869.075,
+      "duration": 1.627,
+      "audio": "./audio/599.mp3"
+    },
+    {
+      "id": 600,
+      "time": "31:20",
+      "text": "Here. Careful, it's hot.",
+      "start": 1880.378,
+      "end": 1882.422,
+      "duration": 2.044,
+      "audio": "./audio/600.mp3"
+    },
+    {
+      "id": 601,
+      "time": "31:24",
+      "text": "Hey, dude, don't feel too bad.",
+      "start": 1884.299,
+      "end": 1886.759,
+      "duration": 2.46,
+      "audio": "./audio/601.mp3"
+    },
+    {
+      "id": 602,
+      "time": "31:26",
+      "text": "The first time's always a shit show.",
+      "start": 1886.843,
+      "end": 1888.678,
+      "duration": 1.835,
+      "audio": "./audio/602.mp3"
+    },
+    {
+      "id": 603,
+      "time": "31:29",
+      "text": "My first time was on a Ping-Pong table, and it collapsed like two seconds in.",
+      "start": 1889.512,
+      "end": 1893.975,
+      "duration": 4.463,
+      "audio": "./audio/603.mp3"
+    },
+    {
+      "id": 604,
+      "time": "31:34",
+      "text": "My balls got all wrapped up in the net. Really freaked her out.",
+      "start": 1894.058,
+      "end": 1896.853,
+      "duration": 2.795,
+      "audio": "./audio/604.mp3"
+    },
+    {
+      "id": 605,
+      "time": "31:38",
+      "text": "How about you, Case? Was it crappy your first time?",
+      "start": 1898.021,
+      "end": 1900.315,
+      "duration": 2.294,
+      "audio": "./audio/605.mp3"
+    },
+    {
+      "id": 606,
+      "time": "31:40",
+      "text": "Okay, gross.",
+      "start": 1900.398,
+      "end": 1901.774,
+      "duration": 1.376,
+      "audio": "./audio/606.mp3"
+    },
+    {
+      "id": 607,
+      "time": "31:41",
+      "text": "I'm not discussing my sex life in front of my brother.",
+      "start": 1901.858,
+      "end": 1904.485,
+      "duration": 2.627,
+      "audio": "./audio/607.mp3"
+    },
+    {
+      "id": 608,
+      "time": "31:44",
+      "text": "Not that there's anything to discuss.",
+      "start": 1904.569,
+      "end": 1906.654,
+      "duration": 2.085,
+      "audio": "./audio/608.mp3"
+    },
+    {
+      "id": 609,
+      "time": "31:49",
+      "text": "Sometimes, I wish I was normal.",
+      "start": 1909.532,
+      "end": 1911.242,
+      "duration": 1.71,
+      "audio": "./audio/609.mp3"
+    },
+    {
+      "id": 610,
+      "time": "31:51",
+      "text": "Well, dude...",
+      "start": 1911.326,
+      "end": 1912.66,
+      "duration": 1.334,
+      "audio": "./audio/610.mp3"
+    },
+    {
+      "id": 611,
+      "time": "31:53",
+      "text": "nobody's normal.",
+      "start": 1913.286,
+      "end": 1914.37,
+      "duration": 1.084,
+      "audio": "./audio/611.mp3"
+    },
+    {
+      "id": 612,
+      "time": "32:20",
+      "text": "In fourth grade, my biology teacher, Mr. Durocher--",
+      "start": 1940.355,
+      "end": 1943.358,
+      "duration": 3.003,
+      "audio": "./audio/612.mp3"
+    },
+    {
+      "id": 613,
+      "time": "32:23",
+      "text": "he was fat-- said penguins are similar to humans...",
+      "start": 1943.441,
+      "end": 1947.403,
+      "duration": 3.962,
+      "audio": "./audio/613.mp3"
+    },
+    {
+      "id": 614,
+      "time": "32:28",
+      "text": "because once they copulate, they stay with the same partner for life.",
+      "start": 1948.696,
+      "end": 1952.408,
+      "duration": 3.712,
+      "audio": "./audio/614.mp3"
+    },
+    {
+      "id": 615,
+      "time": "32:33",
+      "text": "So, what about you? What's your life like?",
+      "start": 1953.159,
+      "end": 1955.453,
+      "duration": 2.294,
+      "audio": "./audio/615.mp3"
+    },
+    {
+      "id": 616,
+      "time": "32:35",
+      "text": "-Mm. -",
+      "start": 1955.536,
+      "end": 1957.538,
+      "duration": 2.002,
+      "audio": "./audio/616.mp3"
+    },
+    {
+      "id": 617,
+      "time": "32:38",
+      "text": "Well, ironically, when I was in college,",
+      "start": 1958.081,
+      "end": 1961,
+      "duration": 2.919,
+      "audio": "./audio/617.mp3"
+    },
+    {
+      "id": 618,
+      "time": "32:41",
+      "text": "I also dated a girl for about a month.",
+      "start": 1961.084,
+      "end": 1963.211,
+      "duration": 2.127,
+      "audio": "./audio/618.mp3"
+    },
+    {
+      "id": 619,
+      "time": "32:44",
+      "text": "Mm.",
+      "start": 1964.712,
+      "end": 1966.506,
+      "duration": 1.794,
+      "audio": "./audio/619.mp3"
+    },
+    {
+      "id": 620,
+      "time": "32:46",
+      "text": "And I am a hairdresser.",
+      "start": 1966.589,
+      "end": 1969.258,
+      "duration": 2.669,
+      "audio": "./audio/620.mp3"
+    },
+    {
+      "id": 621,
+      "time": "32:49",
+      "text": "Yours is too short.",
+      "start": 1969.342,
+      "end": 1970.593,
+      "duration": 1.251,
+      "audio": "./audio/621.mp3"
+    },
+    {
+      "id": 622,
+      "time": "32:52",
+      "text": "You're funny. And kind of mean.",
+      "start": 1972.47,
+      "end": 1975.014,
+      "duration": 2.544,
+      "audio": "./audio/622.mp3"
+    },
+    {
+      "id": 623,
+      "time": "32:57",
+      "text": "Yeah, I'm always mean to people I like.",
+      "start": 1977.892,
+      "end": 1980.144,
+      "duration": 2.252,
+      "audio": "./audio/623.mp3"
+    },
+    {
+      "id": 624,
+      "time": "33:00",
+      "text": "I think it's 'cause I expect so much.",
+      "start": 1980.77,
+      "end": 1982.939,
+      "duration": 2.169,
+      "audio": "./audio/624.mp3"
+    },
+    {
+      "id": 625,
+      "time": "33:03",
+      "text": "So you like me.",
+      "start": 1983.815,
+      "end": 1985.108,
+      "duration": 1.293,
+      "audio": "./audio/625.mp3"
+    },
+    {
+      "id": 626,
+      "time": "33:08",
+      "text": "But according to the 2010 census,",
+      "start": 1988.027,
+      "end": 1990.071,
+      "duration": 2.044,
+      "audio": "./audio/626.mp3"
+    },
+    {
+      "id": 627,
+      "time": "33:10",
+      "text": "which is the most recent data I could acquire,",
+      "start": 1990.154,
+      "end": 1992.365,
+      "duration": 2.211,
+      "audio": "./audio/627.mp3"
+    },
+    {
+      "id": 628,
+      "time": "33:12",
+      "text": "49% of marriages end in divorce.",
+      "start": 1992.448,
+      "end": 1995.034,
+      "duration": 2.586,
+      "audio": "./audio/628.mp3"
+    },
+    {
+      "id": 629,
+      "time": "33:17",
+      "text": "Sorry. Um...",
+      "start": 1997.662,
+      "end": 1999.414,
+      "duration": 1.752,
+      "audio": "./audio/629.mp3"
+    },
+    {
+      "id": 630,
+      "time": "33:21",
+      "text": "You know, um...",
+      "start": 2001.666,
+      "end": 2003.501,
+      "duration": 1.835,
+      "audio": "./audio/630.mp3"
+    },
+    {
+      "id": 631,
+      "time": "33:23",
+      "text": "if you turn the heat up on your dishwasher,",
+      "start": 2003.584,
+      "end": 2006.421,
+      "duration": 2.837,
+      "audio": "./audio/631.mp3"
+    },
+    {
+      "id": 632,
+      "time": "33:26",
+      "text": "you won't have those ugly white spots on the glasses. Just so...",
+      "start": 2006.504,
+      "end": 2009.882,
+      "duration": 3.378,
+      "audio": "./audio/632.mp3"
+    },
+    {
+      "id": 633,
+      "time": "33:42",
+      "text": "Penguins mate for life.",
+      "start": 2022.353,
+      "end": 2023.813,
+      "duration": 1.46,
+      "audio": "./audio/633.mp3"
+    },
+    {
+      "id": 634,
+      "time": "33:45",
+      "text": "So penguins aren't like people.",
+      "start": 2025.648,
+      "end": 2028.317,
+      "duration": 2.669,
+      "audio": "./audio/634.mp3"
+    },
+    {
+      "id": 635,
+      "time": "33:53",
+      "text": "They're better.",
+      "start": 2033.031,
+      "end": 2034.49,
+      "duration": 1.459,
+      "audio": "./audio/635.mp3"
+    },
+    {
+      "id": 636,
+      "time": "34:15",
+      "text": "I wonder if they ever get tired of swimming.",
+      "start": 2055.553,
+      "end": 2057.68,
+      "duration": 2.127,
+      "audio": "./audio/636.mp3"
+    },
+    {
+      "id": 637,
+      "time": "34:18",
+      "text": "They don't.",
+      "start": 2058.181,
+      "end": 2059.307,
+      "duration": 1.126,
+      "audio": "./audio/637.mp3"
+    },
+    {
+      "id": 638,
+      "time": "34:23",
+      "text": "You know, Casey... told me what happened...",
+      "start": 2063.644,
+      "end": 2066.981,
+      "duration": 3.337,
+      "audio": "./audio/638.mp3"
+    },
+    {
+      "id": 639,
+      "time": "34:28",
+      "text": "with the girl.",
+      "start": 2068.357,
+      "end": 2069.65,
+      "duration": 1.293,
+      "audio": "./audio/639.mp3"
+    },
+    {
+      "id": 640,
+      "time": "34:31",
+      "text": "I wish I had a time machine.",
+      "start": 2071.861,
+      "end": 2073.279,
+      "duration": 1.418,
+      "audio": "./audio/640.mp3"
+    },
+    {
+      "id": 641,
+      "time": "34:33",
+      "text": "I would go back in time and never ask her out",
+      "start": 2073.362,
+      "end": 2076.699,
+      "duration": 3.337,
+      "audio": "./audio/641.mp3"
+    },
+    {
+      "id": 642,
+      "time": "34:36",
+      "text": "and also maybe visit the Middle Ages because...",
+      "start": 2076.783,
+      "end": 2079.243,
+      "duration": 2.46,
+      "audio": "./audio/642.mp3"
+    },
+    {
+      "id": 643,
+      "time": "34:39",
+      "text": "jousting.",
+      "start": 2079.327,
+      "end": 2080.578,
+      "duration": 1.251,
+      "audio": "./audio/643.mp3"
+    },
+    {
+      "id": 644,
+      "time": "34:41",
+      "text": "Look, I don't know about some of that stuff you're into,",
+      "start": 2081.621,
+      "end": 2085.208,
+      "duration": 3.587,
+      "audio": "./audio/644.mp3"
+    },
+    {
+      "id": 645,
+      "time": "34:45",
+      "text": "but girls I know about, okay? And they're tough.",
+      "start": 2085.291,
+      "end": 2088.377,
+      "duration": 3.086,
+      "audio": "./audio/645.mp3"
+    },
+    {
+      "id": 646,
+      "time": "34:49",
+      "text": "I'm proud of you for putting yourself out there.",
+      "start": 2089.67,
+      "end": 2092.799,
+      "duration": 3.129,
+      "audio": "./audio/646.mp3"
+    },
+    {
+      "id": 647,
+      "time": "34:53",
+      "text": "I should never go on another date. I should just stay away from girls.",
+      "start": 2093.8,
+      "end": 2098.096,
+      "duration": 4.296,
+      "audio": "./audio/647.mp3"
+    },
+    {
+      "id": 648,
+      "time": "34:58",
+      "text": "Sam, look, you got some stuff to figure out, but you will.",
+      "start": 2098.971,
+      "end": 2101.849,
+      "duration": 2.878,
+      "audio": "./audio/648.mp3"
+    },
+    {
+      "id": 649,
+      "time": "35:03",
+      "text": "You're a good guy.",
+      "start": 2103.643,
+      "end": 2104.894,
+      "duration": 1.251,
+      "audio": "./audio/649.mp3"
+    },
+    {
+      "id": 650,
+      "time": "35:04",
+      "text": "You're sensitive, and you're funny,",
+      "start": 2104.977,
+      "end": 2107.188,
+      "duration": 2.211,
+      "audio": "./audio/650.mp3"
+    },
+    {
+      "id": 651,
+      "time": "35:07",
+      "text": "and the woman who ends up with you will be lucky.",
+      "start": 2107.271,
+      "end": 2110.274,
+      "duration": 3.003,
+      "audio": "./audio/651.mp3"
+    },
+    {
+      "id": 652,
+      "time": "35:11",
+      "text": "You want to marry your best friend.",
+      "start": 2111.651,
+      "end": 2113.319,
+      "duration": 1.668,
+      "audio": "./audio/652.mp3"
+    },
+    {
+      "id": 653,
+      "time": "35:14",
+      "text": "Edison?",
+      "start": 2114.654,
+      "end": 2115.53,
+      "duration": 0.876,
+      "audio": "./audio/653.mp3"
+    },
+    {
+      "id": 654,
+      "time": "35:15",
+      "text": "No.",
+      "start": 2115.613,
+      "end": 2116.572,
+      "duration": 0.959,
+      "audio": "./audio/654.mp3"
+    },
+    {
+      "id": 655,
+      "time": "35:17",
+      "text": "Not your turtle, Sam.",
+      "start": 2117.198,
+      "end": 2118.491,
+      "duration": 1.293,
+      "audio": "./audio/655.mp3"
+    },
+    {
+      "id": 656,
+      "time": "35:18",
+      "text": "You said my best friend. He's my best friend.",
+      "start": 2118.574,
+      "end": 2120.993,
+      "duration": 2.419,
+      "audio": "./audio/656.mp3"
+    },
+    {
+      "id": 657,
+      "time": "35:22",
+      "text": "I just...",
+      "start": 2122.078,
+      "end": 2123.121,
+      "duration": 1.043,
+      "audio": "./audio/657.mp3"
+    },
+    {
+      "id": 658,
+      "time": "35:24",
+      "text": "I meant you want to be with someone who appreciates you for what you are.",
+      "start": 2124.038,
+      "end": 2128.292,
+      "duration": 4.254,
+      "audio": "./audio/658.mp3"
+    },
+    {
+      "id": 659,
+      "time": "35:29",
+      "text": "You know, who loves all the little odd things about you...",
+      "start": 2129.127,
+      "end": 2132.797,
+      "duration": 3.67,
+      "audio": "./audio/659.mp3"
+    },
+    {
+      "id": 660,
+      "time": "35:33",
+      "text": "who gets you.",
+      "start": 2133.506,
+      "end": 2134.59,
+      "duration": 1.084,
+      "audio": "./audio/660.mp3"
+    },
+    {
+      "id": 661,
+      "time": "35:37",
+      "text": "Penguins mate for life, you know?",
+      "start": 2137.969,
+      "end": 2139.762,
+      "duration": 1.793,
+      "audio": "./audio/661.mp3"
+    },
+    {
+      "id": 662,
+      "time": "35:41",
+      "text": "Yeah?",
+      "start": 2141.389,
+      "end": 2142.515,
+      "duration": 1.126,
+      "audio": "./audio/662.mp3"
+    },
+    {
+      "id": 663,
+      "time": "35:43",
+      "text": "Well, good for them.",
+      "start": 2143.85,
+      "end": 2145.184,
+      "duration": 1.334,
+      "audio": "./audio/663.mp3"
+    },
+    {
+      "id": 664,
+      "time": "35:46",
+      "text": "So, how are you feeling now? Still ready to give up on dating?",
+      "start": 2146.853,
+      "end": 2150.565,
+      "duration": 3.712,
+      "audio": "./audio/664.mp3"
+    },
+    {
+      "id": 665,
+      "time": "35:50",
+      "text": "I don't know. My dad said to find someone",
+      "start": 2150.648,
+      "end": 2153.317,
+      "duration": 2.669,
+      "audio": "./audio/665.mp3"
+    },
+    {
+      "id": 666,
+      "time": "35:53",
+      "text": "who appreciates me for what I am, which is a weirdo.",
+      "start": 2153.401,
+      "end": 2156.571,
+      "duration": 3.17,
+      "audio": "./audio/666.mp3"
+    },
+    {
+      "id": 667,
+      "time": "35:57",
+      "text": "We talked a lot.",
+      "start": 2157.53,
+      "end": 2158.614,
+      "duration": 1.084,
+      "audio": "./audio/667.mp3"
+    },
+    {
+      "id": 668,
+      "time": "35:58",
+      "text": "Glad to hear it.",
+      "start": 2158.698,
+      "end": 2160.158,
+      "duration": 1.46,
+      "audio": "./audio/668.mp3"
+    },
+    {
+      "id": 669,
+      "time": "36:00",
+      "text": "And that makes sense. You're easy to talk to.",
+      "start": 2160.241,
+      "end": 2163.411,
+      "duration": 3.17,
+      "audio": "./audio/669.mp3"
+    },
+    {
+      "id": 670,
+      "time": "36:07",
+      "text": "Yeah.",
+      "start": 2167.206,
+      "end": 2168.291,
+      "duration": 1.085,
+      "audio": "./audio/670.mp3"
+    },
+    {
+      "id": 671,
+      "time": "36:09",
+      "text": "You're easy to talk to, too,",
+      "start": 2169.041,
+      "end": 2170.376,
+      "duration": 1.335,
+      "audio": "./audio/671.mp3"
+    },
+    {
+      "id": 672,
+      "time": "36:10",
+      "text": "which is good 'cause, otherwise, you'd go broke.",
+      "start": 2170.459,
+      "end": 2173.671,
+      "duration": 3.212,
+      "audio": "./audio/672.mp3"
+    },
+    {
+      "id": 673,
+      "time": "36:18",
+      "text": "When a male gentoo penguin chooses a mate,",
+      "start": 2178.259,
+      "end": 2181.179,
+      "duration": 2.92,
+      "audio": "./audio/673.mp3"
+    },
+    {
+      "id": 674,
+      "time": "36:21",
+      "text": "he makes an offering.",
+      "start": 2181.262,
+      "end": 2182.346,
+      "duration": 1.084,
+      "audio": "./audio/674.mp3"
+    },
+    {
+      "id": 675,
+      "time": "36:23",
+      "text": "He finds a pebble,",
+      "start": 2183.139,
+      "end": 2184.682,
+      "duration": 1.543,
+      "audio": "./audio/675.mp3"
+    },
+    {
+      "id": 676,
+      "time": "36:24",
+      "text": "often taking the time to find the smoothest one,",
+      "start": 2184.765,
+      "end": 2187.101,
+      "duration": 2.336,
+      "audio": "./audio/676.mp3"
+    },
+    {
+      "id": 677,
+      "time": "36:27",
+      "text": "and presents it to the female.",
+      "start": 2187.185,
+      "end": 2189.02,
+      "duration": 1.835,
+      "audio": "./audio/677.mp3"
+    },
+    {
+      "id": 678,
+      "time": "36:29",
+      "text": "I'm a human, so it would be weird to offer a pebble.",
+      "start": 2189.854,
+      "end": 2192.69,
+      "duration": 2.836,
+      "audio": "./audio/678.mp3"
+    },
+    {
+      "id": 679,
+      "time": "36:33",
+      "text": "Julia.",
+      "start": 2193.357,
+      "end": 2194.233,
+      "duration": 0.876,
+      "audio": "./audio/679.mp3"
+    },
+    {
+      "id": 680,
+      "time": "36:36",
+      "text": "-I've decided I want to give you my brain. -Really?",
+      "start": 2196.277,
+      "end": 2199.197,
+      "duration": 2.92,
+      "audio": "./audio/680.mp3"
+    },
+    {
+      "id": 681,
+      "time": "36:39",
+      "text": "After I die.",
+      "start": 2199.28,
+      "end": 2200.448,
+      "duration": 1.168,
+      "audio": "./audio/681.mp3"
+    },
+    {
+      "id": 682,
+      "time": "36:41",
+      "text": "Oh, Sam, that's so great.",
+      "start": 2201.115,
+      "end": 2202.95,
+      "duration": 1.835,
+      "audio": "./audio/682.mp3"
+    },
+    {
+      "id": 683,
+      "time": "36:45",
+      "text": "You're gonna help so many people.",
+      "start": 2205.369,
+      "end": 2206.871,
+      "duration": 1.502,
+      "audio": "./audio/683.mp3"
+    },
+    {
+      "id": 684,
+      "time": "36:48",
+      "text": "Good smile.",
+      "start": 2208.664,
+      "end": 2210.291,
+      "duration": 1.627,
+      "audio": "./audio/684.mp3"
+    },
+    {
+      "id": 685,
+      "time": "36:50",
+      "text": "It's not creepy at all.",
+      "start": 2210.374,
+      "end": 2211.751,
+      "duration": 1.377,
+      "audio": "./audio/685.mp3"
+    },
+    {
+      "id": 686,
+      "time": "36:51",
+      "text": "I've been practicing.",
+      "start": 2211.834,
+      "end": 2213.252,
+      "duration": 1.418,
+      "audio": "./audio/686.mp3"
+    },
+    {
+      "id": 687,
+      "time": "36:53",
+      "text": "Yeah, I can tell.",
+      "start": 2213.336,
+      "end": 2214.503,
+      "duration": 1.167,
+      "audio": "./audio/687.mp3"
+    },
+    {
+      "id": 688,
+      "time": "36:56",
+      "text": "If the female places the pebble in her nest,",
+      "start": 2216.839,
+      "end": 2219.425,
+      "duration": 2.586,
+      "audio": "./audio/688.mp3"
+    },
+    {
+      "id": 689,
+      "time": "36:59",
+      "text": "she accepts him as a mate.",
+      "start": 2219.508,
+      "end": 2221.219,
+      "duration": 1.711,
+      "audio": "./audio/689.mp3"
+    },
+    {
+      "id": 690,
+      "time": "37:01",
+      "text": "And as you already know, penguins mate for life.",
+      "start": 2221.302,
+      "end": 2223.846,
+      "duration": 2.544,
+      "audio": "./audio/690.mp3"
+    }
+  ]
+}

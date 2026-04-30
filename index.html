@@ -1,0 +1,151 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#f6f8fb">
+  <title>100LS 跟读纠错</title>
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+  <div id="app" class="app" data-view="practice">
+    <header class="topbar">
+      <div>
+        <p class="kicker">100LS Shadowing</p>
+        <h1>跟读纠错</h1>
+      </div>
+      <div class="progress-mini" aria-label="练习进度">
+        <span id="progressText">0 / 0</span>
+        <span class="progress-track"><span id="progressBar" class="progress-bar"></span></span>
+      </div>
+    </header>
+
+    <main class="workspace">
+      <section id="practicePanel" class="panel practice-panel" aria-labelledby="practiceTitle">
+        <div class="panel-header">
+          <div>
+            <h2 id="practiceTitle">当前句</h2>
+            <p id="statusHint" class="muted">正在载入练习数据...</p>
+          </div>
+          <button id="markBtn" class="ghost-btn" type="button">标记已练</button>
+        </div>
+
+        <div class="line-meta">
+          <span id="lineNumber" class="pill">句子 000</span>
+          <span id="lineTime" class="pill">00:00</span>
+          <span id="bestBadge" class="pill strong">最佳 --</span>
+        </div>
+
+        <p id="lineText" class="target-text">准备中...</p>
+        <p id="inlineTranslation" class="translation is-hidden">翻译加载中...</p>
+
+        <div class="audio-strip">
+          <button id="audioBtn" class="round-btn" type="button" aria-label="播放原声" title="播放原声">▶</button>
+          <div class="audio-copy">
+            <span>原声片段</span>
+            <label class="range-control">
+              <span>速度</span>
+              <input id="rateInput" type="range" min="0.7" max="1.2" step="0.05" value="0.9">
+            </label>
+          </div>
+        </div>
+
+        <audio id="clipPlayer" class="clip-player" preload="none" controls></audio>
+
+        <div class="practice-actions">
+          <button id="prevBtn" class="secondary-btn" type="button">上一句</button>
+          <button id="recordBtn" class="record-btn" type="button">开始跟读</button>
+          <button id="nextBtn" class="secondary-btn" type="button">下一句</button>
+        </div>
+
+        <div class="toggle-row">
+          <label class="switch">
+            <input id="showTranslation" type="checkbox">
+            <span>翻译</span>
+          </label>
+          <button id="replaySlowBtn" class="secondary-btn compact-btn" type="button">慢速播放</button>
+        </div>
+      </section>
+
+      <section id="reviewPanel" class="panel review-panel" aria-labelledby="reviewTitle">
+        <div class="panel-header">
+          <div>
+            <h2 id="reviewTitle">纠错反馈</h2>
+            <p id="recordingStatus" class="muted">跟读后会在这里显示识别和纠错结果。</p>
+          </div>
+          <div class="score-card">
+            <strong id="scoreBox">--</strong>
+            <span>匹配度</span>
+          </div>
+        </div>
+
+        <div id="summaryBox" class="summary-box">
+          等待第一次跟读。
+        </div>
+
+        <div class="compare-block">
+          <p class="label">逐词对齐</p>
+          <div id="correctionBox" class="token-row" aria-live="polite">
+            <span class="empty-state">跟读完成后显示正确、漏读、多读和读错的词。</span>
+          </div>
+        </div>
+
+        <div class="transcript-block">
+          <p class="label">你的识别结果</p>
+          <div id="transcriptBox" class="result-box">还没有识别结果。</div>
+        </div>
+
+        <div class="manual-check">
+          <label for="manualInput" class="label">手动纠错</label>
+          <textarea id="manualInput" rows="3" placeholder="输入你读出的英文"></textarea>
+          <button id="checkManualBtn" class="secondary-btn" type="button">纠错</button>
+        </div>
+
+        <div id="tipsBox" class="tips-box">
+          <p>先听原声，再跟读一句。</p>
+        </div>
+      </section>
+
+      <section id="libraryPanel" class="panel library-panel" aria-labelledby="libraryTitle">
+        <div class="panel-header">
+          <div>
+            <h2 id="libraryTitle">句库</h2>
+            <p id="libraryCount" class="muted">0 句</p>
+          </div>
+        </div>
+
+        <label class="search-box">
+          <span>搜索</span>
+          <input id="searchInput" type="search" placeholder="句子、编号或时间">
+        </label>
+
+        <div class="segmented" role="group" aria-label="句子筛选">
+          <button id="showCurrentWindowBtn" type="button" aria-pressed="true">附近</button>
+          <button id="showAllBtn" type="button" aria-pressed="false">全部</button>
+          <button id="showDoneBtn" type="button" aria-pressed="false">已练</button>
+        </div>
+
+        <div id="lineList" class="line-list" aria-live="polite"></div>
+      </section>
+    </main>
+
+    <nav class="bottom-tabs" aria-label="主导航">
+      <button class="tab-btn is-active" data-view="practice" type="button">练习</button>
+      <button class="tab-btn" data-view="review" type="button">纠错</button>
+      <button class="tab-btn" data-view="library" type="button">句库</button>
+    </nav>
+  </div>
+
+  <template id="lineItemTemplate">
+    <button class="line-item" type="button">
+      <span class="line-item-top">
+        <span class="line-item-meta"></span>
+        <span class="line-item-score"></span>
+      </span>
+      <span class="line-item-text"></span>
+    </button>
+  </template>
+
+  <script src="./app.js"></script>
+</body>
+</html>
