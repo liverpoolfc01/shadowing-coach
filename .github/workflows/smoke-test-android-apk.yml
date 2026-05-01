@@ -1,0 +1,59 @@
+name: Smoke Test Android APK
+
+on:
+  workflow_dispatch:
+
+jobs:
+  smoke-test:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: android-app
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Java
+        uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: "17"
+
+      - name: Set up Gradle
+        uses: gradle/actions/setup-gradle@v4
+        with:
+          gradle-version: "8.10.2"
+
+      - name: Build debug APK
+        run: gradle --no-daemon :app:assembleDebug
+
+      - name: Run APK in Android emulator
+        uses: reactivecircus/android-emulator-runner@v2
+        with:
+          api-level: 35
+          arch: x86_64
+          profile: pixel_2
+          working-directory: android-app
+          script: |
+            adb install -r app/build/outputs/apk/debug/app-debug.apk
+            adb shell pm grant com.liverpoolfc01.shadowingcoach android.permission.RECORD_AUDIO || true
+            adb shell am start -W -n com.liverpoolfc01.shadowingcoach/.MainActivity
+            sleep 15
+            adb shell dumpsys activity activities | grep -E "mResumedActivity|topResumedActivity" > ../apk-smoke-activity.txt || true
+            adb shell pidof com.liverpoolfc01.shadowingcoach > ../apk-smoke-pid.txt
+            adb exec-out screencap -p > ../apk-smoke-screenshot.png
+            adb logcat -d > ../apk-smoke-logcat.txt
+            if grep -q "FATAL EXCEPTION" ../apk-smoke-logcat.txt; then
+              exit 1
+            fi
+
+      - name: Upload smoke test artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: android-apk-smoke-test
+          path: |
+            apk-smoke-activity.txt
+            apk-smoke-pid.txt
+            apk-smoke-screenshot.png
+            apk-smoke-logcat.txt

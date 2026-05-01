@@ -3,3 +3,4 @@ android-app/local.properties
 android-app/build/
 android-app/app/build/
 apk-output/
+.DS_Store
